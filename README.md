@@ -4,6 +4,6 @@ SEITEN:
 2. Unser Blog (+ Unterseiten)
 3. Über Uns
 4. AGs & Projekte (+ Unterseiten)
-5. Galerie?
-6. Termine?
-7. Kontakt?
+5. Galerie ?
+6. Termine ?
+7. Kontakt ?
