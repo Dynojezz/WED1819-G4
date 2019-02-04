@@ -1,10 +1,11 @@
+/* -------------------------- Header -------------------------- */
 #header {
     width:100%;
     height:500px;
     background-color:#6692A7;
 }
 
-
+/* -------------------------- DropdownButton -------------------------- */
 .dropbtn {
           background-color: #4CAF50;
           color: white;
