@@ -1,9 +1,40 @@
 /* -------------------------- Header -------------------------- */
 #header {
+
     width:100%;
-    height:500px;
-    background-color:#6692A7;
+
+   /*background-image:url("image/JR-Seminar-2017-web-68_angepasst.jpg"); */
 }
+
+.header-background img {
+    width:100%;
+
+     z-index: 0;
+
+
+}
+
+.header-background {
+    position:relative;
+     z-index: 1;
+}
+
+.dropdownbox {
+    position:absolute;
+    background-color:#000;
+    margin-top:-200px;
+}
+
+.test {
+    position:absolute;
+    z-index: 1;
+    width:100px;
+    height:100px;
+    background-color:#000;
+
+
+}
+
 
 /* -------------------------- DropdownButton -------------------------- */
 .dropbtn {
@@ -13,6 +44,7 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+    border-radius: 100%;
         }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -37,6 +69,8 @@
     float: right;
     position: relative;
     display: inline-block;
+
+
 
 }
 
