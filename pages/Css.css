@@ -4,27 +4,33 @@
 }
 
 .header-background img {
-    width:100%;
+    position: relative;
+    width: 100%;
     z-index: 0;
 }
 
 .header-background {
     position:relative;
-     z-index: 1;
+    z-index: 0;
 }
-
-.dropdownbox {
-    position:absolute;
-    background-color:#000;
-    margin-top:-200px;
-}
-
-
 
 
 /* -------------------------- DropdownButton -------------------------- */
+.btn_wrapper {
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    border: 2px solid #000;
+    position: absolute;
+    z-index: 2;
+}
+
 .dropbtn {
-    /*background-color: #000;*/
+    max-width: 20%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
     box-sizing: 16px;
     color: white;
     padding: 0px;
@@ -32,10 +38,10 @@
     border: none;
     cursor: pointer;
     border-radius: 100%;
+    z-index: 2;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    /*background-color: #3e8e41;*/
     border-radius: 100%;
 }
 
@@ -53,22 +59,17 @@
 #myInput:focus {outline: 3px solid #ddd;}
 
 .dropdown {
-    float: right;
     position: relative;
     display: inline-block;
-
-
-
+    z-index: 2;
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
     background-color: #f6f6f6;
     min-width: 230px;
     overflow: auto;
     border: 1px solid #ddd;
-    z-index: 1;
 }
 
 .dropdown-content a {
