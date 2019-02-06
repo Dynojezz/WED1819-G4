@@ -38,9 +38,10 @@
 
 /* -------------------------- DropdownButton -------------------------- */
 .dropbtn {
-    background-color: #4CAF50;
+    /*background-color: #000;*/
+    box-sizing: 16px;
     color: white;
-    padding: 16px;
+    padding: 0px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -48,7 +49,7 @@
         }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    /*background-color: #3e8e41;*/
     border-radius: 100%;
 }
 
