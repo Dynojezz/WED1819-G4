@@ -1,44 +1,53 @@
 /* -------------------------- Header -------------------------- */
-#header {
-
+header {
     width:100%;
-
-   /*background-image:url("image/JR-Seminar-2017-web-68_angepasst.jpg"); */
 }
 
 .header-background img {
-    width:100%;
-
-     z-index: 0;
-
-
+    position: relative;
+    width: 100%;
+    z-index: 0;
 }
 
 .header-background {
     position:relative;
-     z-index: 1;
+    z-index: 0;
 }
 
-.dropdownbox {
-    position:absolute;
-    background-color:#000;
-    margin-top:-200px;
+.box {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 100px;
+    opacity: 0.85;
 }
 
-.test {
-    position:absolute;
-    z-index: 1;
-    width:100px;
-    height:100px;
-    background-color:#000;
-
-
+.box img {
+    top: 25px;
+    left: 25px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
 }
 
 
 /* -------------------------- DropdownButton -------------------------- */
+.btn_wrapper {
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
 .dropbtn {
-    /*background-color: #000;*/
+    max-width: 20%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     box-sizing: 16px;
     color: white;
     padding: 0px;
@@ -46,57 +55,112 @@
     border: none;
     cursor: pointer;
     border-radius: 100%;
-        }
+    z-index: 2;
+}
 
 .dropbtn:hover, .dropbtn:focus {
-    /*background-color: #3e8e41;*/
     border-radius: 100%;
 }
 
 #myInput {
     border-box: box-sizing;
-    background-image: url('searchicon.png');
     background-position: 14px 12px;
     background-repeat: no-repeat;
-    font-size: 16px;
+    font-size: 20px;
     padding: 14px 20px 12px 45px;
     border: none;
-    border-bottom: 1px solid #ddd;
+
 }
 
-#myInput:focus {outline: 3px solid #ddd;}
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
 
 .dropdown {
-    float: right;
     position: relative;
     display: inline-block;
-
-
-
+    z-index: 2;
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
-    background-color: #f6f6f6;
-    min-width: 230px;
-    overflow: auto;
-    border: 1px solid #ddd;
-    z-index: 1;
+    background-color: #FFFFFF;
+    opacity: 0.85;
+    min-width: 50px;
+
 }
 
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
+    text-align: right;
     text-decoration: none;
     display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    color: #CE1478;
+}
 
-.show {display: block;}
+.show {
+    display: block;
+    padding-top: 70px;
+}
 
-/* --------------------------CONTENT --------------------------------------------*/
+
+/* -------------------------- SozialMediaButtons --------------------------*/
+.buttons {
+    max-width: 20%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    box-sizing: 16px;
+    color: white;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    z-index: 2;
+}
+.facbebookbtn img {
+    top: 600px;
+    right: 250px;
+    width:50px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+.instagrambtn img {
+    top: 600px;
+    right: 190px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+.youtubebtn img {
+    top: 600px;
+    right: 130px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+.twitterbtn img {
+    top: 600px;
+    right: 70px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* -------------------------- CONTENT --------------------------*/
 
 #content {
     width:100%;
@@ -104,9 +168,9 @@
     background-color: #B6387A;
 }
 
-/* --------------------------FOOTER --------------------------------------------*/
+/* -------------------------- FOOTER --------------------------*/
 
-#footer {
+footer {
     width:100%;
     height: 100px;
     background-color:#ddd;
