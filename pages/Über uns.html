@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+          <title>Jugendrat der Stadt Ratingen</title>
+          <link rel="stylesheet" href="Css.css">
+          <script language="javascript" type="text/javascript" src="Java.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-background">
+                <img src="image/Header_%C3%9CBERUNS.jpg">
+
+                <div class="btn_wrapper">
+                    <button onclick="myFunction()" class="dropbtn"><img class="img-fluid" src="image/menu.png"></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="Index.html">HOME</a>
+                        <a href="Unser Blog.html">UNSER BLOG</a>
+                        <a href="Über uns.html">ÜBER UNS</a>
+                        <a href="Ags & Projekte.html">AGs UND PROJEKTE</a>
+                        <a href="Leere Seite.html">GALERIE</a>
+                        <a href="Leere Seite.html">TERMINE</a>
+                        <a href="Leere Seite.html">KONTAKT</a>
+                    </div>
+                </div>
+            </div> 
+        </header>
+
+        <script>
+        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function filterFunction() {
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+              div = document.getElementById("myDropdown");
+              a = div.getElementsByTagName("a");
+              for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                } else {
+                    a[i].style.display = "none";
+                }
+              }
+        }
+        </script>
+
+        <div id="content"></div>
+
+
+        <footer></footer>
+
+    </body>
+</html>
