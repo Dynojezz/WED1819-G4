@@ -7,58 +7,63 @@
       <script language="javascript" type="text/javascript" src="Java.js"></script>
    </head>
    <body>
-        <div id="header">
+        <header>
             <div class="header-background">
+                <div class="box">
+                    <img src="image/logo.png">
+                </div>
                 <img src="image/Header_HOME.jpg">
+                <div class="btn_wrapper">
+                    <button onclick="myFunction()" class="dropbtn"><img class="img-fluid" src="image/menu.png"></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="Index.html">HOME</a>
+                        <a href="Unser Blog.html">UNSER BLOG</a>
+                        <a href="Über uns.html">ÜBER UNS</a>
+                        <a href="Ags & Projekte.html">AGs UND PROJEKTE</a>
+                        <a href="Leere Seite.html">GALERIE</a>
+                        <a href="Leere Seite.html">TERMINE</a>
+                        <a href="Leere Seite.html">KONTAKT</a>
+                    </div>
+                </div>
+            </div>
 
-                <div class="test"> ich bin ein Test</div>
+            <div class="buttons">
+                <button onclick="parent.location='https://de-de.facebook.com/Jugendrat.Ratingen/'" class="facbebookbtn"><img class="img-fluid" src="image/facebook.png"></button>
+                <button onclick="parent.location='https://www.instagram.com/jugendrat_ratingen/'" class="instagrambtn"><img class="img-fluid" src="image/instagram.png"></button>
+                <button onclick="parent.location='https://www.youtube.com/channel/UC4Q9nUIlupWRE-k-3xTz0eA'" class="youtubebtn"><img class="img-fluid" src="image/youtube.png"></button>
+                <button onclick="parent.location='https://twitter.com/jrratingen?lang=de'" class="twitterbtn"><img class="img-fluid" src="image/twitter.png"></button>
+            </div>
 
-                 <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn"><img src="image/menu.png"></button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="Index.html">HOME</a>
-            <a href="Unser Blog.html">UNSER BLOG</a>
-            <a href="Über uns.html">ÜBER UNS</a>
-            <a href="Ags & Projekte.html">AGs UND PROJEKTE</a>
-            <a href="Leere Seite.html">GALERIE</a>
-            <a href="Leere Seite.html">TERMINE</a>
-            <a href="Leere Seite.html">KONTAKT</a>
-          </div>
-        </div>
+       </header>
 
-
-       </div> </div>
-
-
-
-
-       <script>
+        <script>
         /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
         function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
+            document.getElementById("myDropdown").classList.toggle("show");
         }
 
         function filterFunction() {
-          var input, filter, ul, li, a, i;
-          input = document.getElementById("myInput");
-          filter = input.value.toUpperCase();
-          div = document.getElementById("myDropdown");
-          a = div.getElementsByTagName("a");
-          for (i = 0; i < a.length; i++) {
-            txtValue = a[i].textContent || a[i].innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-              a[i].style.display = "";
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                a[i].style.display = "";
             } else {
-              a[i].style.display = "none";
+                a[i].style.display = "none";
             }
           }
         }
-       </script>
-
-       <div id="content"></div>
+        </script>
 
 
-       <div id="footer"></div>
+
+        <div id="content"></div>
+
+        <footer></footer>
 
    </body>
 </html>
