@@ -43,16 +43,20 @@
 .beitrag1 {
     background-image: url(image/Beitrage/1DX_4020_SW.jpg);
      background-attachment:scroll;
-    background-size: 100% auto;
+    background-size: 150% auto;
     background-position: center center;
     height:300px;
 
    }
 
+div.col-lg-4:nth-child(1) {
+    padding-right:0px;
+}
+
 .beitrag2 {
     background-image: url(image/Beitrage/JR-SmartCafe-2016-06-14-web-44SW.jpg);
      background-attachment:scroll;
-    background-size: 100% auto;
+    background-size: 150% auto;
     background-position: center center;
     height:300px;
      }
@@ -64,21 +68,47 @@ div.col-lg-4:nth-child(2) {
 .beitrag3 {
     background-image: url(image/Beitrage/JR-Sitzung-08-2018-web-13SW.jpg);
      background-attachment:scroll;
-    background-size: 100% auto;
+    background-size: 150% auto;
     background-position: center center;
     height:300px;
    }
 
 div.col-lg-4:nth-child(3) {
-padding-left: 0px;
+padding-left:0px;
+
+}
+
+
+
+
+.partner {
+    background-image: url(image/Header_UEBERUNS.jpg);
+     background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: center center;
+    height:300px;
+    margin-top:-30px;
+
+
+   }
+
+div.col-lg-5:nth-child(1) {
     padding-right:0px;
 }
 
-div.col-lg-4{
-
-    padding-right: 0px;
+div.col-lg-7:nth-child(2) {
+    padding-left:0px;
 }
 
+.kontakt {
+    background-image: url(image/HeaderBilder/Header_HOME.jpg);
+     background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: center center;
+    height:300px;
+    margin-top:-30px;
+
+   }
 
 
 /*.flex-container > div {
