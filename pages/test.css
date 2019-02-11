@@ -2,6 +2,13 @@
 .header-bild img{
     width: 100%;
     height: 100%;
+
+    z-index: 1;
+}
+
+.header-bild {
+    position:relative;
+     z-index: 1;
 }
 
 .bg {
@@ -11,14 +18,72 @@
     background-attachment:scroll;
     background-size: 100% auto;
     background-position: center center;
-    height:300px;
+    height:500px;
+    transform: skewY(-2deg);
+    margin-top:-50px;
+    z-index: 0;
 
 }
 
+.beitrag {
 
-.flex-container > div {
+    display: flex;
+
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:300px;
+    width:100%;
+    transform: skewY(-2deg);
+    margin-top:-50px;
+    z-index: 0;
+}
+
+.beitrag1 {
+    background-image: url(image/Beitrage/1DX_4020_SW.jpg);
+     background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:300px;
+
+   }
+
+.beitrag2 {
+    background-image: url(image/Beitrage/JR-SmartCafe-2016-06-14-web-44SW.jpg);
+     background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:300px;
+     }
+
+div.col-lg-4:nth-child(2) {
+    padding:0px;
+}
+
+.beitrag3 {
+    background-image: url(image/Beitrage/JR-Sitzung-08-2018-web-13SW.jpg);
+     background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:300px;
+   }
+
+div.col-lg-4:nth-child(3) {
+padding-left: 0px;
+    padding-right:0px;
+}
+
+div.col-lg-4{
+
+    padding-right: 0px;
+}
+
+
+
+/*.flex-container > div {
 	background-color: yellow;
 	margin: 10px;
 	padding: 20px;
 	font-size: 30px;
-}
+} */
