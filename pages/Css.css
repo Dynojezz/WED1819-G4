@@ -84,6 +84,8 @@ header {
     cursor: pointer;
     border-radius: 100%;
     z-index: 2;
+
+    background-color: transparent;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -112,7 +114,7 @@ header {
 
 .dropdown-content {
     display: none;
-    background-color: #FFFFFF;
+    background-color:#fff;
     opacity: 0.85;
     min-width: 50px;
 
@@ -144,15 +146,15 @@ header {
     top: 10px;
     right: 10px;
     box-sizing: 16px;
-    color: white;
+   /* color: white; */
     padding: 0px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
+
     border-radius: 100%;
     z-index: 2;
 }
-.facbebookbtn img {
+/*.facbebookbtn img {
     top: 600px;
     right: 250px;
     width:50px;
@@ -160,17 +162,40 @@ header {
     position: absolute;
     z-index: 2;
     cursor: pointer;
-}
-.instagrambtn img {
-    top: 600px;
-    right: 190px;
+} */
+
+.facebookbtn {
+       background-image:url("image/facebook50x50.png");
+  border: none;
+ background-color: transparent;
+      top: 600px;
+    right: 250px;
     width: 50px;
     height: 50px;
     position: absolute;
     z-index: 2;
     cursor: pointer;
 }
-.youtubebtn img {
+
+
+
+.instagrambtn {
+   background-image:url("image/instagram50x50.png");
+  border: none;
+ background-color: transparent;
+      top: 600px;
+    right: 190px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+
+}
+.youtubebtn {
+    background-image: url("image/youtube50x50.png");
+     border: none;
+ background-color: transparent;
     top: 600px;
     right: 130px;
     width: 50px;
@@ -179,7 +204,10 @@ header {
     z-index: 2;
     cursor: pointer;
 }
-.twitterbtn img {
+.twitterbtn {
+     background-image: url("image/twitter50x50.png");
+     border: none;
+ background-color: transparent;
     top: 600px;
     right: 70px;
     width: 50px;
@@ -192,7 +220,7 @@ header {
 /* -------------------------- CONTENT --------------------------*/
 
 #content {
-    padding:15px;
+
     width:100%;
     height:300px;
     background-color: #B6387A;
