@@ -1,10 +1,3 @@
-.monthtypo {
-    font: bold 130px Segoe UI semibold, sans-serif;
-    transform: rotate(270deg);
-    color:white;
-    line-height: 2.4;
-}
-
 .monat {
     z-index: 1;
     padding:0px;
@@ -12,6 +5,13 @@
     height:200px;
     background-color: #103D4B;
     opacity: 0.80;
+}
+
+.monthtypo {
+    font: bold 100px Segoe UI semibold, sans-serif;
+    transform: rotate(270deg);
+    color:white;
+    line-height: 3.2;
 }
 
 .arrows {
@@ -76,10 +76,9 @@
 	text-align: center;
 	width: 25px;
 	color: #033E52;
-	background-color: #FFFFFF;
+	background-color: none;
 }
 
 .calendar_entry {
-	font: normal 20px Segoe UI, sans-serif;
 	text-align: center;
 }

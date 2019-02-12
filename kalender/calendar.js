@@ -141,7 +141,7 @@ function loadcalendar()
 	//Jahr ermitteln aus this_date (YYYY)
 	var y = d.getFullYear();
 	//Monat und Jahr eintragen
-	document.all.calendar_month.innerHTML = getMonthname(m+1) + ' ' + y;
+	document.all.calendar_month.innerHTML = getMonthname(m+1);
 	//ersten Tag des Monats festlegen
 	var firstD = d;
 	firstD.setDate(1);
@@ -182,17 +182,17 @@ function loadcalendar()
 			if (!getEventtext(y,m,zahl))
 				{entry.style.color='000000';}
 			else{
-				entry.style.color='00FF00';
+				entry.style.backgroundColor='B2166A';
 				//Eventtext wird als Tooltip angezeigt
 				entry.title = getEventtext(y,m,zahl);
 				bEvent = true;
 			}
 			//Wenn Tag ein Feiertag ist
 			if (isHoliday(m,zahl))
-				{entry.style.color='FF0000';}
+            {entry.style.backgroundColor='25B8B3';}
 			else{
 				if (!bEvent)
-					entry.style.color='000000';
+					entry.style.backgroundColor='FFFFFF';
 			}
 
 			//heutiges Datum hervorheben
@@ -201,7 +201,8 @@ function loadcalendar()
 				hD.getYear() == dx.getYear())
 			{
 				entry.style.fontWeight = 'bold';
-				entry.style.backgroundColor = 'B2166A';
+                entry.style.fontSize = '20px';
+				entry.style.backgroundColor = '186185';
                 entry.style.color = 'white';
 			}
 
@@ -249,14 +250,14 @@ function getEventtext(y,m,d)
 
 	//exemplarisch nehme ich eine
 	//Liste an Festivals her
-	h[0] = "22.1.2019|Rap Mayhem Festival, München";
-	h[1] = "1.2.2019|Spirit Of Goa, Hamburg";
-	h[2] = "16.2.2019|Emergenza Acoustic Festival, Berlin";
-	h[3] = "2.3.2019|Skarneval Koblenz, Wehdem";
-	h[4] = "12.4.2019|Balinger Rockfestival, Dillingen";
-	h[5] = "5.7.2019|HipHop Open, Stuttgart";
-	h[6] = "19.7.2019|Feeling Fine Festival, Espelkamp";
-	h[7] = "26.7.2019|Beach Party, Duisburg";
+	h[0] = "22.1.2019|Polit Battle, Stadthalle Ratingen";
+	h[1] = "1.2.2019|Smartcafe, JUZ Hoesel";
+	h[2] = "16.2.2019|Lorem ipsum, Ratingen";
+	h[3] = "2.3.2019|Lorem ipsum 2, Ratingen";
+	h[4] = "12.4.2019|Lorem ipsum 3, Ratingen";
+	h[5] = "5.7.2019|Lorem ipsum 4, Ratingen";
+	h[6] = "19.7.2019|Lorem ipsum 5, Ratingen";
+	h[7] = "26.7.2019|Lorem ipsum 5, Ratingen";
 
 	var dH;
 	var eH;
@@ -332,40 +333,40 @@ function getMonthname(monthnumber)
 	switch(monthnumber)
 	{
 		case 1:
-		  return 'Januar';
+		  return 'JAN';
 		  break;
 		case 2:
-		  return 'Februar';
+		  return 'FEB';
 		  break;
 		case 3:
-		  return 'März';
+		  return 'MAR';
 		  break;
 		case 4:
-		  return 'April';
+		  return 'APR';
 		  break;
 		case 5:
-		  return 'Mai';
+		  return 'MAI';
 		  break;
 		case 6:
-		  return 'Juni';
+		  return 'JUN';
 		  break;
 		case 7:
-		  return 'Juli';
+		  return 'JUL';
 		  break;
 		case 8:
-		  return 'August';
+		  return 'AUG';
 		  break;
 		case 9:
-		  return 'September';
+		  return 'SEP';
 		  break;
 		case 10:
-		  return 'Oktober';
+		  return 'OKT';
 		  break;
 		case 11:
-		  return 'November';
+		  return 'NOV';
 		  break;
 		case 12:
-		  return 'Dezember';
+		  return 'DEZ';
 		  break;
 		default:
 		  return '---';
