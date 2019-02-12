@@ -109,10 +109,24 @@ div.col-lg-7:nth-child(2) {
    }
 
 /*--- AGS/PROJEKTE --*/
-.infoText{
+.rechterInfoText{
     text-align: left;
     color: white;
     margin: 3em 6em 3em 1em;
+}
+
+.mittigerInfoText{
+    text-align:justify;
+    color: white;
+    margin-top: 3em;
+    margin-left: 25em;
+    margin-right: 15em;
+    margin-bottom: 3em;
+    opacity: 3;
+}
+
+#slogan {
+    font-style: italic;
 }
 
 .presseAG {
@@ -120,7 +134,7 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/presseAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
     min-height: 200px;
@@ -131,10 +145,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:200px;
+    min-height: 200px;
 }
 
 .rosenmontagAG {
@@ -142,10 +156,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/rosenmontagAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:200px;
+    min-height: 200px;
 }
 
 .sportAG {
