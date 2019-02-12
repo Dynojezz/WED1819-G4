@@ -1,4 +1,4 @@
-/*--------- Header-----------*/
+/*--------- HEADER -----------*/
 .header-bild img{
     width: 100%;
     height: 100%;
@@ -12,7 +12,8 @@
 }
 
 
-/*--------- Content -----------*/
+/*--------- CONTENT -----------*/
+/*--- STARTSEITE --*/
 .bg {
 	display: flex;
 	background-image: url(image/gruppenbildAltweiber.jpg);
@@ -42,7 +43,7 @@
 
 .beitrag1 {
     background-image: url(image/Beitrage/1DX_4020_SW.jpg);
-     background-attachment:scroll;
+    background-attachment:scroll;
     background-size: 150% auto;
     background-position: center center;
     height:300px;
@@ -114,3 +115,30 @@ div.col-lg-7:nth-child(2) {
 	padding: 20px;
 	font-size: 30px;
 } */
+
+/*--- AGS/PROJEKTE --*/
+.presseAG {
+    display: flex;
+	background-image: url(image/AGsProjekte/presseAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:400px;
+    transform: skewY(-2deg);
+    margin-top:-50px;
+    z-index: 0;
+}
+
+.weiberfastnachtAG {
+    display: flex;
+    background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:500px;
+    transform: skewY(-2deg);
+    margin-top:-50px;
+    z-index: 0;
+}
