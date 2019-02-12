@@ -14,6 +14,31 @@
     opacity: 0.80;
 }
 
+.arrows {
+    display: flex;
+	align-items: center; /* Vertikale Zentrierung */
+	justify-content: center; /* Horizontale Zentrierung */
+    z-index: 1;
+    width: 35px;
+    height: 200px;
+    background-color: none;
+    opacity: 0.80;
+}
+
+.arrows_content {
+    z-index: 1;
+    width: 10px;
+    height: 85px;
+    background-color: none;
+}
+
+.arrow_font {
+	font: normal 65px Segoe UI light, sans-serif;
+	text-align: center;
+	color: #414347;
+	text-decoration: none;
+}
+
 .text {
     z-index: 1;
     padding:0px;
@@ -24,17 +49,14 @@
 }
 
 .calendar_link {
-	font-family: Arial;
-	font-size: 12px;
+	font: normal 15px Segoe UI semibold, sans-serif;
 	text-align: center;
-	color: #000000;
+	color: #414347;
 	text-decoration: none;
-	text-underline: none;
 }
 
 .calendar_head {
     font: normal 15px Segoe UI, sans-serif;
-	font-family: Arial;
 	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
@@ -50,13 +72,11 @@
 }
 
 .calendar_day {
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: bold;
+	font: bold 15px Segoe UI, sans-serif;
 	text-align: center;
 	width: 25px;
-	color: #FFFFFF;
-	background-color: #000000;
+	color: #033E52;
+	background-color: #FFFFFF;
 }
 
 .calendar_entry {
