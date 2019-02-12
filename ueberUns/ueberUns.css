@@ -1,0 +1,54 @@
+/*--------- HEADER -----------*/
+.header-bild img{
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+}
+
+.header-bild {
+    position:relative;
+     z-index: 1;
+}
+
+
+/*--------- CONTENT -----------*/
+
+.Film_image {
+    display: flex;
+	background-image: url(image/Imagefilm_Jugendrat.png);
+
+    background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:400px;
+    transform: skewY(0deg);
+    margin-top:-50px;
+    z-index: 0;
+}
+
+.Film_politbattle {
+    display: flex;
+	background-image: url(image/Politbattle_Jugendrat.png);
+
+    background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:400px;
+    transform: skewY(0deg);
+    margin-top:-50px;
+    z-index: 0;
+}
+
+.gruppenfoto {
+    display: flex;
+    background-image: url(image/Gruppenfoto.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    height:500px;
+    transform: skewY(5deg);
+    margin-top:-50px;
+    z-index: 0;
+}
