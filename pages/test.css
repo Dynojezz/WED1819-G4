@@ -1,4 +1,4 @@
-/*Header*/
+/*--------- Header-----------*/
 .header-bild img{
     width: 100%;
     height: 100%;
@@ -11,6 +11,8 @@
      z-index: 1;
 }
 
+
+/*--------- Content -----------*/
 .bg {
 	display: flex;
 	background-image: url(image/gruppenbildAltweiber.jpg);
@@ -26,9 +28,7 @@
 }
 
 .beitrag {
-
     display: flex;
-
 	justify-content: flex-start;
     background-attachment:scroll;
     background-size: 100% auto;
@@ -77,9 +77,6 @@ div.col-lg-4:nth-child(3) {
 padding-left:0px;
 
 }
-
-
-
 
 .partner {
     background-image: url(image/Header_UEBERUNS.jpg);
