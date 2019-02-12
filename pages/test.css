@@ -167,10 +167,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/sportAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:200px;
+    min-height:200px;
 }
 
 .schulAG {
@@ -178,10 +178,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/schulAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:200px;
+    min-height:200px;
 }
 
 .AGjugendzentren {
@@ -189,10 +189,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/jugendzentrenAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:200px;
+    min-height:200px;
 }
 
 .AGoeffi {
@@ -200,10 +200,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/oeffiAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:150px;
+    min-height: 150px;
 }
 
 .nachhaltigkeitAG {
@@ -211,10 +211,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/nachhaltigkeitAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:150px;
+    min-height:150px;
 }
 
 .dirtbikeAG {
@@ -222,10 +222,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/dirtbikeAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:100px;
+    min-height:200px;
 }
 
 .angsttraumAG {
@@ -233,10 +233,10 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/angsttraumAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-/*    background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:200px;
+    min-height:200px;
 }
 
 
