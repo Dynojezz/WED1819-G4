@@ -80,7 +80,7 @@ padding-left:0px;
 }
 
 .partner {
-    background-image: url(image/Header_UEBERUNS.jpg);
+    background-image: url(image/HeaderBilder/Header_UEBERUNS.jpg);
      background-attachment:scroll;
     background-size: 150% auto;
     background-position: center center;
@@ -109,6 +109,12 @@ div.col-lg-7:nth-child(2) {
    }
 
 /*--- AGS/PROJEKTE --*/
+.infoText{
+    text-align: left;
+    color: white;
+    margin: 3em 6em 3em 1em;
+}
+
 .presseAG {
     display: flex;
 	background-image: url(image/AGsProjekte/presseAG.jpg);
@@ -117,12 +123,12 @@ div.col-lg-7:nth-child(2) {
 /*    background-position: center center;*/
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:200px;
+    min-height: 200px;
 }
 
 .weiberfastnachtAG {
     display: flex;
-	background-image:url(image/AGsProjekte/weiberfastnachtAG.jpg);
+	background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
 /*    background-position: center center;*/
@@ -133,7 +139,7 @@ div.col-lg-7:nth-child(2) {
 
 .rosenmontagAG {
     display: flex;
-	background-image:url(image/AGsProjekte/rosenmontagAG.jpg);
+	background-image: url(image/AGsProjekte/rosenmontagAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
 /*    background-position: center center;*/
@@ -144,7 +150,7 @@ div.col-lg-7:nth-child(2) {
 
 .sportAG {
     display: flex;
-	background-image:url(image/AGsProjekte/sportAG.jpg);
+	background-image: url(image/AGsProjekte/sportAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
 /*    background-position: center center;*/
@@ -152,10 +158,10 @@ div.col-lg-7:nth-child(2) {
     background-size: 100% auto;
     height:200px;
 }
+
 .schulAG {
     display: flex;
-	background-image:url(image/AGsProjekte/schulAG.jpg);
-    background-position:bottom;
+	background-image: url(image/AGsProjekte/schulAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
 /*    background-position: center center;*/
@@ -163,10 +169,10 @@ div.col-lg-7:nth-child(2) {
     background-size: 100% auto;
     height:200px;
 }
+
 .AGjugendzentren {
     display: flex;
-	background-image:url(image/AGsProjekte/jugendzentrenAG.jpg);
-    background-position: center center;
+	background-image: url(image/AGsProjekte/jugendzentrenAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
 /*    background-position: center center;*/
@@ -177,21 +183,21 @@ div.col-lg-7:nth-child(2) {
 
 .AGoeffi {
     display: flex;
-	background-image:url(image/AGsProjekte/oeffiAG.jpg);
-    background-position: center center;
+	background-image: url(image/AGsProjekte/oeffiAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
+/*    background-position: center center;*/
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:100px;
+    height:150px;
 }
 
 .nachhaltigkeitAG {
     display: flex;
-	background-image:url(image/AGsProjekte/nachhaltigkeitAG.jpg);
-/*    background-position: center center;*/
+	background-image: url(image/AGsProjekte/nachhaltigkeitAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
+/*    background-position: center center;*/
     background-repeat: no-repeat;
     background-size: 100% auto;
     height:150px;
@@ -199,7 +205,7 @@ div.col-lg-7:nth-child(2) {
 
 .dirtbikeAG {
     display: flex;
-	background-image:url(image/AGsProjekte/dirtbikeAG.jpg);
+	background-image: url(image/AGsProjekte/dirtbikeAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
 /*    background-position: center center;*/
@@ -210,15 +216,13 @@ div.col-lg-7:nth-child(2) {
 
 .angsttraumAG {
     display: flex;
-	background-image:url(image/AGsProjekte/angsttraumAG.jpg);
-/*    background-position: center center;*/
+	background-image: url(image/AGsProjekte/angsttraumAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-    background-position:right;
+/*    background-position: center center;*/
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height:100px;
+    height:200px;
 }
-
 
 
