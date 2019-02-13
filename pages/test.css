@@ -108,9 +108,43 @@ div.col-lg-7:nth-child(2) {
 
    }
 
+/*--- BLOG --*/
 .blogpost1 {
     display: flex;
-	background-image: url(image/AGsProjekte/presseAG.jpg);
+	background-image: url(image/UnserBlog/altweiber.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 200px;
+}
+
+.blogpost2 {
+    display: flex;
+	background-image: url(image/UnserBlog/smartCafe.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 200px;
+}
+
+.blogpost3 {
+    display: flex;
+	background-image: url(image/UnserBlog/sitzung.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 200px;
+}
+
+.blogpost4 {
+    display: flex;
+	background-image: url(image/UnserBlog/dirtbike.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
     background-position: center center;
