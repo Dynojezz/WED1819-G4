@@ -186,6 +186,17 @@ div.col-lg-7:nth-child(2) {
     min-height: 200px;
 }
 
+.blogpost8 {
+    display: flex;
+	background-image: url(image/AGsProjekte/rosenmontagAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 100px;
+}
+
 #datum {
     font-style: italic;
 }
