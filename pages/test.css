@@ -202,27 +202,60 @@ div.col-lg-7:nth-child(2) {
 }
 
 /*--- AGS/PROJEKTE --*/
-.rechterInfoText{
-    text-align: left;
-    color: white;
-    margin: 3em 6em 3em 1em;
+
+    .rechterInfoText{
+        transform: skewY(-5deg);
+        text-align: left;
+        color: white;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 5em;
+        margin-bottom: 5em;
+    }
+
+    .mittigerInfoText{
+        text-align:inherit;
+        color: white;
+        margin-top: 2em;
+        margin-left: 15em;
+        margin-right: 10em;
+        margin-bottom: 3em;
+        opacity: 1;
+    }
+
+    #slogan {
+        font-style: italic;
 }
 
-.mittigerInfoText{
-    text-align:justify;
-    color: white;
-    margin-top: 3em;
-    margin-left: 25em;
-    margin-right: 15em;
-    margin-bottom: 3em;
-    opacity: 3;
-}
+@media (max-width: 49em) {
+    .rechterInfoText{
+        text-align: left;
+        color: white;
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 5em;
+        margin-bottom: 5em;
+    }
 
-#slogan {
-    font-style: italic;
+    .mittigerInfoText{
+        text-align:inherit;
+        color: white;
+        margin-top: 1.7em;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 3em;
+        opacity: 1;
+    }
+
+    #slogan {
+        font-style: italic;
+    }
 }
 
 .presseAG {
+    transform: skewY(5deg);
+    z-index: 2;
+    min-height: 350px;
     display: flex;
 	background-image: url(image/AGsProjekte/presseAG.jpg);
 	justify-content: flex-start;
@@ -230,10 +263,12 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .weiberfastnachtAG {
+    min-height:300px;
+    z-index: 3;
+    margin-top:-60px;
     display: flex;
 	background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
 	justify-content: flex-start;
@@ -241,10 +276,14 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .rosenmontagAG {
+    transform: skewY(5deg);
+    z-index: 2;
+    min-height: 350px;
+    margin-top: -60px;
+    z-index: 4;
     display: flex;
 	background-image: url(image/AGsProjekte/rosenmontagAG.jpg);
 	justify-content: flex-start;
@@ -252,10 +291,12 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .sportAG {
+    min-height:300px;
+    z-index: 5;
+    margin-top:-60px;
     display: flex;
 	background-image: url(image/AGsProjekte/sportAG.jpg);
 	justify-content: flex-start;
@@ -263,21 +304,26 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height:200px;
 }
 
 .schulAG {
+    transform: skewY(5deg);
+    z-index: 6;
+    min-height: 350px;
+    margin-top: -60px;
     display: flex;
 	background-image: url(image/AGsProjekte/schulAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-    background-position: center bottom;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height:200px;
 }
 
 .AGjugendzentren {
+    min-height:300px;
+    z-index: 7;
+    margin-top:-60px;
     display: flex;
 	background-image: url(image/AGsProjekte/jugendzentrenAG.jpg);
 	justify-content: flex-start;
@@ -285,21 +331,26 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height:200px;
 }
 
 .AGoeffi {
+    transform: skewY(5deg);
+    z-index: 8;
+    min-height: 350px;
+    margin-top: -60px;
     display: flex;
 	background-image: url(image/AGsProjekte/oeffiAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    min-height: 150px;
+    background-size: 100% auto;;
 }
 
 .nachhaltigkeitAG {
+    min-height:300px;
+    z-index: 9;
+    margin-top:-60px;
     display: flex;
 	background-image: url(image/AGsProjekte/nachhaltigkeitAG.jpg);
 	justify-content: flex-start;
@@ -307,21 +358,26 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height:150px;
 }
 
 .dirtbikeAG {
+    transform: skewY(5deg);
+    z-index: 10;
+    min-height: 350px;
+    margin-top: -60px;
     display: flex;
 	background-image: url(image/AGsProjekte/dirtbikeAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height:200px;
 }
 
 .angsttraumAG {
+    min-height:300px;
+    z-index: 11;
+    margin-top:-60px;
     display: flex;
 	background-image: url(image/AGsProjekte/angsttraumAG.jpg);
 	justify-content: flex-start;
@@ -329,7 +385,10 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height:200px;
 }
+
+
+
+
 
 
