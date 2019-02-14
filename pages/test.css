@@ -12,8 +12,10 @@
 }
 
 
-/*--------- CONTENT -----------*/
-/*--- STARTSEITE --*/
+/*--------------------------- CONTENT -----------------------------*/
+
+
+/*------------------------------ BLOG -----------------------------*/
 .bg {
 	display: flex;
 	background-image: url(image/gruppenbildAltweiber.jpg);
@@ -201,7 +203,9 @@ div.col-lg-7:nth-child(2) {
     font-style: italic;
 }
 
-/*--- AGS/PROJEKTE --*/
+
+
+/*---------------------------- AGS/PROJEKTE ----------------------------*/
 
     .rechterInfoText{
         transform: skewY(-5deg);
@@ -227,7 +231,9 @@ div.col-lg-7:nth-child(2) {
         font-style: italic;
 }
 
+
 @media (max-width: 49em) {
+
     .rechterInfoText{
         text-align: left;
         color: white;
