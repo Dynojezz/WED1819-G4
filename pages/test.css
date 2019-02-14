@@ -208,10 +208,10 @@ div.col-lg-7:nth-child(2) {
 /*---------------------------- AGS/PROJEKTE ----------------------------*/
 
     .rechterInfoText{
-        transform: skewY(-5deg);
+        transform: skewY(-4deg);
         text-align: left;
         color: white;
-        margin-top: 1em;
+        margin-top: 2em;
         margin-left: 1em;
         margin-right: 5em;
         margin-bottom: 5em;
@@ -227,6 +227,16 @@ div.col-lg-7:nth-child(2) {
         opacity: 1;
     }
 
+    .mittigerInfoTextGrau{
+            text-align:inherit;
+            color: #414347;
+            margin-top: 1.7em;
+            margin-left: 5em;
+            margin-right: 5em;
+            margin-bottom: 3em;
+            opacity: 1;
+    }
+
     #slogan {
         font-style: italic;
 }
@@ -235,22 +245,20 @@ div.col-lg-7:nth-child(2) {
 @media (max-width: 49em) {
 
     .rechterInfoText{
-        text-align: left;
-        color: white;
-        margin-top: 1em;
-        margin-left: 1em;
-        margin-right: 5em;
-        margin-bottom: 5em;
     }
 
     .mittigerInfoText{
-        text-align:inherit;
-        color: white;
         margin-top: 1.7em;
         margin-left: 5em;
         margin-right: 5em;
         margin-bottom: 3em;
-        opacity: 1;
+    }
+
+    .mittigerInfoTextGrau{
+        margin-top: 1.7em;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 3em;
     }
 
     #slogan {
@@ -258,10 +266,36 @@ div.col-lg-7:nth-child(2) {
     }
 }
 
+.header {
+    min-height:600px;
+    z-index: 0;
+    display: flex;
+	background-image: url(image/AGsProjekte/JR-Seminar-2017-web-146blue.jpg);
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.infobox {
+    min-height:200px;
+    z-index:1;
+    margin-top:-300px;
+    display: flex;
+	background-color: white;
+    opacity: 0.8;
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
 .presseAG {
-    transform: skewY(5deg);
+    transform: skewY(4deg);
     z-index: 2;
     min-height: 350px;
+    margin-top: -60px;
     display: flex;
 	background-image: url(image/AGsProjekte/presseAG.jpg);
 	justify-content: flex-start;
@@ -285,7 +319,7 @@ div.col-lg-7:nth-child(2) {
 }
 
 .rosenmontagAG {
-    transform: skewY(5deg);
+    transform: skewY(4deg);
     z-index: 2;
     min-height: 350px;
     margin-top: -60px;
@@ -313,7 +347,7 @@ div.col-lg-7:nth-child(2) {
 }
 
 .schulAG {
-    transform: skewY(5deg);
+    transform: skewY(4deg);
     z-index: 6;
     min-height: 350px;
     margin-top: -60px;
@@ -340,7 +374,7 @@ div.col-lg-7:nth-child(2) {
 }
 
 .AGoeffi {
-    transform: skewY(5deg);
+    transform: skewY(4deg);
     z-index: 8;
     min-height: 350px;
     margin-top: -60px;
@@ -367,7 +401,7 @@ div.col-lg-7:nth-child(2) {
 }
 
 .dirtbikeAG {
-    transform: skewY(5deg);
+    transform: skewY(4deg);
     z-index: 10;
     min-height: 350px;
     margin-top: -60px;
