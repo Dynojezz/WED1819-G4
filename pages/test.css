@@ -112,6 +112,10 @@ div.col-lg-7:nth-child(2) {
 
 /*--- BLOG --*/
 .blogpost1 {
+    transform: skewY(4deg);
+    z-index: 2;
+    min-height: 350px;
+    margin-top: -75px;
     display: flex;
 	background-image: url(image/UnserBlog/altweiber.jpg);
 	justify-content: flex-start;
@@ -119,10 +123,12 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .blogpost2 {
+    min-height: 300px;
+    z-index: 3;
+    margin-top:-50px;
     display: flex;
 	background-image: url(image/UnserBlog/smartCafe.jpg);
 	justify-content: flex-start;
@@ -130,10 +136,14 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .blogpost3 {
+    transform: skewY(4deg);
+    z-index: 2;
+    min-height: 350px;
+    margin-top: -60px;
+    z-index: 4;
     display: flex;
 	background-image: url(image/UnserBlog/sitzung.jpg);
 	justify-content: flex-start;
@@ -141,10 +151,12 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .blogpost4 {
+    min-height:300px;
+    z-index: 5;
+    margin-top:-60px;
     display: flex;
 	background-image: url(image/UnserBlog/dirtbike.jpg);
 	justify-content: flex-start;
@@ -152,10 +164,13 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .blogpost5 {
+    transform: skewY(4deg);
+    z-index: 6;
+    min-height: 350px;
+    margin-top: -60px;
     display: flex;
 	background-image: url(image/UnserBlog/kickertunier.jpg);
 	justify-content: flex-start;
@@ -163,10 +178,12 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .blogpost6 {
+    min-height:300px;
+    z-index: 7;
+    margin-top:-60px;
     display: flex;
 	background-image: url(image/UnserBlog/seminar.jpg);
 	justify-content: flex-start;
@@ -174,10 +191,13 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .blogpost7 {
+    transform: skewY(4deg);
+    z-index: 8;
+    min-height: 350px;
+    margin-top: -60px;
     display: flex;
 	background-image: url(image/UnserBlog/neuwahl.jpg);
 	justify-content: flex-start;
@@ -185,10 +205,12 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    min-height: 200px;
 }
 
 .blogpost8 {
+    min-height:100px;
+    z-index: 9;
+    margin-top:-60px;
     display: flex;
 	background-image: url(image/AGsProjekte/rosenmontagAG.jpg);
 	justify-content: flex-start;
@@ -196,7 +218,6 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 100px;
 }
 
 #datum {
