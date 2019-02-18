@@ -1,11 +1,18 @@
 /*---------------------------- AGS/PROJEKTE ----------------------------*/
 
+
+/*-------------------------------- FONT --------------------------------*/
+
 p {
     font: normal 20px Segoe UI, sans-serif;
 }
 
-u {
-   font: normal 28px Segoe UI Bold, sans-serif;
+#slogan {
+    font-style: italic;
+}
+
+#ueberschrift {
+    font: normal 28px Segoe UI semibold, sans-serif;
 }
 
 .rechterInfoText{
@@ -30,19 +37,16 @@ u {
 
 .mittigerInfoTextGrau{
         text-align: inherit;
-        font-size: 120%;
         color: #414347;
         margin-top: 1.1em;
-        margin-left: 8em;
-        margin-right: 8em;
+        margin-left: 11em;
+        margin-right: 10em;
         margin-bottom: 1em;
         opacity: 1;
 }
 
-#slogan {
-    font-style: italic;
-}
 
+/*-------------------------------- BOXEN --------------------------------*/
 
 .header {
     min-height:750px;
@@ -60,7 +64,7 @@ u {
     height: 250px;
     width: 250px;
     margin-top: 3em;
-    margin-left: 8em;
+    margin-left: 10em;
     background-attachment:scroll;
     background-position: top left;
     background-repeat: no-repeat;
@@ -85,7 +89,7 @@ u {
     transform: skewY(4deg);
     z-index: 2;
     min-height: 350px;
-    margin-top: -110px;
+    margin-top: -90px;
     display: flex;
 	background-image: url(image/AGsProjekte/presseAG.jpg);
 	justify-content: flex-start;
@@ -222,34 +226,37 @@ u {
     background-size: 100% auto;
 }
 
+
 /*----------------------------MEDIA-QUERIES----------------------------*/
-@media (max-width: 1200px) {
+
+/*------- Die Pixel-Größen entsprechen col-md, col-sm und col-xs ------*/
+
+
+/*--------------------- SMALL DESKTOP (md) -----------------*/
+@media (max-width: 1199px) {
     .header {
     background-attachment:scroll;
     background-size: 1280px;
     }
-
-}
-
-@media (max-width: 1199px) {
     .mittigerInfoTextGrau{
-        margin-left: 4em;
+        margin-left: 8em;
         margin-right: 4em;
     }
     .info_sign {
+        margin-left: 6em;
+        margin-top: 4em;
 
-    }
-    .presseAG {
-    margin-top: -90px;
     }
 }
 
+/*--------------------- TABLET (sm) -----------------*/
 @media (max-width: 991px) {
     .mittigerInfoTextGrau{
-        margin-left: 3em;
+        margin-left: 4em;
     }
     .info_sign {
-
+        margin-left: 2em;
+        margin-top: 5em;
     }
     .mittigerInfoText{
         margin-top: 1.7em;
@@ -257,21 +264,30 @@ u {
         margin-right: 5em;
         margin-bottom: 3em;
     }
+
     .presseAG {
-    margin-top: -70px;
+    margin-top: -90px;
     }
 }
 
-    @media (max-width: 767px) {
+
+/*--------------------- SMARTPHONE (xs) -----------------*/
+@media (max-width: 767px) {
     .mittigerInfoTextGrau{
         margin-right: 0em;
         margin-left: 3em;
     }
     .info_sign {
-
+        margin-left: 0em;
+        margin-top: 6em;
     }
+    .infobox {
+    margin-top:-350px;
+    min-height: 350px;
+}
     .presseAG {
-    margin-top: -50px;
+    margin-top: -15px;
     background-size: 320% auto;
+    background-position: left center;
     }
 }
