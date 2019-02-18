@@ -18,14 +18,16 @@
 /*------------------------------ BLOG -----------------------------*/
 .bg {
 	display: flex;
-	background-image: url(image/gruppenbildAltweiber.jpg);
+	background: url(image/Startseite/gruppenbildAltweiberH800.png) no-repeat;
 	justify-content: flex-start;
-    background-attachment:scroll;
-    background-size: 100% auto;
-    background-position: center center;
-    height:500px;
+
+    background-size: 100%;
+
+    height:auto;
+/*
     transform: skewY(-2deg);
     margin-top:-50px;
+*/
     z-index: 0;
 
 }
