@@ -1,5 +1,13 @@
 /*---------------------------- AGS/PROJEKTE ----------------------------*/
 
+p {
+    font: normal 20px Segoe UI, sans-serif;
+}
+
+u {
+   font: normal 28px Segoe UI Bold, sans-serif;
+}
+
 .rechterInfoText{
     transform: skewY(-4deg);
     text-align: left;
@@ -26,7 +34,7 @@
         color: #414347;
         margin-top: 1.1em;
         margin-left: 8em;
-        margin-right: 6em;
+        margin-right: 8em;
         margin-bottom: 1em;
         opacity: 1;
 }
@@ -215,7 +223,7 @@
 }
 
 /*----------------------------MEDIA-QUERIES----------------------------*/
-@media (max-width: 1280px) {
+@media (max-width: 1200px) {
     .header {
     background-attachment:scroll;
     background-size: 1280px;
@@ -223,25 +231,25 @@
 
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1199px) {
     .mittigerInfoTextGrau{
-        margin-left: 6em;
-        margin-right: 1em;
+        margin-left: 4em;
+        margin-right: 4em;
     }
     .info_sign {
-    margin-left: 5em;
+
     }
     .presseAG {
     margin-top: -90px;
     }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 991px) {
     .mittigerInfoTextGrau{
         margin-left: 3em;
     }
     .info_sign {
-    margin-left: 1em;
+
     }
     .mittigerInfoText{
         margin-top: 1.7em;
@@ -254,13 +262,13 @@
     }
 }
 
-    @media (max-width: 500px) {
+    @media (max-width: 767px) {
     .mittigerInfoTextGrau{
         margin-right: 0em;
         margin-left: 3em;
     }
     .info_sign {
-    margin-left: 0em;
+
     }
     .presseAG {
     margin-top: -50px;
