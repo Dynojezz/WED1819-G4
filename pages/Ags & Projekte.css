@@ -1,0 +1,269 @@
+/*---------------------------- AGS/PROJEKTE ----------------------------*/
+
+.rechterInfoText{
+    transform: skewY(-4deg);
+    text-align: left;
+    color: white;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+}
+
+.mittigerInfoText{
+    text-align:inherit;
+    color: white;
+    margin-top: 2em;
+    margin-left: 15em;
+    margin-right: 10em;
+    margin-bottom: 3em;
+    opacity: 1;
+}
+
+.mittigerInfoTextGrau{
+        text-align: inherit;
+        font-size: 120%;
+        color: #414347;
+        margin-top: 1.1em;
+        margin-left: 8em;
+        margin-right: 6em;
+        margin-bottom: 1em;
+        opacity: 1;
+}
+
+#slogan {
+    font-style: italic;
+}
+
+
+.header {
+    min-height:750px;
+    z-index: 0;
+    display: flex;
+	background-image: url(image/AGsProjekte/JR-Seminar-2017-web-146blue.jpg);
+    background-attachment:scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.info_sign {
+    background-image: url(image/AGsProjekte/information.png);
+    height: 250px;
+    width: 250px;
+    margin-top: 3em;
+    margin-left: 8em;
+    background-attachment:scroll;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 25% auto;
+}
+
+.infobox {
+    min-height: 60px;
+    z-index:1;
+    margin-top:-270px;
+    display: flex;
+	background-color: white;
+    opacity: 0.8;
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.presseAG {
+    transform: skewY(4deg);
+    z-index: 2;
+    min-height: 350px;
+    margin-top: -110px;
+    display: flex;
+	background-image: url(image/AGsProjekte/presseAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.weiberfastnachtAG {
+    z-index: 3;
+    display: flex;
+	background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
+	justify-content: flex-start;
+    min-height:300px;
+    margin-top:-60px;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    justify-content: flex-start;
+
+    background-size: 100%;
+
+    height:auto;
+}
+
+.rosenmontagAG {
+    transform: skewY(4deg);
+    z-index: 2;
+    min-height: 350px;
+    margin-top: -60px;
+    z-index: 4;
+    display: flex;
+	background-image: url(image/AGsProjekte/rosenmontagAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.sportAG {
+    min-height:300px;
+    z-index: 5;
+    margin-top:-60px;
+    display: flex;
+	background-image: url(image/AGsProjekte/sportAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.schulAG {
+    transform: skewY(4deg);
+    z-index: 6;
+    min-height: 350px;
+    margin-top: -60px;
+    display: flex;
+	background-image: url(image/AGsProjekte/schulAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.AGjugendzentren {
+    min-height:300px;
+    z-index: 7;
+    margin-top:-60px;
+    display: flex;
+	background-image: url(image/AGsProjekte/jugendzentrenAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.AGoeffi {
+    transform: skewY(4deg);
+    z-index: 8;
+    min-height: 350px;
+    margin-top: -60px;
+    display: flex;
+	background-image: url(image/AGsProjekte/oeffiAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;;
+}
+
+.nachhaltigkeitAG {
+    min-height:300px;
+    z-index: 9;
+    margin-top:-60px;
+    display: flex;
+	background-image: url(image/AGsProjekte/nachhaltigkeitAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.dirtbikeAG {
+    transform: skewY(4deg);
+    z-index: 10;
+    min-height: 350px;
+    margin-top: -60px;
+    display: flex;
+	background-image: url(image/AGsProjekte/dirtbikeAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.angsttraumAG {
+    min-height:300px;
+    z-index: 11;
+    margin-top:-60px;
+    display: flex;
+	background-image: url(image/AGsProjekte/angsttraumAG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/*----------------------------MEDIA-QUERIES----------------------------*/
+@media (max-width: 1280px) {
+    .header {
+    background-attachment:scroll;
+    background-size: 1280px;
+    }
+
+}
+
+@media (max-width: 1120px) {
+    .mittigerInfoTextGrau{
+        margin-left: 6em;
+        margin-right: 1em;
+    }
+    .info_sign {
+    margin-left: 5em;
+    }
+    .presseAG {
+    margin-top: -90px;
+    }
+}
+
+@media (max-width: 880px) {
+    .mittigerInfoTextGrau{
+        margin-left: 3em;
+    }
+    .info_sign {
+    margin-left: 1em;
+    }
+    .mittigerInfoText{
+        margin-top: 1.7em;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 3em;
+    }
+    .presseAG {
+    margin-top: -70px;
+    }
+}
+        
+    @media (max-width: 500px) {
+    .mittigerInfoTextGrau{
+        margin-right: 0em;
+        margin-left: 3em;
+    }
+    .info_sign {
+    margin-left: 0em;
+    }
+    .presseAG {
+    margin-top: -50px;
+    background-size: 320% auto;    
+    }
+}
