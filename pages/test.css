@@ -20,50 +20,61 @@
 	display: flex;
 	background: url(image/Startseite/gruppenbildAltweiberH800.png) no-repeat;
 	justify-content: flex-start;
-
-    background-size: 100%;
-
-    height:auto;
-/*
+    height:500px;
+    font-size:1.5vw;
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: center center;
     transform: skewY(-2deg);
-    margin-top:-50px;
-*/
+    margin-top:-2em;
     z-index: 0;
+    background-color: darkmagenta;
+    }
 
-}
+
+
+
+
 
 .beitrag {
     display: flex;
 	justify-content: flex-start;
-    background-attachment:scroll;
     background-size: 100% auto;
     background-position: center center;
-    height:300px;
+
     width:100%;
     transform: skewY(-2deg);
-    margin-top:-50px;
+    margin-top:-2em;
     z-index: 0;
-}
+
+    }
 
 .beitrag1 {
-    background-image: url(image/Beitrage/1DX_4020_SW.jpg);
+    background: url(image/Startseite/beitrag1.png) no-repeat;
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 150%;
     background-position: center center;
-    height:300px;
+    min-height:350px;
+    max-height:450px;
+    background-color: blueviolet;
 
    }
+
+
 
 div.col-lg-4:nth-child(1) {
     padding-right:0px;
 }
 
 .beitrag2 {
-    background-image: url(image/Beitrage/JR-SmartCafe-2016-06-14-web-44SW.jpg);
-     background-attachment:scroll;
+    background-image: url(image/Startseite/beitrag2.png);
+    background-color: darkblue;
+    background-attachment:scroll;
     background-size: 150% auto;
     background-position: center center;
-    height:300px;
+    min-height:350px;
+    max-height:450px;
+    background-repeat: no-repeat;
      }
 
 div.col-lg-4:nth-child(2) {
@@ -71,25 +82,125 @@ div.col-lg-4:nth-child(2) {
 }
 
 .beitrag3 {
-    background-image: url(image/Beitrage/JR-Sitzung-08-2018-web-13SW.jpg);
-     background-attachment:scroll;
+    background-image: url(image/Startseite/beitrag3.png);
+    background-attachment:scroll;
     background-size: 150% auto;
     background-position: center center;
-    height:300px;
+    min-height:350px;
+    max-height:450px;
+    background-repeat: no-repeat;
+    background-color: bisque;
+
    }
+
+.beitragbinde3 {
+
+    background-color: #186185;
+    opacity: 0.7;
+    padding:2%;
+    width:80%;
+    position:relative;
+    top:215px;
+    margin-left:auto;
+    margin-right:auto;
+    height:70px;
+    transform: skewY(2deg);
+    color:#fff;
+}
+
+
+.beitragbinde1 {
+
+    background-color: #186185;
+    opacity: 0.7;
+    padding:2%;
+    width:80%;
+    position:relative;
+    top:180px;
+    margin-left:auto;
+    margin-right:auto;
+    height:70px;
+    transform: skewY(2deg);
+    color:#fff;
+}
+
+.beitragbinde2 {
+
+    background-color: #186185;
+    opacity: 0.7;
+    padding:2%;
+    width:80%;
+    position:relative;
+    top:200px;
+    margin-left:auto;
+    margin-right:auto;
+    height:70px;
+    transform: skewY(2deg);
+    color:#fff;
+}
+
+.beitragbinde1 img {
+    flot:right;
+    width:30px;
+}
+
+.beitragbinde2 img {
+    flot:right;
+    width:30px;
+}
+
+.beitragbinde3 img {
+    flot:right;
+    width:30px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .beitrag1 {
+    background-size:540px;
+
+    }
+
+    .beitrag2 {
+    background-size:540px;
+
+    }
+    .beitrag3 {
+    background-size:540px;
+
+    }
+
+    .beitragbinde {
+        font-size:14px;
+    }
+
+}
 
 div.col-lg-4:nth-child(3) {
 padding-left:0px;
 
 }
 
+.kontaktarea {
+ display: flex;
+	justify-content: flex-start;
+    background-color: aqua;
+    background-size: 100% auto;
+    background-position: center center;
+    height:300px;
+    width:100%;
+
+    margin-top:-2em;
+    z-index: 0; }
+
 .partner {
-    background-image: url(image/HeaderBilder/Header_UEBERUNS.jpg);
-     background-attachment:scroll;
+    background-image: url(image/Startseite/JR-Seminar-2017-web-75.jpg);
+    background-attachment:scroll;
     background-size: 150% auto;
     background-position: center center;
     height:300px;
-    margin-top:-30px;
+    background-repeat: no-repeat;
+
 
 
    }
@@ -103,12 +214,12 @@ div.col-lg-7:nth-child(2) {
 }
 
 .kontakt {
-    background-image: url(image/HeaderBilder/Header_HOME.jpg);
+    background-image: url(image/Startseite/JR-Seminar-2017-web-145.jpg);
      background-attachment:scroll;
     background-size: 150% auto;
     background-position: center center;
     height:300px;
-    margin-top:-30px;
+    background-repeat: no-repeat;
 
    }
 
@@ -266,6 +377,8 @@ div.col-lg-7:nth-child(2) {
 }
 
 
+
+
 @media (max-width: 49em) {
 
     .rechterInfoText{
@@ -285,6 +398,8 @@ div.col-lg-7:nth-child(2) {
         font-style: italic;
     }
 }
+
+
 
 .header {
     min-height:750px;
@@ -309,6 +424,8 @@ div.col-lg-7:nth-child(2) {
     background-size: 25% auto;
 }
 
+
+
 @media (max-width: 80em) {
     .header {
     background-attachment:scroll;
@@ -316,6 +433,8 @@ div.col-lg-7:nth-child(2) {
     }
 
 }
+
+
 
 .infobox {
     min-height: 60px;
