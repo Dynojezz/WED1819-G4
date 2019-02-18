@@ -1,3 +1,16 @@
+/*--------- HEADER -----------*/
+.header-bild img{
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+}
+
+.header-bild {
+    position:relative;
+     z-index: 1;
+}
+
 /*---------------------------- ÜBER UNS ----------------------------*/
 .video {
     display: flex;
