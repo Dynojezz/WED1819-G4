@@ -15,7 +15,7 @@
 /*--------------------------- CONTENT -----------------------------*/
 
 
-/*------------------------------ BLOG -----------------------------*/
+/*------------------------------ INDEX -----------------------------*/
 .bg {
 	display: flex;
 	background: url(image/Startseite/gruppenbildAltweiberH800.png) no-repeat;
@@ -112,7 +112,8 @@ div.col-lg-7:nth-child(2) {
 
    }
 
-/*--- BLOG --*/
+
+/*------------------------------ BLOG -----------------------------*/
 .blogpost1 {
     transform: skewY(4deg);
     z-index: 2;
@@ -230,61 +231,41 @@ div.col-lg-7:nth-child(2) {
 
 /*---------------------------- AGS/PROJEKTE ----------------------------*/
 
-    .rechterInfoText{
-        transform: skewY(-4deg);
-        text-align: left;
-        color: white;
-        margin-top: 2em;
-        margin-left: 1em;
-        margin-right: 5em;
-        margin-bottom: 5em;
-    }
+.rechterInfoText{
+    transform: skewY(-4deg);
+    text-align: left;
+    color: white;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+}
 
-    .mittigerInfoText{
-        text-align:inherit;
-        color: white;
-        margin-top: 2em;
-        margin-left: 15em;
-        margin-right: 10em;
-        margin-bottom: 3em;
+.mittigerInfoText{
+    text-align:inherit;
+    color: white;
+    margin-top: 2em;
+    margin-left: 15em;
+    margin-right: 10em;
+    margin-bottom: 3em;
+    opacity: 1;
+}
+
+.mittigerInfoTextGrau{
+        text-align: inherit;
+        font-size: 120%;
+        color: #414347;
+        margin-top: 1.1em;
+        margin-left: 8em;
+        margin-right: 6em;
+        margin-bottom: 1em;
         opacity: 1;
-    }
-
-    .mittigerInfoTextGrau{
-            text-align: inherit;
-            font-size: 120%;
-            color: #414347;
-            margin-top: 1.1em;
-            margin-left: 1.8em;
-            margin-right: 8em;
-            margin-bottom: 1em;
-            opacity: 1;
-    }
-
-    #slogan {
-        font-style: italic;
 }
 
-
-@media (max-width: 49em) {
-
-    .rechterInfoText{
-    }
-
-    .mittigerInfoText{
-        margin-top: 1.7em;
-        margin-left: 5em;
-        margin-right: 5em;
-        margin-bottom: 3em;
-    }
-
-    .mittigerInfoTextGrau{
-    }
-
-    #slogan {
-        font-style: italic;
-    }
+#slogan {
+    font-style: italic;
 }
+
 
 .header {
     min-height:750px;
@@ -301,20 +282,12 @@ div.col-lg-7:nth-child(2) {
     background-image: url(image/AGsProjekte/information.png);
     height: 250px;
     width: 250px;
-    margin-top: 3.3em ;
-    margin-left: 3em;
+    margin-top: 3em;
+    margin-left: 8em;
     background-attachment:scroll;
-    background-position: top center;
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: 25% auto;
-}
-
-@media (max-width: 80em) {
-    .header {
-    background-attachment:scroll;
-    background-size: 80em;
-    }
-
 }
 
 .infobox {
@@ -335,7 +308,7 @@ div.col-lg-7:nth-child(2) {
     transform: skewY(4deg);
     z-index: 2;
     min-height: 350px;
-    margin-top: -80px;
+    margin-top: -110px;
     display: flex;
 	background-image: url(image/AGsProjekte/presseAG.jpg);
 	justify-content: flex-start;
@@ -346,16 +319,21 @@ div.col-lg-7:nth-child(2) {
 }
 
 .weiberfastnachtAG {
-    min-height:300px;
     z-index: 3;
-    margin-top:-60px;
     display: flex;
 	background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
 	justify-content: flex-start;
+    min-height:300px;
+    margin-top:-60px;
     background-attachment:scroll;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    justify-content: flex-start;
+
+    background-size: 100%;
+
+    height:auto;
 }
 
 .rosenmontagAG {
@@ -395,7 +373,7 @@ div.col-lg-7:nth-child(2) {
 	background-image: url(image/AGsProjekte/schulAG.jpg);
 	justify-content: flex-start;
     background-attachment:scroll;
-    background-position: center center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -465,6 +443,60 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+}
+
+/*----------------------------MEDIA-QUERIES----------------------------*/
+@media (max-width: 1280px) {
+    .header {
+    background-attachment:scroll;
+    background-size: 1280px;
+    }
+
+}
+
+@media (max-width: 1120px) {
+    .mittigerInfoTextGrau{
+        margin-left: 6em;
+        margin-right: 1em;
+    }
+    .info_sign {
+    margin-left: 5em;
+    }
+    .presseAG {
+    margin-top: -90px;
+    }
+}
+
+@media (max-width: 880px) {
+    .mittigerInfoTextGrau{
+        margin-left: 3em;
+    }
+    .info_sign {
+    margin-left: 1em;
+    }
+    .mittigerInfoText{
+        margin-top: 1.7em;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 3em;
+    }
+    .presseAG {
+    margin-top: -70px;
+    }
+}
+
+    @media (max-width: 500px) {
+    .mittigerInfoTextGrau{
+        margin-right: 0em;
+        margin-left: 3em;
+    }
+    .info_sign {
+    margin-left: 0em;
+    }
+    .presseAG {
+    margin-top: -50px;
+    background-size: 320% auto;
+    }
 }
 
 
