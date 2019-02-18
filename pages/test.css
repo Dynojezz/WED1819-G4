@@ -14,8 +14,7 @@
 
 /*--------------------------- CONTENT -----------------------------*/
 
-
-/*------------------------------ BLOG -----------------------------*/
+/*--------------------------- STARTSEITE --------------------------*/
 .bg {
 	display: flex;
 	background: url(image/Startseite/gruppenbildAltweiberH800.png) no-repeat;
@@ -112,7 +111,7 @@ div.col-lg-7:nth-child(2) {
 
    }
 
-/*--- BLOG --*/
+/*------------------------------ BLOG -----------------------------*/
 .blogpost1 {
     transform: skewY(4deg);
     z-index: 2;
@@ -226,48 +225,80 @@ div.col-lg-7:nth-child(2) {
     font-style: italic;
 }
 
+/*---------------------------- ÜBER UNS ----------------------------*/
+.video {
+    display: flex;
+	background-image: url(image/UeberUns/Imagefilm_Jugendrat.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 400px;
+    width: 400px;
+}
 
 
-/*---------------------------- AGS/PROJEKTE ----------------------------*/
+/*
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
 
-    .rechterInfoText{
-        transform: skewY(-4deg);
-        text-align: left;
-        color: white;
-        margin-top: 2em;
-        margin-left: 1em;
-        margin-right: 5em;
-        margin-bottom: 5em;
-    }
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
 
-    .mittigerInfoText{
-        text-align:inherit;
-        color: white;
-        margin-top: 2em;
-        margin-left: 15em;
-        margin-right: 10em;
-        margin-bottom: 3em;
-        opacity: 1;
-    }
 
-    .mittigerInfoTextGrau{
-            text-align: inherit;
-            font-size: 120%;
-            color: #414347;
-            margin-top: 1.1em;
-            margin-left: 1.8em;
-            margin-right: 8em;
-            margin-bottom: 1em;
-            opacity: 1;
-    }
+/*-------------------------- AGS/PROJEKTE --------------------------*/
 
-    #slogan {
-        font-style: italic;
+.rechterInfoText{
+    transform: skewY(-4deg);
+    text-align: left;
+    color: white;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+}
+
+.mittigerInfoText{
+    text-align:inherit;
+    color: white;
+    margin-top: 2em;
+    margin-left: 15em;
+    margin-right: 10em;
+    margin-bottom: 3em;
+    opacity: 1;
+}
+
+.mittigerInfoTextGrau{
+    text-align: inherit;
+    font-size: 120%;
+    color: #414347;
+    margin-top: 1.1em;
+    margin-left: 1.8em;
+    margin-right: 8em;
+    margin-bottom: 1em;
+    opacity: 1;
+}
+
+#slogan {
+    font-style: italic;
 }
 
 
 @media (max-width: 49em) {
-
     .rechterInfoText{
     }
 
