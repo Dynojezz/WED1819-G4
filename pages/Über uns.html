@@ -3,59 +3,36 @@
     <head>
         <meta charset="utf-8">
         <title>Jugendrat der Stadt Ratingen</title>
-        <link rel="stylesheet" href="Css.css">
+        <link rel="stylesheet" href="test.css">
         <script language="javascript" type="text/javascript" src="Java.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
     <body>
-        <header>
-            <div class="header-background">
-                <div class="box">
-                    <img src="image/logo.png">
-                </div>
-                <img src="image/HeaderBilder/Header_UEBERUNS.jpg">
-
-                <div class="btn_wrapper">
-                    <button onclick="myFunction()" class="dropbtn"><img class="img-fluid" src="image/menu.png"></button>
-                    <div id="myDropdown" class="dropdown-content">
-                        <menufont><a href="Index.html">HOME</a>
-                        <a href="Unser Blog.html">UNSER BLOG</a>
-                        <a href="Über uns.html">ÜBER UNS</a>
-                        <a href="Ags & Projekte.html">AGs UND PROJEKTE</a>
-                        <a href="Leere Seite.html">GALERIE</a>
-                        <a href="Leere Seite.html">TERMINE</a>
-                        <a href="Leere Seite.html">KONTAKT</a></menufont>
+        <div class="container-fluid">
+<!--       HEADER BEREICH             -->  
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-bild">
+                        <img class="img-fluid" src="image/HeaderBilder/ueberUns.jpg">
+                    </div>	
+			     </div>
+            </div>
+            
+<!--       UEBER UNS INFORMATIONEN             -->    
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="information">
+                        <div class="col-lg-6" style="background-color: none"></div>
+                            <div class="video"></div>
+                        <div class="col-lg-6"style="background-color: #B2166A; opacity: 0.8">
+                            <div class="infoText">
+                                <h3 id="ueberschrift">HI, DÜRFEN WIR UND VORSTELLEN?<br>WIR SIND DER JUGENDRAT DER STADT RATINGEN</h3>
+                                <p id="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br><br>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br><br>At vero eos et accusam et justo duo dolores et ea rebum.</p>  
+                            </div>    
+                        </div>
                     </div>
                 </div>
-            </div> 
-        </header>
-
-        <script>
-        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-        function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-
-        function filterFunction() {
-              var input, filter, ul, li, a, i;
-              input = document.getElementById("myInput");
-              filter = input.value.toUpperCase();
-              div = document.getElementById("myDropdown");
-              a = div.getElementsByTagName("a");
-              for (i = 0; i < a.length; i++) {
-                txtValue = a[i].textContent || a[i].innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    a[i].style.display = "";
-                } else {
-                    a[i].style.display = "none";
-                }
-              }
-        }
-        </script>
-
-        <div id="content"></div>
-
-
-        <footer></footer>
-
+            </div>
+        </div>    
     </body>
 </html>
