@@ -253,7 +253,7 @@
     margin-top: -70px;
     }
 }
-        
+
     @media (max-width: 500px) {
     .mittigerInfoTextGrau{
         margin-right: 0em;
@@ -264,6 +264,6 @@
     }
     .presseAG {
     margin-top: -50px;
-    background-size: 320% auto;    
+    background-size: 320% auto;
     }
 }
