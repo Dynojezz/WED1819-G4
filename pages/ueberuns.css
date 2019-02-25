@@ -11,24 +11,23 @@
 }
 
 /*---------------------------- ÜBER UNS ----------------------------*/
-.videoBereich {
+.informationsBereich {
     transform: skewY(4deg);
     display: flex;
-	justify-content: flex-start;
+    justify-content: flex-start;
     background-size: 100% auto;
     background-position: center center;
-/*    height: auto;*/
-/*    width:100%;*/
-    margin-top:-8em;
+    margin: -8em;
     z-index: 0;
+    width: 100%;
 }
 
-.information {
+
+.hintergrundbild {
     background-image: url(image/UeberUns/portrait.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
     background-position: center center;
-    height:300px;
     background-repeat: no-repeat;
 
 }
