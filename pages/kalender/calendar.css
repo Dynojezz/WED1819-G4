@@ -1,17 +1,49 @@
+#datum {
+    color: #fff;
+
+background-color: transparent;
+
+border: none;
+
+}
+
+#myform {
+    height:500px;
+}
+
+
+#calender {
+    width:100%;
+
+}
+
+.kalenderbox {
+    background-color: azure;
+    width:100px;
+    height:100px;
+}
+
 .monat {
     z-index: 1;
     padding:0px;
-    width:100px;
-    height:200px;
+    width:6em;
     background-color: #103D4B;
     opacity: 0.80;
+    height:25em;
+    margin-left:-16px;
+    margin-top:-1em;
 }
 
 .monthtypo {
-    font: bold 100px Segoe UI semibold, sans-serif;
+    font: bold 5em Segoe UI semibold, sans-serif;
     transform: rotate(270deg);
     color:white;
     line-height: 3.2;
+}
+
+#calendar_month {
+
+
 }
 
 .arrows {
@@ -36,6 +68,7 @@
 	font: normal 65px Segoe UI light, sans-serif;
 	text-align: center;
 	color: #414347;
+;
 	text-decoration: none;
 }
 
@@ -74,7 +107,7 @@
 .calendar_day {
 	font: bold 15px Segoe UI, sans-serif;
 	text-align: center;
-	width: 25px;
+	width: 12em;
 	color: #033E52;
 	background-color: none;
 }
