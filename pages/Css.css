@@ -91,7 +91,7 @@ header {
 }
 
 .dropbtn:focus {
-    background-color: aqua;
+    background-color: rgba(65, 67, 71);
 }
 
 #myInput {
