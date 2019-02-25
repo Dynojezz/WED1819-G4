@@ -107,8 +107,7 @@ div.col-lg-4:nth-child(2) {
 
 .beitragbinde3 {
 
-    background-color: #186185;
-    opacity: 0.7;
+    background-color: rgba(24, 97, 133, 0.8);
     padding:2%;
     width:80%;
     position:relative;
@@ -123,8 +122,7 @@ div.col-lg-4:nth-child(2) {
 
 .beitragbinde1 {
 
-    background-color: #186185;
-    opacity: 0.7;
+    background-color: rgba(24, 97, 133, 0.8);
     padding:2%;
     width:80%;
     position:relative;
@@ -138,8 +136,7 @@ div.col-lg-4:nth-child(2) {
 
 .beitragbinde2 {
 
-    background-color: #186185;
-    opacity: 0.7;
+    background-color: rgba(24, 97, 133, 0.8);
     padding:2%;
     width:80%;
     position:relative;
