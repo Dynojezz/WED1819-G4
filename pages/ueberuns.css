@@ -2,26 +2,48 @@
 .header-bild img{
     width: 100%;
     height: 100%;
-
     z-index: 1;
 }
 
 .header-bild {
     position:relative;
-     z-index: 1;
+    z-index: 1;
 }
 
 /*---------------------------- ÜBER UNS ----------------------------*/
-.video {
+.videoBereich {
+    transform: skewY(4deg);
     display: flex;
-	background-image: url(image/UeberUns/Imagefilm_Jugendrat.jpg);
 	justify-content: flex-start;
-    background-attachment:scroll;
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 400px;
-    width: 400px;
+    background-position: center center;
+/*    height: auto;*/
+/*    width:100%;*/
+    margin-top:-8em;
+    z-index: 0;
+}
+
+.information {
+    background-image: url(image/UeberUns/portrait.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: center center;
+    height:300px;
+    background-repeat: no-repeat;
+
+}
+
+.infoText{
+    transform: skewY(-4deg);
+    position: relative;
+    text-align: left;
+    color: black;
+    top: 100px;
+    height: auto;
+/*    margin-top: 5em;*/
+    margin-left: 1em;
+    margin-right: 2em;
+/*    margin-bottom: 5em;*/
 }
 
 
