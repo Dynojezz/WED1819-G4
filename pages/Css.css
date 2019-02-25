@@ -62,20 +62,19 @@ header {
 
 
 
-/* -------------------------- DropdownButton -------------------------- */
+/* -------------------------- Dropdown Menu -------------------------- */
 .btn_wrapper {
     top: 10px;
-    right: 10px;
-    width: 300px;
-    position: absolute;
+    right: 30px;
+    position:fixed;
     z-index: 2;
 }
 
 .dropbtn {
-    max-width: 20%;
+
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 5px;
+    right: 5px;
     box-sizing: 16px;
     color: white;
     padding: 0px;
@@ -85,15 +84,17 @@ header {
     border-radius: 100%;
     z-index: 2;
 
-    background-color: transparent;
+    background-color: rgba(65, 67, 71, 0.4);
 }
 
-.dropbtn:hover, .dropbtn:focus {
-    border-radius: 100%;
+.dropbtn:hover {
+}
+
+.dropbtn:focus {
+    background-color: aqua;
 }
 
 #myInput {
-    border-box: box-sizing;
     background-position: 14px 12px;
     background-repeat: no-repeat;
     font-size: 20px;
@@ -116,7 +117,7 @@ header {
     display: none;
     background-color:#fff;
     opacity: 0.85;
-    min-width: 50px;
+    width: 210px;
 
 }
 
