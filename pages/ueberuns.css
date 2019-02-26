@@ -17,19 +17,22 @@
     justify-content: flex-start;
     background-size: 100% auto;
     background-position: center center;
-    margin: -8em;
+    margin-top: -8em;
     z-index: 0;
     width: 100%;
+    height: 800px;
 }
 
 
 .hintergrundbild {
     background-image: url(image/UeberUns/portrait.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+/*    background-size: 150% auto;*/
     background-position: center center;
     background-repeat: no-repeat;
-
+    min-height: 900px;
+/*    filter: blur(3px);*/
+/*    -webkit-filter: blur(3px);*/
 }
 
 .infoText{
@@ -38,12 +41,19 @@
     text-align: left;
     color: black;
     top: 100px;
-    height: auto;
-/*    margin-top: 5em;*/
     margin-left: 1em;
     margin-right: 2em;
-/*    margin-bottom: 5em;*/
+
 }
+
+#ueberschrift {
+    font: normal 25px Segoe UI semibold, sans-serif;
+}
+
+#text {
+    font: normal 20px Segoe UI, sans-serif;
+}
+
 
 
 /*
