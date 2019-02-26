@@ -17,12 +17,12 @@
     justify-content: flex-start;
     background-size: 100% auto;
     background-position: center center;
-    margin-top: -8em;
+    margin-top: -5em;
     z-index: 0;
-    width: 100%;
-    height: 800px;
-}
+/*    width: 100%;*/
 
+    height: 315px;
+}
 
 .hintergrundbild {
     background-image: url(image/UeberUns/portrait.jpg);
@@ -52,6 +52,19 @@
 
 #text {
     font: normal 20px Segoe UI, sans-serif;
+}
+
+#videobereich {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.videoextern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
