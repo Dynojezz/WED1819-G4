@@ -91,7 +91,7 @@ header {
 }
 
 .dropbtn:focus {
-    background-color: rgba(65, 67, 71);
+
 }
 
 #myInput {
@@ -103,7 +103,7 @@ header {
 
 }
 
-#myInput:focus {
+#myInput {
     outline: 3px solid #ddd;
 }
 
