@@ -91,7 +91,6 @@ header {
 }
 
 .dropbtn:focus {
-
 }
 
 #myInput {
@@ -100,7 +99,6 @@ header {
     font-size: 20px;
     padding: 14px 20px 12px 45px;
     border: none;
-
 }
 
 #myInput {
@@ -266,7 +264,7 @@ header {
 }
 
 .text2 {
-    magrin-top:20px;
+    margin:20px;
 
 }
 
