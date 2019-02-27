@@ -20,8 +20,8 @@ p {
     text-align: left;
     color: white;
     margin-top: 2em;
-    margin-left: 1em;
-    margin-right: 2em;
+    margin-left: 2em;
+    margin-right: 5em;
     margin-bottom: 5em;
 }
 
@@ -94,8 +94,7 @@ p {
     height: 220px;
     width: 80px;
     margin-top: 10em;
-    margin-left: -20em;
-    margin-right: 20em;
+    margin-left: -15em;
     background-attachment:scroll;
     background-position: top left;
     background-repeat: no-repeat;
@@ -108,8 +107,8 @@ p {
     height: 220px;
     width: 80px;
     margin-top: 7em;
-    margin-left: -2em;
-    margin-right: 2em;
+    margin-left: -1em;
+    margin-right: 1em;
     background-attachment:scroll;
     background-position: top left;
     background-repeat: no-repeat;
@@ -133,7 +132,7 @@ p {
 .presseAG {
     transform: skewY(4deg);
     z-index: 2;
-    min-height: 370px;
+    min-height: 400px;
     margin-top: -90px;
     display: flex;
 	background-image: url(image/AGsProjekte/presseAG.jpg);
@@ -177,7 +176,7 @@ p {
 .sportAG {
     min-height:310px;
     z-index: 5;
-    margin-top:-60px;
+    margin-top:-50px;
     display: flex;
 	background-image: url(image/AGsProjekte/sportAG.jpg);
 	justify-content: flex-start;
@@ -204,7 +203,7 @@ p {
 .AGjugendzentren {
     min-height:310px;
     z-index: 7;
-    margin-top:-60px;
+    margin-top:-50px;
     display: flex;
 	background-image: url(image/AGsProjekte/jugendzentrenAG.jpg);
 	justify-content: flex-start;
@@ -231,7 +230,7 @@ p {
 .nachhaltigkeitAG {
     min-height:310px;
     z-index: 9;
-    margin-top:-60px;
+    margin-top:-50px;
     display: flex;
 	background-image: url(image/AGsProjekte/nachhaltigkeitAG.jpg);
 	justify-content: flex-start;
@@ -258,7 +257,7 @@ p {
 .angsttraumAG {
     min-height:310px;
     z-index: 11;
-    margin-top:-60px;
+    margin-top:-50px;
     display: flex;
 	background-image: url(image/AGsProjekte/angsttraumAG.jpg);
 	justify-content: flex-start;
@@ -307,9 +306,9 @@ p {
     margin-right: 5em;
     }
     .mittigerInfoText{
-        margin-top: 1.7em;
+        margin-top: 3em;
         margin-left: 5em;
-        margin-right: 5em;
+        margin-right: 7em;
         margin-bottom: 3em;
     }
     .presseAG {
@@ -339,8 +338,8 @@ p {
         margin-left: 4.5em;
     }
     .mittigerInfoText{
-        margin-left: 1em;
-        margin-right: 3em;
+        margin-left: 2em;
+        margin-right: 6em;
     }
     .info_sign {
         margin-left: 1em;
@@ -359,78 +358,92 @@ p {
     .infobox {
     background-image: url(image/AGsProjekte/JR-Seminar-2017-web-146_infobox.jpg);
         background-size: 170%;
+        background-position: center center;
     opacity: 1;
     margin-top:-250px;
     min-height: 200px;
     max-height: 310px;
     }
     .presseAG {
-    margin-top: -40px;
-    background-size: 1000px;
-    background-position: left center;
+        margin-top: -40px;
+        min-height: 490px;
+        background-size: 1000px;
+        background-position: left center;
     }
     .weiberfastnachtAG {
         background-size: 1000px;
+        min-height: 450px;
     }
     .rosenmontagAG {
         background-size: 1000px;
+        min-height: 490px
     }
     .sportAG {
         background-size: 1000px;
+        min-height: 450px
     }
     .schulAG {
         background-size: 1000px;
+        min-height: 490px
     }
     .AGjugendzentren {
         background-size: 1000px;
+        min-height: 450px
     }
     .AGoeffi {
         background-size: 1000px;
+        min-height: 490px
     }
     .nachhaltigkeitAG {
         background-size: 1000px;
+        min-height: 450px
     }
     .dirtbikeAG {
         background-size: 1000px;
+        min-height: 490px
     }
     .angsttraumAG {
         background-size: 1000px;
+        min-height: 450px
     }
 }
 
-/*--------------------- SMARTPHONE SMALL -----------------*/
+/*--------------------- SMALL SMARTPHONE -----------------*/
 @media (max-width: 510px) {
     .infobox {
     min-height: 390px;
     }
     .presseAG {
-       min-height: 550px;
+       min-height: 580px;
     }
     .weiberfastnachtAG {
-        min-height: 550px;
+        min-height: 560px;
     }
     .rosenmontagAG {
-        min-height: 550px;
+        min-height: 580px;
     }
     .sportAG {
-        min-height: 550px;
+        min-height: 560px;
     }
     .schulAG {
-        min-height: 550px;
+        min-height: 580px;
     }
     .AGjugendzentren {
-        min-height: 550px;
+        min-height: 560px;
     }
     .AGoeffi {
-        min-height: 550px;
+        min-height: 580px;
+        background-size: 280%;
     }
     .nachhaltigkeitAG {
-        min-height: 550px;
+        min-height: 560px;
+        background-size: 280%;
     }
     .dirtbikeAG {
-        min-height: 550px;
+        min-height: 580px;
+        background-size: 280%;
     }
     .angsttraumAG {
-        min-height: 550px;
+        min-height: 560px;
     }
 }
