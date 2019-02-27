@@ -59,6 +59,24 @@ p {
     background-size: 100% auto;
 }
 
+.logo {
+    height: 150px;
+    width: 400px;
+    background-image: url(image/Logo_Header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.headline {
+    width: 500px;
+    height: 90px;
+    margin-top: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(image/AGsProjekte/Headline_AGs.png);
+    background-size: 100%;
+}
+
 .info_sign {
     background-image: url(image/AGsProjekte/information.png);
     height: 250px;
@@ -273,6 +291,7 @@ p {
     }
 }
 
+
 /*--------------------- TABLET (sm) -----------------*/
 @media (max-width: 991px) {
     .mittigerInfoTextGrau{
@@ -293,7 +312,6 @@ p {
         margin-right: 5em;
         margin-bottom: 3em;
     }
-
     .presseAG {
     margin-top: -90px;
     }
@@ -302,16 +320,30 @@ p {
 
 /*--------------------- SMARTPHONE (xs) -----------------*/
 @media (max-width: 767px) {
+    .headline {
+        width: 250px;
+        height: 150px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(image/AGsProjekte/Headline_AGs_smartphone.png);
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+}
+    .logo{
+        width: 300px;
+    }
     .mittigerInfoTextGrau{
-        margin-right: 0em;
-        margin-left: 3em;
+        margin-right: 2em;
+        margin-left: 4.5em;
     }
     .mittigerInfoText{
         margin-left: 1em;
         margin-right: 3em;
     }
     .info_sign {
-        margin-left: 0em;
+        margin-left: 1em;
         margin-top: 6em;
     }
     .play_sign {
@@ -324,49 +356,43 @@ p {
     margin-left: -4em;
     margin-right: 4em;
     }
-
     .infobox {
-    margin-top:-350px;
-    min-height: 350px;
+    background-image: url(image/AGsProjekte/JR-Seminar-2017-web-146_infobox.jpg);
+        background-size: 170%;
+    opacity: 1;
+    margin-top:-250px;
+    min-height: 200px;
+    max-height: 310px;
     }
     .presseAG {
-    margin-top: -15px;
+    margin-top: -40px;
     background-size: 1000px;
     background-position: left center;
     }
-
     .weiberfastnachtAG {
         background-size: 1000px;
     }
-
     .rosenmontagAG {
         background-size: 1000px;
     }
-
     .sportAG {
         background-size: 1000px;
     }
-
     .schulAG {
         background-size: 1000px;
     }
-
     .AGjugendzentren {
         background-size: 1000px;
     }
-
     .AGoeffi {
         background-size: 1000px;
     }
-
     .nachhaltigkeitAG {
         background-size: 1000px;
     }
-
     .dirtbikeAG {
         background-size: 1000px;
     }
-
     .angsttraumAG {
         background-size: 1000px;
     }
@@ -374,42 +400,36 @@ p {
 
 /*--------------------- SMARTPHONE SMALL -----------------*/
 @media (max-width: 510px) {
-   .presseAG {
+    .infobox {
+    min-height: 390px;
+    }
+    .presseAG {
        min-height: 550px;
     }
-
     .weiberfastnachtAG {
         min-height: 550px;
     }
-
     .rosenmontagAG {
         min-height: 550px;
     }
-
     .sportAG {
         min-height: 550px;
     }
-
     .schulAG {
         min-height: 550px;
     }
-
     .AGjugendzentren {
         min-height: 550px;
     }
-
     .AGoeffi {
         min-height: 550px;
     }
-
     .nachhaltigkeitAG {
         min-height: 550px;
     }
-
     .dirtbikeAG {
         min-height: 550px;
     }
-
     .angsttraumAG {
         min-height: 550px;
     }
