@@ -331,7 +331,7 @@ p {
         background-repeat: no-repeat;
 }
     .logo{
-        width: 300px;
+        width: 290px;
     }
     .mittigerInfoTextGrau{
         margin-right: 2em;
@@ -357,7 +357,7 @@ p {
     }
     .infobox {
     background-image: url(image/AGsProjekte/JR-Seminar-2017-web-146_infobox.jpg);
-        background-size: 170%;
+        background-size: 190%;
         background-position: center center;
     opacity: 1;
     margin-top:-250px;
@@ -411,7 +411,7 @@ p {
 /*--------------------- SMALL SMARTPHONE -----------------*/
 @media (max-width: 510px) {
     .infobox {
-    min-height: 390px;
+    min-height: 420px;
     }
     .presseAG {
        min-height: 580px;

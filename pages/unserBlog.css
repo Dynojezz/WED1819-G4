@@ -1,0 +1,371 @@
+/*---------------------------- AGS/PROJEKTE ----------------------------*/
+
+
+/*-------------------------------- FONT --------------------------------*/
+
+p {
+    font: normal 20px Segoe UI, sans-serif;
+}
+
+#datum {
+    font-style: italic;
+}
+
+#ueberschrift {
+    font: normal 28px Segoe UI semibold, sans-serif;
+}
+
+.rechterInfoText{
+    transform: skewY(-4deg);
+    text-align: left;
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+}
+
+.mittigerInfoText{
+    text-align:inherit;
+    color: white;
+    margin-top: 2.5em;
+    margin-left: 15em;
+    margin-right: 20em;
+    margin-bottom: 3em;
+    opacity: 1;
+}
+
+
+/*-------------------------------- BOXEN --------------------------------*/
+
+.header {
+    min-height:750px;
+    z-index: 0;
+    display: flex;
+	background-image: url(image/UnserBlog/Header_BLOG.jpg);
+    background-attachment:scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.logo {
+    height: 150px;
+    width: 400px;
+    background-image: url(image/Logo_Header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.headline {
+    width: 850px;
+    height: 90px;
+    margin-top: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(image/UnserBlog/Headline_Blog.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.play_sign {
+    background-image: url(image/playbutton.png);
+    height: 220px;
+    width: 80px;
+    margin-top: 10em;
+    margin-left: -15em;
+    background-attachment:scroll;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+}
+
+.play_sign_right {
+    background-image: url(image/playbutton.png);
+    transform: skewY(-4deg);
+    height: 220px;
+    width: 80px;
+    margin-top: 7em;
+    margin-left: -1em;
+    margin-right: 1em;
+    background-attachment:scroll;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+}
+
+.infobox {
+    min-height: 60px;
+    z-index:1;
+    margin-top:-270px;
+    display: flex;
+	background-color: white;
+    opacity: 0.8;
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.altweiber {
+    transform: skewY(4deg);
+    z-index: 2;
+    min-height: 450px;
+    margin-top: -220px;
+    display: flex;
+	background-image: url(image/UnserBlog/altweiber.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120% auto;
+}
+
+.smart {
+    z-index: 3;
+    display: flex;
+	background-image: url(image/UnserBlog/smartCafe.jpg);
+	justify-content: flex-start;
+    min-height:380px;
+    margin-top:-60px;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    justify-content: flex-start;
+    height:auto;
+}
+
+.sitzung {
+    transform: skewY(4deg);
+    z-index: 2;
+    min-height: 450px;
+    margin-top: -50px;
+    z-index: 4;
+    display: flex;
+	background-image: url(image/UnserBlog/sitzung.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.dirtbike {
+    min-height:380px;
+    z-index: 5;
+    margin-top:-50px;
+    display: flex;
+	background-image: url(image/UnserBlog/dirtbike.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.kick {
+    transform: skewY(4deg);
+    z-index: 6;
+    min-height: 450px;
+    margin-top: -60px;
+    display: flex;
+	background-image: url(image/UnserBlog/kickertunier.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120% auto;
+}
+
+.seminar {
+    min-height:380px;
+    z-index: 7;
+    margin-top:-50px;
+    display: flex;
+	background-image: url(image/UnserBlog/seminar.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.neuwahl {
+    transform: skewY(4deg);
+    z-index: 8;
+    min-height: 450px;
+    margin-top: -60px;
+    display: flex;
+	background-image: url(image/UnserBlog/neuwahl.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 100% auto;;
+}
+
+.next {
+    min-height:140px;
+    z-index: 9;
+    margin-top:-50px;
+    display: flex;
+	background-image: url(image/UnserBlog/next_BLOG.jpg);
+	justify-content: flex-start;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.nextbtn {
+    background-image: url(image/down-arrow.png);
+    width: 100%;
+    height: 60%;
+    background-size: 70px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+/*----------------------------MEDIA-QUERIES----------------------------*/
+
+/*------- Die Pixel-Größen entsprechen col-md, col-sm und col-xs ------*/
+
+
+/*--------------------- SMALL DESKTOP (md) -----------------*/
+@media (max-width: 1199px) {
+    .header {
+    background-attachment:scroll;
+    background-size: 1280px;
+    }
+    .mittigerInfoTextGrau{
+        margin-left: 8em;
+        margin-right: 4em;
+    }
+    .info_sign {
+        margin-left: 6em;
+        margin-top: 4em;
+
+    }
+}
+
+
+/*--------------------- TABLET (sm) -----------------*/
+@media (max-width: 991px) {
+    .headline {
+    width: 650px;
+}
+    .mittigerInfoTextGrau{
+        margin-left: 4em;
+    }
+    .play_sign {
+    margin-top: 10em;
+    margin-left: -5em;
+    margin-right: 5em;
+    }
+    .mittigerInfoText{
+        margin-top: 3em;
+        margin-left: 5em;
+        margin-right: 7em;
+        margin-bottom: 3em;
+    }
+    .altweiber {
+    margin-top: -290px;
+    }
+}
+
+
+/*--------------------- SMARTPHONE (xs) -----------------*/
+@media (max-width: 767px) {
+    .headline {
+        width: 300px;
+        height: 200px;
+        margin-top: 190px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(image/UnserBlog/Headline_Blog_smartphone.png);
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+}
+    .logo{
+        width: 290px;
+    }
+    .mittigerInfoTextGrau{
+        margin-right: 2em;
+        margin-left: 4.5em;
+    }
+    .mittigerInfoText{
+        margin-left: 2em;
+        margin-right: 6em;
+    }
+    .play_sign {
+    margin-top: 10em;
+    margin-left: -4em;
+    margin-right: 4em;
+    }
+    .play_sign_right {
+    margin-top: 10em;
+    margin-left: -4em;
+    margin-right: 4em;
+    }
+    .altweiber {
+        margin-top: -290px;
+        min-height: 490px;
+        background-size: 1400px;
+        background-position: left center;
+    }
+    .smart {
+        background-size: 1000px;
+        min-height: 450px;
+    }
+    .sitzung {
+        background-size: 1000px;
+        min-height: 490px
+    }
+    .dirtbike {
+        background-size: 1200px;
+        min-height: 450px
+    }
+    .kick {
+        background-size: 1300px;
+        min-height: 490px
+    }
+    .seminar {
+        background-size: 1000px;
+        min-height: 450px
+    }
+    .neuwahl {
+        background-size: 1000px;
+        min-height: 490px
+    }
+}
+
+/*--------------------- SMALL SMARTPHONE -----------------*/
+@media (max-width: 510px) {
+    .altweiber {
+       min-height: 770px;
+    }
+    .smart {
+        min-height: 600px;
+    }
+    .sitzung {
+        min-height: 770ppx;
+    }
+    .dirtbike {
+        min-height: 600px;
+    }
+    .kick {
+        min-height: 770ppx;
+    }
+    .seminar {
+        min-height: 600px;
+    }
+    .neuwahl {
+        min-height: 770px;
+        background-size: 280%;
+    }
+}
