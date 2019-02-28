@@ -19,9 +19,26 @@
     background-position: center center;
     margin-top: -5em;
     z-index: 0;
-/*    width: 100%;*/
+    height: 100%;
+}
 
-    height: 315px;
+.videowrapper {
+    height: auto;
+}
+.videobereich1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.videoextern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .hintergrundbild {
@@ -49,25 +66,17 @@
 #ueberschrift {
     font: normal 25px Segoe UI semibold, sans-serif;
 }
-
 #text {
     font: normal 20px Segoe UI, sans-serif;
 }
-
-#videobereich {
+#zwischenueberschirft {
     position: relative;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-.videoextern {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+    font: bold 80px Segeo UI bold, sans-serif;
+    color: white;
+    transform: rotate(-90deg);
+    top: 500px;
 
-
+}
 
 /*
 .video-container {
