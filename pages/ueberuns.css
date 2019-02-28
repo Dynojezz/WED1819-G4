@@ -2,12 +2,12 @@
 .header-bild img{
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 0;
 }
 
 .header-bild {
     position:relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 /*---------------------------- ÜBER UNS ----------------------------*/
@@ -18,27 +18,37 @@
     background-size: 100% auto;
     background-position: center center;
     margin-top: -5em;
-    z-index: 0;
+    z-index: 1;
     height: 100%;
 }
 
 .videowrapper {
     height: auto;
 }
-.videobereich1 {
+.videobereich {
     display: flex;
     flex-direction: column;
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
 }
-
-.videoextern {
+.videoextern1 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.verlinkung {
+    transform: skewY(-4deg);
+    border-style: groove;
+    color: #414347;
+    font: normal 20px Segoe UI, sans-serif;
+    width: 10em;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 45px;
 }
 
 .hintergrundbild {
@@ -60,40 +70,132 @@
     top: 100px;
     margin-left: 1em;
     margin-right: 2em;
-
 }
 
 #ueberschrift {
     font: normal 25px Segoe UI semibold, sans-serif;
 }
+
 #text {
     font: normal 20px Segoe UI, sans-serif;
 }
+
 #zwischenueberschirft {
     position: relative;
     font: bold 80px Segeo UI bold, sans-serif;
     color: white;
     transform: rotate(-90deg);
     top: 500px;
-
 }
 
-/*
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+.mitglied1 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/26_werthebach_maxSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
 }
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.mitglied2 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/36_todt_philippeSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
 }
-*/
+.mitglied3 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/24_l%C3%BCcker_louisaSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied4 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/9_ro%C3%9F_neleSW2.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied5 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/1_d%C3%B6rkes_benediktSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied6 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/2_cordes_theoSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied7 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/3_seidl_alexanderSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied8 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/4_piel_larissaSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied9 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/5_ajjo_monaSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied10 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/6_pothmann_felixSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied11 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/7_kowakl_annikaSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied12 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/8_bidlo_wielandSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
+.mitglied6 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/2_cordes_theoSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}.mitglied6 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/2_cordes_theoSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 190px;
+}
