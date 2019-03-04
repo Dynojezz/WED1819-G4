@@ -25,6 +25,7 @@
 /*--------------------------- CONTENT -----------------------------*/
 
 /*--------------------------- STARTSEITE --------------------------*/
+/*
 .bg {
 	display: flex;
 	background: url(image/Startseite/gruppenbildAltweiberH800.png) no-repeat;
@@ -39,10 +40,11 @@
     z-index: 0;
     background-color: darkmagenta;
     }
+*/
 
 .kalender {
     transform: skewY(2deg);
-    margin-top:2em;
+
 }
 
 .kalendertext {
@@ -58,6 +60,7 @@
 
 
 
+/*
 .beitrag {
     display: flex;
 	justify-content: flex-start;
@@ -70,23 +73,27 @@
     z-index: 0;
 
     }
+*/
 
 .beitrag1 {
     background: url(image/Startseite/beitrag1.png) no-repeat;
     background-attachment:scroll;
     background-size: 150%;
     background-position: center center;
-    min-height:350px;
+   min-height:350px;
     max-height:450px;
     background-color: blueviolet;
+     margin-top:-2em;
 
    }
 
 
 
+/*
 div.col-lg-4:nth-child(1) {
     padding-right:0px;
 }
+*/
 
 .beitrag2 {
     background-image: url(image/Startseite/beitrag2.png);
@@ -95,13 +102,16 @@ div.col-lg-4:nth-child(1) {
     background-size: 150% auto;
     background-position: center center;
     min-height:350px;
-    max-height:450px;
+    max-height:500px;
     background-repeat: no-repeat;
+     margin-top:-2em;
      }
 
+/*
 div.col-lg-4:nth-child(2) {
     padding:0px;
 }
+*/
 
 .beitrag3 {
     background-image: url(image/Startseite/beitrag3.png);
@@ -112,6 +122,7 @@ div.col-lg-4:nth-child(2) {
     max-height:450px;
     background-repeat: no-repeat;
     background-color: bisque;
+     margin-top:-2em;
 
    }
 
@@ -173,19 +184,19 @@ div.col-lg-4:nth-child(2) {
     width:30px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width:960px) {
 
     .beitrag1 {
-    background-size:540px;
+    background-size:100%;
 
     }
 
     .beitrag2 {
-    background-size:540px;
+    background-size:100%;
 
     }
     .beitrag3 {
-    background-size:540px;
+    background-size:100%;
 
     }
 
@@ -200,6 +211,7 @@ padding-left:0px;
 
 }
 
+/*
 .kontaktarea {
  display: flex;
 	justify-content: flex-start;
@@ -211,6 +223,7 @@ padding-left:0px;
 
     margin-top:-2em;
     z-index: 0; }
+*/
 
 .partner {
     background-image: url(image/Startseite/JR-Seminar-2017-web-75.jpg);
@@ -219,11 +232,13 @@ padding-left:0px;
     background-position: center center;
     height:300px;
     background-repeat: no-repeat;
+      margin-top:-3em;
 
 
 
    }
 
+/*
 div.col-lg-5:nth-child(1) {
     padding-right:0px;
 }
@@ -231,6 +246,7 @@ div.col-lg-5:nth-child(1) {
 div.col-lg-7:nth-child(2) {
     padding-left:0px;
 }
+*/
 
 .kontakt {
     background-image: url(image/Startseite/JR-Seminar-2017-web-145.jpg);
@@ -239,6 +255,7 @@ div.col-lg-7:nth-child(2) {
     background-position: center center;
     height:300px;
     background-repeat: no-repeat;
+      margin-top:-3em;
 
    }
 
@@ -270,11 +287,11 @@ div.col-lg-7:nth-child(2) {
 
 @media only screen and (max-width: 1000px) {
     .kontakt {
-        background-size:540px;
+        background-size:100%;
     }
 
        .partner {
-        background-size:540px;
+        background-size:100%;
     }
 
 }
