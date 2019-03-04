@@ -8,19 +8,23 @@ border: none;
 }
 
 #myform {
-    height:500px;
+     min-height:350px;
+    max-height:500px;
 }
 
 
 #calender {
     width:100%;
+     min-height:350px;
+    max-height:500px;
 
 }
 
 .kalenderbox {
     background-color: azure;
     width:100px;
-    height:100px;
+     min-height:350px;
+    max-height:500px;
 }
 
 .monat {
@@ -29,7 +33,8 @@ border: none;
     width:6em;
     background-color: #103D4B;
     opacity: 0.80;
-    height:25em;
+     min-height:350px;
+    max-height:500px;
     margin-left:-16px;
     margin-top:-1em;
 }
@@ -42,7 +47,8 @@ border: none;
 }
 
 #calendar_month {
-
+     min-height:350px;
+    max-height:500px;
 
 }
 

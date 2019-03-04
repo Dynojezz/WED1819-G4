@@ -43,9 +43,16 @@
 */
 
 .kalender {
+    background-image: url(image/Startseite/gruppenbildAltweiberH800.png);
+     background-attachment:scroll;
+    background-size: 150%;
+    background-position: center center;
+    background-repeat: no-repeat;
     transform: skewY(2deg);
+     height:300px;
 
 }
+
 
 .kalendertext {
     transform: skewY(2deg);
@@ -184,7 +191,29 @@ div.col-lg-4:nth-child(2) {
     width:30px;
 }
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:1055px) {
+
+    .beitrag1 {
+    background-size:540px;
+
+    }
+
+    .beitrag2 {
+   background-size:540px;
+
+    }
+    .beitrag3 {
+   background-size:540px;
+
+    }
+
+    .beitragbinde {
+        font-size:14px;
+    }
+
+}
+
+@media only screen and (max-width:990px) {
 
     .beitrag1 {
     background-size:100%;
@@ -192,16 +221,39 @@ div.col-lg-4:nth-child(2) {
     }
 
     .beitrag2 {
-    background-size:100%;
+   background-size:100%;
 
     }
     .beitrag3 {
-    background-size:100%;
+   background-size:100%;
 
     }
 
     .beitragbinde {
         font-size:14px;
+    }
+
+}
+
+@media only screen and (max-width:527px) {
+
+    .beitrag1 {
+   background-size:530px;
+
+    }
+
+    .beitrag2 {
+    background-size:530px;
+
+    }
+    .beitrag3 {
+ background-size:530px;
+
+    }
+
+    .beitragbinde {
+        font-size:14px;
+
     }
 
 }
@@ -292,6 +344,17 @@ div.col-lg-7:nth-child(2) {
 
        .partner {
         background-size:100%;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .kontakt {
+        background-size:450px;
+    }
+
+       .partner {
+        background-size:450px;
     }
 
 }
