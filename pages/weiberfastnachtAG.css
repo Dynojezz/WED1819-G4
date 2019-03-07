@@ -1,14 +1,35 @@
 /*--------- HEADER -----------*/
-.header-bild img{
-    width: 100%;
-    height: 100%;
+
+.header {
+    min-height:750px;
     z-index: 0;
+    display: flex;
+	background-image: url(image/AGsProjekte/weiberfastnachtAGs.jpg);
+    background-attachment:scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
-.header-bild {
-    position:relative;
-    z-index: 0;
+.logo {
+    height: 150px;
+    width: 400px;
+    background-image: url(image/Logo_Header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
+.headline {
+    width: 900px;
+    height: 80px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(image/AGsProjekte/Headline_Weiber.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 
 /*---------------------------- WEIBERFASTNACHT-AG ----------------------------*/
 .infoBereich {
