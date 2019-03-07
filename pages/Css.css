@@ -13,51 +13,19 @@ p {
 }
 
 /* -------------------------- HEADER -------------------------- */
-header {
-    width:100%;
-}
-
-.header-background img {
-    position: relative;
-    width: 100%;
-    z-index: 0;
-}
-
-.header-background {
-    position:relative;
-    z-index: 0;
-}
-
-.box {
-    position: absolute;
-    z-index: 2;
-    background-color: white;
-    left: 0px;
-    top: 0;
-    width: 400px;
-    height: 100px;
-    opacity: 0.85;
-}
-
-.box img {
-    top: 25px;
-    left: 25px;
-    width: 300px;
-    position: absolute;
-    z-index: 2;
-}
 
 .countdown {
     position: absolute;
     z-index: 2;
-    width:100%;
-    height: 100%;
+    width:800px;
+    height: 35px;
+    margin-top: -160px;
 }
 
 #countdown-content {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 0px;
+  left: 10px;
 }
 
 
@@ -71,7 +39,6 @@ header {
 }
 
 .dropbtn {
-
     position: absolute;
     top: 5px;
     right: 5px;
@@ -83,7 +50,6 @@ header {
     cursor: pointer;
     border-radius: 100%;
     z-index: 2;
-
     background-color: rgba(65, 67, 71, 0.4);
 }
 
@@ -120,7 +86,6 @@ header {
 }
 
 .dropdown-content a {
-
     color: black;
     padding: 12px 16px;
     text-align: right;
@@ -138,140 +103,55 @@ header {
 }
 
 
-/* -------------------------- SozialMediaButtons --------------------------*/
+/* -------------------------- SocialMediaButtons --------------------------*/
 .buttons {
-    max-width: 20%;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    box-sizing: 16px;
-   /* color: white; */
-    padding: 0px;
-    font-size: 16px;
-    border: none;
-
-    border-radius: 100%;
-    z-index: 2;
+    margin-top: -160px;
 }
-/*.facbebookbtn img {
-    top: 600px;
-    right: 250px;
-    width:50px;
-    height: 50px;
-    position: absolute;
-    z-index: 2;
-    cursor: pointer;
-} */
 
 .facebookbtn {
-       background-image:url("image/facebook50x50.png");
-  border: none;
- background-color: transparent;
-      top: 600px;
-    right: 250px;
+    background-image:url("image/facebook50x50.png");
+    border: none;
+    background-color: transparent;
+    right: 180px;
     width: 50px;
     height: 50px;
     position: absolute;
     z-index: 2;
     cursor: pointer;
 }
-
-
 
 .instagrambtn {
-   background-image:url("image/instagram50x50.png");
-  border: none;
- background-color: transparent;
-      top: 600px;
-    right: 190px;
+    background-image:url("image/instagram50x50.png");
+    border: none;
+    background-color: transparent;
+    right: 120px;
     width: 50px;
     height: 50px;
     position: absolute;
     z-index: 2;
     cursor: pointer;
-
 }
+
 .youtubebtn {
     background-image: url("image/youtube50x50.png");
-     border: none;
- background-color: transparent;
-    top: 600px;
-    right: 130px;
+    border: none;
+    background-color: transparent;
+    right: 60px;
     width: 50px;
     height: 50px;
     position: absolute;
     z-index: 2;
     cursor: pointer;
 }
+
 .twitterbtn {
-     background-image: url("image/twitter50x50.png");
-     border: none;
- background-color: transparent;
-    top: 600px;
-    right: 70px;
+    background-image: url("image/twitter50x50.png");
+    border: none;
+    background-color: transparent;
+    right: 0px;
     width: 50px;
     height: 50px;
     position: absolute;
     z-index: 2;
     cursor: pointer;
-}
-
-/* -------------------------- CONTENT --------------------------*/
-
-#content {
-
-    width:100%;
-    height:900px;
-    background-color: #B6387A;
-
-}
-
-.testbox1 {
-     transform: skewY(10deg);
-    background-color:#000;
-    width:300px;
-    height:200px;
-   margin-left:200px;
-    z-index: 0;
-    position:absolute;
-
-
-}
-
-.text1 {
-   position:absolute;
-    top:50px;
-    left:20px;
-    background-color:#fff;
-    color:#000;
-    transform: skewY(-10deg);
-    width:70%;
-
-}
-
-.testbox2 {
-
-    background-image: url("image/JR-Seminar-2017-web-68_angepasst.jpg");
-    position:absolute;
-    top:800px;
-     z-index: 1;
-
-    width:300px;
-    height:300px;
-    margin-left:200px;
-    margin-top:-30px;
-
-}
-
-.text2 {
-    margin:20px;
-
-}
-
-/* -------------------------- FOOTER --------------------------*/
-
-footer {
-    width:100%;
-    height: 100px;
-    background-color:#ddd;
 }
