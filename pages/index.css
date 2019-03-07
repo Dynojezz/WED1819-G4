@@ -199,9 +199,10 @@ div.col-lg-4:nth-child(2) {
     color:#fff;
 }
 
+/*
 .beitragbinde1 img {
     flot:right;
-    width:30px;
+    width:40px;
 }
 
 .beitragbinde2 img {
@@ -213,6 +214,7 @@ div.col-lg-4:nth-child(2) {
     flot:right;
     width:30px;
 }
+*/
 
 @media only screen and (max-width:1055px) {
 
@@ -256,6 +258,23 @@ div.col-lg-4:nth-child(2) {
         font-size:14px;
     }
 
+}
+
+.beitragtext {
+    float:left;
+    width:60%;
+}
+
+.beitragbutton {
+    float:right;
+    position: relative;
+    left:3%;
+
+
+}
+
+.beitragbutton img {
+    width:70%;
 }
 
 @media only screen and (max-width:527px) {
@@ -338,12 +357,27 @@ div.col-lg-7:nth-child(2) {
 .kontakttext {
     color:#fff;
     padding:2%;
-    width:80%;
+    width:70%;
     position:relative;
-    top:100px;
+    top:70px;
     margin-left:auto;
     margin-right:auto;
     height:150px;
+    float:left;
+    left:5%;
+
+}
+
+.kontaktbutton {
+    float:left;
+    position:relative;
+    top:100px;
+    left:5%;
+}
+
+.kontaktbutton img {
+    width:50px;
+
 
 }
 
