@@ -21,6 +21,37 @@
      z-index: 1;
 }
 
+.header {
+    min-height:750px;
+    z-index: 0;
+    display: flex;
+	background-image: url(image/AGsProjekte/JR-Seminar-2017-web-146blue.jpg);
+    background-attachment:scroll;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.logo {
+    height: 150px;
+    width: 400px;
+    background-image: url(image/Logo_Header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.headline {
+    width: 900px;
+    height: 90px;
+    margin-top: 245px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(image/Startseite/Headline_Startseite.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
 
 /*--------------------------- CONTENT -----------------------------*/
 
@@ -44,13 +75,14 @@
 
 .kalender {
     background-image: url(image/Startseite/gruppenbildAltweiberH800.png);
-     background-attachment:scroll;
+    background-attachment:scroll;
     background-size: 150%;
     background-position: center center;
     background-repeat: no-repeat;
     transform: skewY(2deg);
-     height:300px;
-
+    height:300px;
+    z-index: 1;
+    margin-top: 0px;
 }
 
 
