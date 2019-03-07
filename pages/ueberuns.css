@@ -93,6 +93,11 @@
     z-index: 1;
 }
 
+
+.row-no-gutters [class*=col-] {
+    position: inherit;
+    z-index: 0;}
+
 .mitglied1 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/26_werthebach_maxSW.jpg);
     background-attachment:scroll;
