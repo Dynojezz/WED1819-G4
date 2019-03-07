@@ -155,6 +155,18 @@
 }
 */
 
+.namen {
+    position: relative;
+    transform: rotate(-90deg);
+    float: right;
+    margin-top: 3em;
+    margin-right: -2em;
+    font: normal 14px Segoe UI, sans-serif;
+     line-height: 1em;
+}
+
+
+
 .hover-effekt {
     opacity: 0;
 }
@@ -168,7 +180,6 @@
     background-color: rgba(133, 133,133, 0.7);
 }
 
-
 .mitglied1 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/26_werthebach_maxSW.jpg);
     background-attachment:scroll;
@@ -177,6 +188,7 @@
     background-repeat: no-repeat;
     min-height: 190px;
 }
+
 .mitglied2 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/36_todt_philippeSW.jpg);
     background-attachment:scroll;
