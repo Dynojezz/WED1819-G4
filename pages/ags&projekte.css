@@ -262,7 +262,7 @@ p {
     position:inherit;
 }
 
-.angsttraumAG {
+.angstraumAG {
     min-height:310px;
     z-index: 11;
     margin-top:-50px;
@@ -411,7 +411,7 @@ p {
         background-size: 1000px;
         min-height: 490px
     }
-    .angsttraumAG {
+    .angstraumAG {
         background-size: 1000px;
         min-height: 450px
     }
@@ -452,7 +452,7 @@ p {
         min-height: 580px;
         background-size: 280%;
     }
-    .angsttraumAG {
+    .angstraumAG {
         min-height: 560px;
     }
 }
