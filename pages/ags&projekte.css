@@ -156,6 +156,7 @@ p {
     background-size: 100% auto;
     justify-content: flex-start;
     height:auto;
+     position:inherit;
 }
 
 .rosenmontagAG {
@@ -184,6 +185,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+     position:inherit;
 }
 
 .schulAG {
@@ -211,6 +213,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .AGoeffi {
@@ -238,6 +241,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .dirtbikeAG {
@@ -265,7 +269,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-    position: absolute;
+    position:inherit;
 }
 
 
