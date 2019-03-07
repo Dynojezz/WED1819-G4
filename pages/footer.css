@@ -6,7 +6,9 @@
     background-color:#414347;
     height:150px;
     transform: skewY(-3deg);
-    margin-top:-4em
+    margin-top:-4em;
+    position: inherit;
+    z-index: 12;
 }
 
 .footer-container {
@@ -16,6 +18,8 @@
     padding:0px;
     width: 100%;
     height: 200px;
+    position: inherit;
+    z-index: 12;
 }
 
 .footer-container a {

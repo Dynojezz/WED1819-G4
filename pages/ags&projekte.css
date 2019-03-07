@@ -156,7 +156,7 @@ p {
     background-size: 100% auto;
     justify-content: flex-start;
     height:auto;
-     position:inherit;
+    position:inherit;
 }
 
 .rosenmontagAG {
@@ -172,6 +172,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .sportAG {
@@ -185,7 +186,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
-     position:inherit;
+    position:inherit;
 }
 
 .schulAG {
@@ -200,6 +201,7 @@ p {
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .AGjugendzentren {
@@ -227,7 +229,8 @@ p {
     background-attachment:scroll;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% auto;;
+    background-size: 100% auto;
+    position:inherit;
 }
 
 .nachhaltigkeitAG {
@@ -256,6 +259,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .angsttraumAG {
