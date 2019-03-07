@@ -89,6 +89,7 @@
 }
 
 .reiheDerMitglieder {
+    position: inherit;
     z-index: 1;
 }
 
@@ -96,7 +97,7 @@
     background-image: url(image/UeberUns/Portrait_Fotos_SW/26_werthebach_maxSW.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
-    background-position: right center;
+    background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
 }
