@@ -93,7 +93,11 @@
     margin-left: 1.5em;
 }
 
-
+.mitgliederBereich{
+    transform: skewY(-4deg);
+    z-index: 0;
+    height: auto;
+}
 .mitglied1 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/26_werthebach_maxSW.jpg);
     background-attachment:scroll;
@@ -106,8 +110,80 @@
 .mitglied2 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/9_ro%C3%9F_neleSW2.jpg);
     background-attachment:scroll;
-    background-size: 190% auto;
+    background-size: 150% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 150px;
+}
+
+.mitglied3 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/17_schams_mauriceSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+
+.mitglied4 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/25_wendeler_vivienneSW2.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+.mitglied5 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/27_mussinger_mariusSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+
+.mitglied6 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/1_d%C3%B6rkes_benediktSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+
+.mitglied7 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/22_vollmer_katharinaSW2.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+
+.mitglied8 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/32_meierdircks_evaSW2.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+
+.mitglied9 {
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/28_guten_maximilianSW.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+}
+
+
+
+.bilder {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
 }
