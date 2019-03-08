@@ -1,4 +1,5 @@
 /*--------- HEADER -----------*/
+/*
 
 .header {
     min-height:750px;
@@ -29,9 +30,20 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+*/
+.header-bild img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
 
+.header-bild {
+    position:relative;
+    z-index: 0;
+}
 
 /*---------------------------- WEIBERFASTNACHT-AG ----------------------------*/
+
 .infoBereich {
     transform: skewY(4deg);
     display: flex;
@@ -46,10 +58,10 @@
 .hintergrundbild {
     background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
     background-attachment:scroll;
-/*    background-size: 150% auto;*/
+/*    background-size: 500% auto;*/
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 1000px;
+    min-height: 450px;
 /*    filter: blur(3px);*/
 /*    -webkit-filter: blur(3px);*/
 }
@@ -59,7 +71,7 @@
     position: relative;
     text-align: left;
     color: black;
-    top: 80px;
+    top: 40px;
     margin-left: 1em;
     margin-right: 2em;
 }
@@ -74,33 +86,28 @@
 
 #zwischenueberschirft {
     position: relative;
-    font: bold 80px Segeo UI bold, sans-serif;
+    font: bold 68px Segeo UI bold, sans-serif;
     color: white;
     transform: rotate(-90deg);
-    top: 500px;
+    top: 380px;
+    margin-left: 1.5em;
 }
-.mitgliedText {
-    background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
-    background-attachment:scroll;
-/*    background-size: 150% auto;*/
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-height: 900px;
-}
+
+
 .mitglied1 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/26_werthebach_maxSW.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
     background-position: right top;
     background-repeat: no-repeat;
-    min-height: 200px;
+    min-height: 150px;
 }
 
 .mitglied2 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/9_ro%C3%9F_neleSW2.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 190% auto;
     background-position: right top;
     background-repeat: no-repeat;
-    min-height: 200px;
+    min-height: 150px;
 }

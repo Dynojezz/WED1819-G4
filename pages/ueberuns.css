@@ -81,7 +81,7 @@
     height: 0;
     padding-bottom: 56.25%;
 }
-.videoextern1 {
+.videoextern {
     position: absolute;
     top: 0;
     left: 0;
@@ -146,11 +146,12 @@
 .reiheDerMitglieder {
     position: inherit;
     z-index: 1;
+/*    height: 900px;*/
 }
 
 
 /*
-.row-no-gutters [class*=col-] {
+.row-no-gutters [class*=reiheDerMitglieder] {
     position: inherit;
     z-index: 1;
 }
@@ -160,8 +161,7 @@
     position: relative;
     transform: rotate(-90deg);
     float: right;
-    margin-top: 4em;
-    margin-right: -3em;
+
     text-align: right;
     font: normal 14px Segoe UI, sans-serif;
     line-height: 1em;
@@ -447,7 +447,7 @@
     min-height: 190px;
 }
 .mitglied34 {
-    background-image: url(image/UeberUns/Portrait_Fotos_SW/19_hesse_leaSW.jpg);
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/33_wendeler_reneSW.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
     background-position: right top;
@@ -471,7 +471,7 @@
     min-height: 190px;
 }
 .mitglied37 {
-    background-image: url(image/UeberUns/Portrait_Fotos_SW/35_benedons_larsSW.jpg);
+    background-image: url(image/UeberUns/Portrait_Fotos_SW/37_kreuter_paulineSW.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
     background-position: right top;
@@ -479,14 +479,6 @@
     min-height: 190px;
 }
 .mitglied38 {
-    background-image: url(image/UeberUns/Portrait_Fotos_SW/40_reinfeld_paulineSW.jpg);
-    background-attachment:scroll;
-    background-size: 150% auto;
-    background-position: right top;
-    background-repeat: no-repeat;
-    min-height: 190px;
-}
-.mitglied39 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/38_Nowinska_LauraSW.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
@@ -494,7 +486,7 @@
     background-repeat: no-repeat;
     min-height: 190px;
 }
-.mitglied40{
+.mitglied39{
     background-image: url(image/UeberUns/Portrait_Fotos_SW/39_kufeld_jannisSW.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
@@ -502,7 +494,7 @@
     background-repeat: no-repeat;
     min-height: 190px;
 }
-.mitglied41 {
+.mitglied40 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/40_reinfeld_paulineSW.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
@@ -516,5 +508,5 @@
     background-size: 150% auto;
     background-position: right top;
     background-repeat: no-repeat;
-    min-height: 22px;
+    min-height: 190px;
 }
