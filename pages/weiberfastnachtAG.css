@@ -93,11 +93,21 @@
     margin-left: 1.5em;
 }
 
+.wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
 .mitgliederBereich{
     transform: skewY(-4deg);
     z-index: 0;
     height: auto;
 }
+
 .mitglied1 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/26_werthebach_maxSW.jpg);
     background-attachment:scroll;
@@ -178,12 +188,17 @@
     min-height: 150px;
 }
 
-
-
 .bilder {
+    transform: skewY(-4deg);
     display: flex;
     flex-direction: column;
-    position: relative;
-    height: 0;
-    padding-bottom: 56.25%;
+}
+
+.bild1 {
+    background-image: url(image/AGsProjekte/weiberAG1.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
 }
