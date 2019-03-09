@@ -35,7 +35,7 @@ p {
     top: 10px;
     right: 10px;
     position:fixed;
-    z-index: 2;
+    z-index: 20;
 }
 
 .dropbtn {

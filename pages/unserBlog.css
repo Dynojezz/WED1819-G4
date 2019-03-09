@@ -120,6 +120,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 120% auto;
+    position:inherit;
 }
 
 .smart {
@@ -135,6 +136,7 @@ p {
     background-size: 100% auto;
     justify-content: flex-start;
     height:auto;
+    position:inherit;
 }
 
 .sitzung {
@@ -150,6 +152,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .dirtbike {
@@ -163,6 +166,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .kick {
@@ -177,6 +181,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 120% auto;
+    position:inherit;
 }
 
 .seminar {
@@ -190,6 +195,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .neuwahl {
@@ -203,7 +209,8 @@ p {
     background-attachment:scroll;
     background-position: center right;
     background-repeat: no-repeat;
-    background-size: 100% auto;;
+    background-size: 100% auto;
+    position:inherit;
 }
 
 .next {
@@ -217,6 +224,7 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position:inherit;
 }
 
 .nextbtn {
