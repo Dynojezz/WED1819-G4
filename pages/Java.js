@@ -42,13 +42,13 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = "Noch " + days + " Tage " + hours + " Stunden "
+    // Output the result in an element with id="result"
+    document.getElementById("result").innerHTML = "Noch " + days + " Tage " + hours + " Stunden "
     + minutes + " Minuten und " + seconds + " Sekunden bis zur nächsten Sitzung!";
 
     // If the count down is over, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "Bald startet hier ein neuer Countdown zur nächsten Sitzung!";
+        document.getElementById("result").innerHTML = "Bald startet hier ein neuer Countdown zur nächsten Sitzung!";
     }
 }, 1000);

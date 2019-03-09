@@ -4,7 +4,7 @@ menufont {
 }
 
 counttypo {
-    font: normal 20px Segoe UI semibold, sans-serif;
+    font: normal 19px Segoe UI semibold, sans-serif;
     color:white;
 }
 
@@ -14,18 +14,23 @@ p {
 
 /* -------------------------- HEADER -------------------------- */
 
-.countdown {
-    position: absolute;
-    z-index: 2;
-    width:800px;
-    height: 35px;
-    margin-top: -160px;
+.countdown-wrapper {
+    width: 100%;
+    height: 60px;
+    background-color: none;
+    padding-top: 15px;
+    padding-left: 15px;
 }
+
 
 #countdown-content {
   position: absolute;
   bottom: 0px;
-  left: 10px;
+  left: 15px;
+    height: 100%;
+    width: 100%;
+    background-color: crimson;
+    z-index: 1;
 }
 
 
@@ -105,54 +110,104 @@ p {
 
 /* -------------------------- SocialMediaButtons --------------------------*/
 .buttons {
-    margin-top: -160px;
+    height: 60px;
+    text-align: right;
+    float: right;
+    padding-right: 10px;
+    width: 250px;
 }
 
 .facebookbtn {
     background-image:url("image/facebook50x50.png");
     border: none;
     background-color: transparent;
-    right: 180px;
     width: 50px;
     height: 50px;
-    position: absolute;
+    position: inherit;
     z-index: 2;
     cursor: pointer;
-    float: inherit;
+
+    margin: 3px;
+    right: 10px;
 }
 
 .instagrambtn {
     background-image:url("image/instagram50x50.png");
     border: none;
     background-color: transparent;
-    right: 120px;
     width: 50px;
     height: 50px;
-    position: absolute;
+    position: inherit;
     z-index: 2;
     cursor: pointer;
+
+    margin: 3px;
 }
 
 .youtubebtn {
     background-image: url("image/youtube50x50.png");
     border: none;
     background-color: transparent;
-    right: 60px;
     width: 50px;
     height: 50px;
-    position: absolute;
+    position: inherit;
     z-index: 2;
     cursor: pointer;
+
+    margin: 3px;
 }
 
 .twitterbtn {
     background-image: url("image/twitter50x50.png");
     border: none;
     background-color: transparent;
-    right: 0px;
     width: 50px;
     height: 50px;
-    position: absolute;
+    position: inherit;
     z-index: 2;
     cursor: pointer;
+
+    margin: 3px;
 }
+
+/*----------------------------MEDIA-QUERIES----------------------------*/
+
+/*------- Die Pixel-Größen entsprechen col-md, col-sm und col-xs ------*/
+
+
+/*--------------------- SMALL DESKTOP (md) -----------------*/
+@media (max-width: 1199px) {
+
+}
+
+
+/*--------------------- TABLET (sm) -----------------*/
+@media (max-width: 991px) {
+    .buttons {
+        margin-top: -120px;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .headline {
+        height: 300px;
+        background-size: 90%;
+    }
+    .countdown-wrapper {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+/*--------------------- SMARTPHONE (xs) -----------------*/
+@media (max-width: 767px) {
+
+}
+
+/*--------------------- SMALL SMARTPHONE -----------------*/
+@media (max-width: 510px) {
+
+}
+
+
