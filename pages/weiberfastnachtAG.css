@@ -1,15 +1,15 @@
 /*--------- HEADER -----------*/
-/*
+
 
 .header {
-    min-height:750px;
+    min-height:650px;
     z-index: 0;
     display: flex;
 	background-image: url(image/AGsProjekte/weiberfastnachtAGs.jpg);
     background-attachment:scroll;
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100%;
 }
 
 .logo {
@@ -30,8 +30,8 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-*/
-.header-bild img{
+
+/*.header-bild img{
     width: 100%;
     height: 100%;
     z-index: 0;
@@ -40,7 +40,7 @@
 .header-bild {
     position:relative;
     z-index: 0;
-}
+}*/
 
 /*---------------------------- WEIBERFASTNACHT-AG ----------------------------*/
 
@@ -201,4 +201,45 @@
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 150px;
+}
+
+/*----------------------------MEDIA-QUERIES----------------------------*/
+
+/*------- Die Pixel-Größen entsprechen col-md, col-sm und col-xs ------*/
+
+
+/*--------------------- SMALL DESKTOP (md) -----------------*/
+@media (max-width: 1199px) {
+    .header {
+        background-size: 1300px;
+    }
+    .headline {
+        width: 800px;
+    }
+
+}
+
+
+/*--------------------- TABLET (sm) -----------------*/
+@media (max-width: 991px) {
+
+    .headline {
+        width: 700px;
+    }
+    .headline {
+        background-image: none;
+    }
+}
+
+
+/*--------------------- SMARTPHONE (xs) -----------------*/
+@media (max-width: 767px) {
+    .logo{
+        width: 290px;
+    }
+}
+
+/*--------------------- SMALL SMARTPHONE -----------------*/
+@media (max-width: 510px) {
+
 }
