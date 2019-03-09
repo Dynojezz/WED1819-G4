@@ -16,9 +16,9 @@
     min-height:750px;
     z-index: 0;
     display: flex;
-	background-image: url(image/AGsProjekte/JR-Seminar-2017-web-146blue.jpg);
+	background-image: url(image/Startseite/Header_HOME.jpg);
     background-attachment:scroll;
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -34,7 +34,7 @@
 .headline {
     width: 900px;
     height: 90px;
-    margin-top: 245px;
+    margin-top: 300px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(image/Startseite/Headline_Startseite.png);
@@ -86,10 +86,6 @@
     .bg { background-size:1220px;}
     }
 
-
-
-
-
 /*
 .beitrag {
     display: flex;
@@ -108,14 +104,26 @@
 .beitrag1 {
     background: url(image/Startseite/beitrag1.png) no-repeat;
     background-attachment:scroll;
-    background-size: 150%;
+    background-size: 160%;
     background-position: center center;
-   min-height:350px;
+    min-height:350px;
     max-height:450px;
     background-color: blueviolet;
-     margin-top:-2em;
-
+    margin-top:-2em;
    }
+
+.beitragbinde1 {
+    background-color: rgba(24, 97, 133, 0.8);
+    padding:2%;
+    width:80%;
+    position:relative;
+    top:180px;
+    margin-left:auto;
+    margin-right:auto;
+    height:75px;
+    transform: skewY(2deg);
+    color:#fff;
+}
 
 
 
@@ -129,13 +137,26 @@ div.col-lg-4:nth-child(1) {
     background-image: url(image/Startseite/beitrag2.png);
     background-color: darkblue;
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 160% auto;
     background-position: center center;
     min-height:350px;
     max-height:500px;
     background-repeat: no-repeat;
-     margin-top:-2em;
-     }
+    margin-top:-2em;
+}
+
+.beitragbinde2 {
+    background-color: rgba(24, 97, 133, 0.8);
+    padding:2%;
+    width:80%;
+    position:relative;
+    top:200px;
+    margin-left:auto;
+    margin-right:auto;
+    height:75px;
+    transform: skewY(2deg);
+    color:#fff;
+}
 
 /*
 div.col-lg-4:nth-child(2) {
@@ -146,7 +167,7 @@ div.col-lg-4:nth-child(2) {
 .beitrag3 {
     background-image: url(image/Startseite/beitrag3.png);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 160% auto;
     background-position: center center;
     min-height:350px;
     max-height:450px;
@@ -157,7 +178,6 @@ div.col-lg-4:nth-child(2) {
    }
 
 .beitragbinde3 {
-
     background-color: rgba(24, 97, 133, 0.8);
     padding:2%;
     width:80%;
@@ -165,39 +185,11 @@ div.col-lg-4:nth-child(2) {
     top:215px;
     margin-left:auto;
     margin-right:auto;
-    height:70px;
+    height:75px;
     transform: skewY(2deg);
     color:#fff;
 }
 
-
-.beitragbinde1 {
-
-    background-color: rgba(24, 97, 133, 0.8);
-    padding:2%;
-    width:80%;
-    position:relative;
-    top:180px;
-    margin-left:auto;
-    margin-right:auto;
-    height:70px;
-    transform: skewY(2deg);
-    color:#fff;
-}
-
-.beitragbinde2 {
-
-    background-color: rgba(24, 97, 133, 0.8);
-    padding:2%;
-    width:80%;
-    position:relative;
-    top:200px;
-    margin-left:auto;
-    margin-right:auto;
-    height:70px;
-    transform: skewY(2deg);
-    color:#fff;
-}
 
 /*
 .beitragbinde1 img {
@@ -216,50 +208,6 @@ div.col-lg-4:nth-child(2) {
 }
 */
 
-@media only screen and (max-width:1055px) {
-
-    .beitrag1 {
-    background-size:540px;
-
-    }
-
-    .beitrag2 {
-   background-size:540px;
-
-    }
-    .beitrag3 {
-   background-size:540px;
-
-    }
-
-    .beitragbinde {
-        font-size:14px;
-    }
-
-}
-
-@media only screen and (max-width:990px) {
-
-    .beitrag1 {
-    background-size:100%;
-
-    }
-
-    .beitrag2 {
-   background-size:100%;
-
-    }
-    .beitrag3 {
-   background-size:100%;
-
-    }
-
-    .beitragbinde {
-        font-size:14px;
-    }
-
-}
-
 .beitragtext {
     float:left;
     width:60%;
@@ -277,28 +225,6 @@ div.col-lg-4:nth-child(2) {
     width:70%;
 }
 
-@media only screen and (max-width:527px) {
-
-    .beitrag1 {
-   background-size:530px;
-
-    }
-
-    .beitrag2 {
-    background-size:530px;
-
-    }
-    .beitrag3 {
- background-size:530px;
-
-    }
-
-    .beitragbinde {
-        font-size:14px;
-
-    }
-
-}
 
 div.col-lg-4:nth-child(3) {
 padding-left:0px;
@@ -394,24 +320,100 @@ div.col-lg-7:nth-child(2) {
 
 }
 
-@media only screen and (max-width: 1000px) {
-    .kontakt {
-        background-size:100%;
-    }
 
-       .partner {
-        background-size:100%;
+/*----------------------------MEDIA-QUERIES----------------------------*/
+
+/*------- Die Pixel-Größen entsprechen col-md, col-sm und col-xs ------*/
+
+
+/*--------------------- SMALL DESKTOP (md) -----------------*/
+@media (max-width: 1199px) {
+    .headline {
+        width: 800px;
     }
+    /*.header {
+    background-attachment:scroll;
+    background-size: 1280px;
+    }*/
 
 }
 
-@media only screen and (max-width: 450px) {
-    .kontakt {
-        background-size:450px;
-    }
 
-       .partner {
-        background-size:450px;
+/*--------------------- TABLET (sm) -----------------*/
+@media (max-width: 991px) {
+    .headline {
+        width: 670px;
     }
+    .beitrag1 {
+        background-size:110%;
+    }
+    .beitrag2 {
+        background-size:110%;
+    }
+    .beitrag3 {
+        background-size:110%;
+    }
+    .beitragbinde {
+        font-size:14px;
+    }
+    .beitragbutton {
+        margin-top: -10px;
+    }
+    .kontakt {
+        background-size:991px;
+    }
+       .partner {
+        background-size:991px;
+    }
+}
+
+
+/*--------------------- SMARTPHONE (xs) -----------------*/
+@media (max-width: 767px) {
+    .headline {
+        width: 300px;
+        height: 200px;
+        margin-top: 190px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(image/Startseite/Headline_Startseite_Smartphone.png);
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .logo{
+        width: 290px;
+    }
+    .beitragbutton {
+        margin-top: -5px;
+    }
+    .partner {
+        background-size:767px;;
 
 }
+
+/*--------------------- SMALL SMARTPHONE -----------------*/
+@media (max-width: 510px) {
+    .beitrag1 {
+   background-size:530px;
+    }
+    .beitrag2 {
+        background-size:530px;
+    }
+    .beitrag3 {
+        background-size:530px;
+    }
+    .beitragbinde {
+        font-size:14px;
+    }
+    .beitragbutton {
+        margin-top: -0px;
+    }
+    .kontakt {
+        background-size:510px;
+    }
+    .partner {
+        background-size:510px;
+    }
+}
+
