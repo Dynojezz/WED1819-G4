@@ -217,14 +217,32 @@
         width: 800px;
     }
 
-    mitglied1 {
-        background-size: 470%;
+    .mitglied1 {
+        background-size: 200%;
     }
-    mitglied2 {
-        background-size: 400%;
+    .mitglied2 {
+        background-size: 200%;
     }
-    mitglied3 {
-        background-size: 400%;
+    .mitglied3 {
+        background-size: 200%;
+    }
+    .mitglied4 {
+        background-size: 200%;
+    }
+    .mitglied5 {
+        background-size: 200%;
+    }
+    .mitglied6 {
+        background-size: 200%;
+    }
+    .mitglied7 {
+        background-size: 200%;
+    }
+    .mitglied8 {
+        background-size: 200%;
+    }
+    .mitglied9 {
+        background-size: 200%;
     }
 
 }
