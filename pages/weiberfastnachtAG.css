@@ -156,6 +156,7 @@
     background-repeat: no-repeat;
     min-height: 150px;
 }
+
 .mitglied5 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/27_mussinger_mariusSW.jpg);
     background-attachment:scroll;
@@ -214,6 +215,27 @@
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 150px;
+    margin: 10px;
+}
+
+.bild2 {
+    background-image: url(image/AGsProjekte/weiberAG1.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    margin: 10px;
+}
+
+.bild3 {
+    background-image: url(image/AGsProjekte/weiberAG1.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    margin: 10px;
 }
 
 /*----------------------------MEDIA-QUERIES----------------------------*/
@@ -311,7 +333,7 @@
         width: 290px;
     }
     .hintergrundbild2 {
-         margin-top: 230px;
+         margin-top: 580px;
     }
 
             .mitglied1 {
@@ -347,7 +369,7 @@
 /*--------------------- SMALL SMARTPHONE -----------------*/
 @media (max-width: 510px) {
     .hintergrundbild2 {
-         margin-top: 230px;
+         margin-top: 650px;
     }
 
 }
