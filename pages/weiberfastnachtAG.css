@@ -64,6 +64,18 @@
     min-height: 450px;
 /*    filter: blur(3px);*/
 /*    -webkit-filter: blur(3px);*/
+    margin-top: -0px;
+}
+.hintergrundbild2 {
+    background-image: url(image/AGsProjekte/weiberfastnachtAG.jpg);
+    background-attachment:scroll;
+    background-size: 600% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+/*    filter: blur(3px);*/
+/*    -webkit-filter: blur(3px);*/
+    margin-top: -93px;
 }
 
 .infoText{
@@ -89,7 +101,7 @@
     font: bold 68px Segeo UI bold, sans-serif;
     color: white;
     transform: rotate(-90deg);
-    top: 380px;
+    top: 370px;
     margin-left: 1.5em;
 }
 
@@ -115,6 +127,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 150px;
+    background:
 }
 
 .mitglied2 {
@@ -257,6 +270,38 @@
     .headline {
         background-image: none;
     }
+    .hintergrundbild {
+        background-size: 800%;
+    }
+    .mitglied1 {
+    background-size: 300%;
+    }
+    .mitglied2 {
+        background-size: 300%;
+    }
+    .mitglied3 {
+        background-size: 300%;
+    }
+    .mitglied4 {
+        background-size: 300%;
+        background-position: center center;
+    }
+    .mitglied5 {
+        background-size: 300%;
+    }
+    .mitglied6 {
+        background-size: 300%;
+    }
+    .mitglied7 {
+        background-size: 300%;
+    }
+    .mitglied8 {
+        background-size: 300%;
+    }
+    .mitglied9 {
+        background-size: 300%;
+    }
+
 }
 
 
@@ -265,10 +310,45 @@
     .logo{
         width: 290px;
     }
+    .hintergrundbild2 {
+         margin-top: 230px;
+    }
+
+            .mitglied1 {
+        background-size: 250%;
+    }
+    .mitglied2 {
+        background-size: 250%;
+    }
+    .mitglied3 {
+        background-size: 250%;
+    }
+    .mitglied4 {
+        background-size: 250%;
+        background-position: center top;
+    }
+    .mitglied5 {
+        background-size: 250%;
+    }
+    .mitglied6 {
+        background-size: 250%;
+    }
+    .mitglied7 {
+        background-size: 250%;
+    }
+    .mitglied8 {
+        background-size: 250%;
+    }
+    .mitglied9 {
+       background-size: 250%;
+    }
 }
 
 /*--------------------- SMALL SMARTPHONE -----------------*/
 @media (max-width: 510px) {
+    .hintergrundbild2 {
+         margin-top: 230px;
+    }
 
 }
 
