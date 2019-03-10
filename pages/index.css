@@ -70,20 +70,22 @@
     background-size: 150%;
     background-position: center center;
     background-repeat: no-repeat;
-    transform: skewY(2deg);
-    height:300px;
-    z-index: 1;
+
+    min-height:400px;
+    max-height:450px;
+
     margin-top: 0px;
 }
 
 
 .kalendertext {
-    transform: skewY(2deg);
-    margin-top:4em;
+
+
 }
 
-@media only screen and (max-width: 850px) {
-    .bg { background-size:1220px;}
+@media only screen and (max-width: 1160px) {
+    .kalender {
+        background-size:1000px;}
     }
 
 /*
@@ -307,15 +309,31 @@ div.col-lg-7:nth-child(2) {
 
 .partnertext {
     color:#fff;
-    padding:2%;
-    width:80%;
+    padding:1%;
+    width:95%;
     position:relative;
-    top:100px;
+    top:10%;
     margin-left:auto;
     margin-right:auto;
     height:150px;
     opacity:1;
 
+
+}
+
+.partnertext ul {
+    float:left;
+    width:50%;
+}
+
+.partnertext li {
+    list-style: none;
+
+}
+
+.partnertext img {
+    width:20px;
+    margin-right:2%;
 }
 
 

@@ -15,8 +15,8 @@ border: none;
 
 #calender {
     width:100%;
-     min-height:350px;
-    max-height:500px;
+    min-height:400px;
+    max-height:450px;
 
 }
 
@@ -30,20 +30,21 @@ border: none;
 .monat {
     z-index: 1;
     padding:0px;
-    width:6em;
+    width:100%;
     background-color: #103D4B;
     opacity: 0.80;
-     min-height:350px;
-    max-height:500px;
+      min-height:400px;
+    max-height:450px;
     margin-left:-16px;
-    margin-top:-1em;
+
 }
 
 .monthtypo {
     font: bold 5em Segoe UI semibold, sans-serif;
     transform: rotate(270deg);
     color:white;
-    line-height: 3.2;
+    line-height: 5.5;
+    z-index: 1;
 }
 
 #calendar_month {
