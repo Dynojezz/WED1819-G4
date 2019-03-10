@@ -72,10 +72,14 @@
     background-size: 600% auto;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 450px;
+    min-height: 1100px;
 /*    filter: blur(3px);*/
 /*    -webkit-filter: blur(3px);*/
     margin-top: -93px;
+}
+.hintergrundfarbe {
+    background-color: rgba(255, 255, 255, 0.8);
+    min-height: 1100px;
 }
 
 .infoText{
@@ -203,7 +207,8 @@
 }
 
 .bilder {
-    transform: skewY(-4deg);
+    transform: skewY(-8deg);
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -212,29 +217,70 @@
     background-image: url(image/AGsProjekte/weiberAG1.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
-    background-position: right top;
+    background-position: center center;
     background-repeat: no-repeat;
     min-height: 150px;
     margin: 10px;
 }
 
 .bild2 {
-    background-image: url(image/AGsProjekte/weiberAG1.jpg);
+    background-image: url(image/AGsProjekte/weiberAG2.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
-    background-position: right top;
+    background-position: center center;
     background-repeat: no-repeat;
     min-height: 150px;
     margin: 10px;
 }
 
 .bild3 {
-    background-image: url(image/AGsProjekte/weiberAG1.jpg);
+    background-image: url(image/AGsProjekte/weiberAG3.jpg);
     background-attachment:scroll;
     background-size: 150% auto;
-    background-position: right top;
+     background-position: center center;
     background-repeat: no-repeat;
     min-height: 150px;
+    margin: 10px;
+}
+
+.bild4 {
+    background-image: url(image/AGsProjekte/weiberAG4.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    margin: 10px;
+}
+
+.bild5 {
+    background-image: url(image/AGsProjekte/weiberAG5.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    margin: 10px;
+}
+
+.bild6 {
+    background-image: url(image/AGsProjekte/weiberAG6.jpg);
+    background-attachment:scroll;
+    background-size: 150% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    margin: 10px;
+}
+
+.weitere {
+    background-image: url(image/AGsProjekte/weitere_bilder_button.png);
+    background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    width: 180px;
     margin: 10px;
 }
 
@@ -250,6 +296,28 @@
     }
     .headline {
         width: 800px;
+    }
+    .hintergrundfarbe {
+        min-height: 1200px;
+    }
+
+    .bild1 {
+        background-size: 200% auto;
+    }
+    .bild2 {
+        background-size: 200% auto;
+    }
+    .bild3 {
+        background-size: 200% auto;
+    }
+    .bild4 {
+        background-size: 200% auto;
+    }
+    .bild5 {
+        background-size: 200% auto;
+    }
+    .bild6 {
+        background-size: 200% auto;
     }
 
     .mitglied1 {
@@ -295,6 +363,29 @@
     .hintergrundbild {
         background-size: 800%;
     }
+    .hintergrundfarbe {
+    min-height: 1300px;
+    }
+
+    .bild1 {
+        background-size: 280% auto;
+    }
+    .bild2 {
+        background-size: 250% auto;
+    }
+    .bild3 {
+        background-size: 250% auto;
+    }
+    .bild4 {
+        background-size: 250% auto;
+    }
+    .bild5 {
+        background-size: 250% auto;
+    }
+    .bild6 {
+        background-size: 250% auto;
+    }
+
     .mitglied1 {
     background-size: 300%;
     }
@@ -333,10 +424,30 @@
         width: 290px;
     }
     .hintergrundbild2 {
-         margin-top: 580px;
+         margin-top: 620px;
     }
-
-            .mitglied1 {
+    .hintergrundfarbe {
+    min-height: 1100px;
+    }
+    .bild1 {
+        background-size: 240% auto;
+    }
+    .bild2 {
+        background-size: 200% auto;
+    }
+    .bild3 {
+        background-size: 200% auto;
+    }
+    .bild4 {
+        background-size: 200% auto;
+    }
+    .bild5 {
+        background-size: 200% auto;
+    }
+    .bild6 {
+        background-size: 200% auto;
+    }
+    .mitglied1 {
         background-size: 250%;
     }
     .mitglied2 {
@@ -369,9 +480,10 @@
 /*--------------------- SMALL SMARTPHONE -----------------*/
 @media (max-width: 510px) {
     .hintergrundbild2 {
-         margin-top: 650px;
+         margin-top: 700px;
+    }
+    .hintergrundfarbe {
+    min-height: 1500px;
     }
 
 }
-
-
