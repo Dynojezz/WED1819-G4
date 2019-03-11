@@ -106,7 +106,7 @@ border: none;
 .calendar_head_month {
     font: bold 15px Segoe UI, sans-serif;
 	text-align: center;
-	width: 25px;
+	width: 12em;
 	background-color: #0066FF;
 	color: #FFFFFF;
 }
@@ -121,4 +121,14 @@ border: none;
 
 .calendar_entry {
 	text-align: center;
+    border-style:none !IMPORTANT;
+    font-weight: bold !IMPORTANT;
+    height:4em;
+
+/*
+    background-color:#ddd;
+    border-radius:100%;
+    width:10em;
+
+*/
 }
