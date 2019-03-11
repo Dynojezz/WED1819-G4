@@ -1,120 +1,206 @@
 <html>
 <head>
 	<!-- Kalender-Dateien einbinden -->
-		<script type="text/javascript" src="calendar.js"></script>
-		<link rel="stylesheet" type="text/css" href="calendar.css" />
+		<link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="kalender/calendar.css" />
+        <link rel="stylesheet" href="Css.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script language="javascript" type="text/javascript" src="Java.js"></script>
+        <script type="text/javascript" src="kalender/calendar.js"></script>
 
 </head>
 <body>
 
-    <table border=0 id='calendar'>
-		<tr style='visibility:collapse;' hidden>
-			<td colspan=7 id='date_memory'>---</td>
-		</tr>
-
-		<tr>
-            <td rowspan=8>
-                <div class="monat">
-                <div class='monthtypo'  id='calendar_month'>
-                </div>
-                </div>
-				</td>
-
-            <td rowspan="8">
-
-                <div class="arrows">
-                    <div class="arrows_content">
-                        <a class='arrow_font' href='javascript:prevMonth()'> &lsaquo;
-                        </a>
+    <!--       HEADER BEREICH             -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="row-no-gutters">
+                    <div class="col-xs-12">
+                        <div class="header">
+                            <div class="col-xs-1">
+                                <div class="logo"></div>
+                            </div>
+                            <div class="col-xs-10">
+                                <div class="headline"></div>
+                            </div>
+                            <div class="col-xs-1">
+                                <div class="btn_wrapper">
+                                    <button onclick="myFunction()" class="dropbtn"><img class="img-fluid" src="image/menu.png" style="width: 60px"></button>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <menufont>
+                                            <a href="Index.html">HOME</a>
+                                            <a href="Unser Blog.html">UNSER BLOG</a>
+                                            <a href="Über uns.html">ÜBER UNS</a>
+                                            <a href="Ags & Projekte.html">AGs UND PROJEKTE</a>
+                                            <a href="Baustelle.html">GALERIE</a>
+                                            <a href="Baustelle.html">TERMINE</a>
+                                            <a href="Baustelle.html">KONTAKT</a>
+                                        </menufont>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </td>
+            </div>
+        </div>
 
-			<td class='calendar_head'></td>
-			<td colspan=5 ></td>
-			<td class='calendar_head'></td>
-
-            <td rowspan="8">
-                <div class="arrows">
-                    <div class="arrows_content">
-                        <a class='arrow_font' href='javascript:nextMonth()'> &rsaquo;
-                        </a>
+        <div class="container-fluid">
+			<div class="row">
+                <div class="row-no-gutters">
+                    <div class="col-xs-12">
+                    <div class="col-lg-xs">
+                        <div class="col-md-9">
+                            <div class="countdown-wrapper">
+                                <counttypo id="result"></counttypo>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="buttons">
+                        <button onclick="parent.location='https://www.facebook.com/Jugendrat.Ratingen/'" class="facebookbtn"><img class="img-fluid">
+                        </button>
+                        <button onclick="parent.location='https://www.instagram.com/jugendrat_ratingen/'" class="instagrambtn"><img class="img-fluid">
+                        </button>
+                        <button onclick="parent.location='https://www.youtube.com/channel/UC4Q9nUIlupWRE-k-3xTz0eA'" class="youtubebtn"><img class="img-fluid">
+                        </button>
+                        <button onclick="parent.location='https://twitter.com/jrratingen?lang=de'" class="twitterbtn"><img class="img-fluid">
+                        </button>
                     </div>
                 </div>
-            </td>
+            </div>
+            </div>
+        </div>
+    </div>
 
-            <td rowspan="8">
-                <div class="text">
-                    <form id='myform'>
-                        <input id='datum' size=30/></form>
+
+
+
+     <!--       KALENDER BEREICH             -->
+
+    <div class="container-fluid">
+			<div class="row">
+                <div class="row-no-gutters">
+                    <div class="col-lg-12">
+<!--                        <div class="bg">-->
+                            <div class="col-lg-7 col-md-7" style="height:100%;">
+                                <div class="kalender" >
+                                    <div class="kalenderfarbe" style="background-color: rgba(255, 255, 255, 0.9);  min-height:400px; max-height:450px;" >
+                                        <table border=0 id='calendar'>
+                                            <tr style='visibility:collapse;' hidden>
+                                                <td colspan=7 id='date_memory'>---</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td rowspan=8>
+                                                    <div class="monat">
+                                                        <div class='monthtypo'  id='calendar_month'></div>
+                                                    </div>
+                                                </td>
+
+                                                <td rowspan="8">
+                                                    <div class="arrows">
+                                                        <div class="arrows_content">
+                                                            <a class='arrow_font' href='javascript:prevMonth()'> &lsaquo;
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+
+                                                <td class='calendar_head'></td>
+                                                <td colspan=5 ></td>
+                                                <td class='calendar_head'></td>
+
+                                                <td rowspan="8">
+                                                    <div class="arrows">
+                                                        <div class="arrows_content">
+                                                            <a class='arrow_font' href='javascript:nextMonth()'> &rsaquo;
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                </tr>
+                                            <tr>
+                                                <td class='calendar_day'>Mo</td>
+                                                <td class='calendar_day'>Di</td>
+                                                <td class='calendar_day'>Mi</td>
+                                                <td class='calendar_day'>Do</td>
+                                                <td class='calendar_day'>Fr</td>
+                                                <td class='calendar_day'>Sa</td>
+                                                <td class='calendar_day'>So</td>
+                                            </tr>
+                                            <tr>
+                                                <td class='calendar_entry' id='calendar_entry_1'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_2'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_3'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_4'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_5'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_6'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_7'>-x-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class='calendar_entry' id='calendar_entry_8'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_9'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_10'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_11'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_12'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_13'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_14'>-x-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class='calendar_entry' id='calendar_entry_15'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_16'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_17'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_18'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_19'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_20'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_21'>-x-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class='calendar_entry' id='calendar_entry_22'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_23'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_24'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_25'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_26'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_27'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_28'>-x-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class='calendar_entry' id='calendar_entry_29'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_30'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_31'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_32'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_33'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_34'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_35'>-x-</td>
+                                            </tr>
+                                            <tr>
+                                                <td class='calendar_entry' id='calendar_entry_36'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_37'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_38'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_39'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_40'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_41'>-x-</td>
+                                                <td class='calendar_entry' id='calendar_entry_42'>-x-</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5"style="background-color: rgba(178, 22, 106, 0.8);">
+                            <div class="col-lg-5 col-md-5"style="background-color: rgba(178, 22, 106, 0.8);">
+                                <div class="kalendertext">
+                                    <form id='myform'>
+                                        <input id='datum' size=30/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </td>
-
-		</tr>
-		<tr>
-			<td class='calendar_day'>Mo</td>
-			<td class='calendar_day'>Di</td>
-			<td class='calendar_day'>Mi</td>
-			<td class='calendar_day'>Do</td>
-			<td class='calendar_day'>Fr</td>
-			<td class='calendar_day'>Sa</td>
-			<td class='calendar_day'>So</td>
-		</tr>
-		<tr>
-			<td class='calendar_entry' id='calendar_entry_1'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_2'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_3'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_4'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_5'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_6'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_7'>-x-</td>
-		</tr>
-		<tr>
-			<td class='calendar_entry' id='calendar_entry_8'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_9'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_10'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_11'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_12'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_13'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_14'>-x-</td>
-		</tr>
-		<tr>
-			<td class='calendar_entry' id='calendar_entry_15'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_16'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_17'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_18'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_19'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_20'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_21'>-x-</td>
-		</tr>
-		<tr>
-			<td class='calendar_entry' id='calendar_entry_22'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_23'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_24'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_25'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_26'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_27'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_28'>-x-</td>
-		</tr>
-		<tr>
-			<td class='calendar_entry' id='calendar_entry_29'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_30'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_31'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_32'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_33'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_34'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_35'>-x-</td>
-		</tr>
-		<tr>
-			<td class='calendar_entry' id='calendar_entry_36'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_37'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_38'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_39'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_40'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_41'>-x-</td>
-			<td class='calendar_entry' id='calendar_entry_42'>-x-</td>
-		</tr>
-	</table>
+        </div>
 
 	<script type='text/javascript'>
 		iniCalendar();
@@ -126,6 +212,115 @@
 		getEventtext definiert werden.*/
 		//setReturnModus(1);
 	</script>
+
+
+    <!--       AKTUELLE BEITRÄGE             -->
+
+              <div class="container-fluid">
+			<div class="row" style=" transform: skewY(-2deg)">
+                <div class="row-no-gutters">
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="beitrag1"><div class="beitragbinde1"><div class= "beitragtext"><b>JR SITZUNG NOVEMBER 2018</b><br>Mi, 07/11/2018 - 20:05 </div><div class="beitragbutton"><img src="image/playbutton.png"></div></div></div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="beitrag2"><div class="beitragbinde2"><div class= "beitragtext"><b>JR SITZUNG NOVEMBER 2018</b><br>Mi, 07/11/2018 - 20:05 </div><div class="beitragbutton"><img src="image/playbutton.png"></div></div></div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="beitrag3"><div class="beitragbinde3"><div class= "beitragtext"><b>JR SITZUNG NOVEMBER 2018</b><br>Mi, 07/11/2018 - 20:05 </div><div class="beitragbutton"><img src="image/playbutton.png"></div></div></div>
+
+                    </div>
+                </div>
+                  </div>
+        </div>
+
+<!--            KONTAKT AREA -->
+
+            <div class="container-fluid">
+			<div class="row">
+                <div class="row-no-gutters">
+
+                    <div class="col-lg-5 col-md-5">
+                        <div class="partner"><div class="partnercolor" style="background-color: rgba(178, 22, 106, 0.8); height:100%;"><div class="partnertext"><b><center> THE PLACE TO BE: DIE RATINGER JUGENDZENTREN </center></b><p>
+                            <div class="partnerlisten">
+                            <ul>
+                                <li><img src="image/playbutton.png">Café du Nord</li>
+                                <li><img src="image/playbutton.png">Lichtblick</li>
+                                <li><img src="image/playbutton.png">LUX</li>
+                                <li><img src="image/playbutton.png">West</li>
+                            </ul>
+                            <ul>
+                                <li><img src="image/playbutton.png">Phönix</li>
+                                <li><img src="image/playbutton.png">Manege</li>
+                                <li><img src="image/playbutton.png">Eggerscheidt</li>
+                                <li><img src="image/playbutton.png">JUZ Hösel</li>
+                            </ul>
+                                </div>
+                            </div></div></div></div>
+
+                    <div class="col-lg-7 col-md-7">
+                        <div class="kontakt"><div class="kontaktcolor" style="background-color: rgba(24, 97, 133, 0.8); height:100%;"><div class="kontaktbutton"><img src="image/Buttons/envelope-outline-email-interface-symbol.png"></div><div class="kontakttext"><b>Schreib uns!</b><p></p>Fragen? Anregungen? Lob? Kritik? Hier ist dein direkter Draht zu den Mitgliedern aus den jeweiligen AGs.</div></div></div>
+                    </div>
+
+                </div></div>
+        </div>
+
+    <!--        FOOTER -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="row-no-gutters">
+                    <div class="col-lg-12">
+                        <div class="footer"></div>
+                    </div>
+                </div>
+            </div>
+			<div class="row">
+                <div class="row-no-gutters">
+                    <div class="col-lg-12">
+                        <div class="footer-container">
+                            <div class="col-lg-3 col-md-3" style="height:150px;">
+                                <div class="footerlogo">
+                                    <img src="image/logo-weiss.png" style="width: 280px; margin-left: auto; margin-right: auto;">
+                                </div>
+                                </div>
+                            <div class="col-lg-4 col-md-4" style="height:150px">
+                                <div class="footersocial">
+                                    <p id="text" style="margin-left: 8px;">BLEIB IMMER UP TO DATE</p>
+                                    <p></p>
+                                    <a href="https://de-de.facebook.com/Jugendrat.Ratingen/"><img src="image/facebook.png" style="width: 58px"></a>
+                                    <a href="https://www.instagram.com/jugendrat_ratingen/"><img src="image/instagram.png" style="width: 58px"></a>
+                                    <a href="https://www.youtube.com/channel/UC4Q9nUIlupWRE-k-3xTz0eA"><img src="image/youtube.png" style="width: 58px"></a>
+                                    <a href="https://twitter.com/jrratingen?lang=de"><img src="image/twitter.png" style="width: 58px"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2" style="height:150px">
+                                <div class="footeradresse">
+                                    <p id="text">
+                                    Stadionring 9<br>
+                                    40878 Ratingen<br></p>
+                                    <br>
+                                    <p id="text">
+                                    02102 550-5131<br>
+                                    jugendrat@ratingen.de
+                                    </p>
+                                </div>
+                                </div>
+                            <div class="col-lg-3 col-md-3"   style="height:150px">
+                                <div class="footerlinks">
+                                <p id="text"><a href="">IMPRESSUM</a></p>
+                                <p id="text"><a href=""> DATENSCHUTZ</a></p>
+                                <br>
+                                <p id="text"><a href="">GESCHÄFTSORDNUNG</a></p>
+                                <p id="text"><a href=""> WAHLORDNUNG</a></p>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+               </div>
+            </div>
+        </div>
+
 </body>
 </html>
 
