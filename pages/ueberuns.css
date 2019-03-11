@@ -77,6 +77,7 @@
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
+    transform: skewY(-4deg);
 }
 
 .videoextern {
@@ -154,20 +155,17 @@
     top: 500px;
 }
 
-.reiheDerMitglieder {
+
+.mitgliederwrapper {
+    margin-top: 0.8em;
+}
+
+.reihen {
     position:relative;
     z-index: ;
-/*    height: 900px;*/
 }
 
-
-/*
-.row-no-gutters [class*=col-lg] {
-    position: inherit;
-    z-index: 1;
-}
-*/
-
+/* Namen der ersten zwei Mitglieder (erster Reihe) */
 .namen {
     position: relative;
     transform: rotate(-90deg);
@@ -178,7 +176,40 @@
 /*    font-size: 0.9vw;*/
     top: 3em;
     left: 3em;
+}
+/* Name des dritten Mitgliedes (erster Reihe) */
+.namen2 {
+    position: relative;
+    transform: rotate(-90deg);
+    float: right;
+    text-align: right;
+    font: normal 14px Segoe UI, sans-serif;
+    line-height: 1em;
+    top: 4em;
+    left: 3em;
+}
+/* Name des vierten Mitgliedes (erster Reihe) */
+.namen3 {
+    position: relative;
+    transform: rotate(-90deg);
+    float: right;
+    text-align: right;
+    font: normal 14px Segoe UI, sans-serif;
+    line-height: 1em;
+    top: 4.5em;
+    left: 3em;
+}
 
+/* Name der letzten zwei Mitglieder (erster Reihe) */
+.namen4 {
+    position: relative;
+    transform: rotate(-90deg);
+    float: right;
+    text-align: right;
+    font: normal 14px Segoe UI, sans-serif;
+    line-height: 1em;
+    top: 6em;
+    left: 2em;
 }
 
 
@@ -194,10 +225,11 @@
     background-color: rgba(133, 133,133, 0.7);
 }
 
+/* FOTOS DER MITGLIEDER*/
 .mitglied1 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/26_werthebach_maxSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -205,7 +237,7 @@
 .mitglied2 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/36_todt_philippeSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -213,7 +245,7 @@
 .mitglied3 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/24_l%C3%BCcker_louisaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -221,7 +253,7 @@
 .mitglied4 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/9_ro%C3%9F_neleSW2.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -229,7 +261,7 @@
 .mitglied5 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/1_d%C3%B6rkes_benediktSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -237,7 +269,7 @@
 .mitglied6 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/2_cordes_theoSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -245,7 +277,7 @@
 .mitglied7 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/3_seidl_alexanderSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -253,7 +285,7 @@
 .mitglied8 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/4_piel_larissaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -261,7 +293,7 @@
 .mitglied9 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/5_ajjo_monaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -269,7 +301,7 @@
 .mitglied10 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/6_pothmann_felixSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -277,7 +309,7 @@
 .mitglied11 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/7_kowakl_annikaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -285,7 +317,7 @@
 .mitglied12 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/8_bidlo_wielandSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -293,7 +325,7 @@
 .mitglied13 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/10_nalbant_iperSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -301,7 +333,7 @@
 .mitglied14 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/11_keller_nathalieSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -309,7 +341,7 @@
 .mitglied15 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/12_l%C3%B6cker_julizSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -317,7 +349,7 @@
 .mitglied16 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/13_deLasberg_leonSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -325,7 +357,7 @@
 .mitglied17 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/14_stelling_philippSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -333,7 +365,7 @@
 .mitglied18 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/15_nie%C3%9F_ann-cathrinSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -341,7 +373,7 @@
 .mitglied19 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/16_preu%C3%9F_biancaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -349,7 +381,7 @@
 .mitglied20 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/17_schams_mauriceSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -357,7 +389,7 @@
 .mitglied21 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/18_b%C3%B6hm_juliaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -365,7 +397,7 @@
 .mitglied22 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/19_hesse_leaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -373,7 +405,7 @@
 .mitglied23 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/20_schaub_hannaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -381,7 +413,7 @@
 .mitglied24 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/21_dauzenroth_neeleSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -389,7 +421,7 @@
 .mitglied25 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/22_vollmer_katharinaSW2.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -397,7 +429,7 @@
 .mitglied26 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/23_baghdasaryan_andreasSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -405,7 +437,7 @@
 .mitglied27 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/25_wendeler_vivienneSW2.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -413,7 +445,7 @@
 .mitglied28 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/27_mussinger_mariusSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -421,7 +453,7 @@
 .mitglied29 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/28_guten_maximilianSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -429,7 +461,7 @@
 .mitglied30 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/29_k%C3%B6ster_clausSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -437,7 +469,7 @@
 .mitglied31 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/30_dibrowski_caitlinSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -445,7 +477,7 @@
 .mitglied32 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/31_haiberger_alexandraSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -453,7 +485,7 @@
 .mitglied33 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/32_meierdircks_evaSW2.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -461,7 +493,7 @@
 .mitglied34 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/33_wendeler_reneSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -469,7 +501,7 @@
 .mitglied35 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/20_schaub_hannaSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -477,7 +509,7 @@
 .mitglied36 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/34_benedus_frederikSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -485,7 +517,7 @@
 .mitglied37 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/37_kreuter_paulineSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -493,7 +525,7 @@
 .mitglied38 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/38_Nowinska_LauraSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -501,7 +533,7 @@
 .mitglied39{
     background-image: url(image/UeberUns/Portrait_Fotos_SW/39_kufeld_jannisSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -509,7 +541,7 @@
 .mitglied40 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/40_reinfeld_paulineSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
@@ -517,7 +549,7 @@
 .mitglied41 {
     background-image: url(image/UeberUns/Portrait_Fotos_SW/41_Raunig_OrionSW.jpg);
     background-attachment:scroll;
-    background-size: 150% auto;
+    background-size: 170% auto;
     background-position: right top;
     background-repeat: no-repeat;
     min-height: 190px;
