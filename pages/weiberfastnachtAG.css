@@ -80,6 +80,7 @@
 .hintergrundfarbe {
     background-color: rgba(255, 255, 255, 0.8);
     min-height: 1100px;
+    z-index: 2;
 }
 
 .infoText{
@@ -105,8 +106,9 @@
     font: bold 68px Segeo UI bold, sans-serif;
     color: white;
     transform: rotate(-90deg);
-    top: 370px;
-    margin-left: 1.5em;
+    top: 315px;
+    text-align: center;
+
 }
 
 .wrapper {
@@ -207,7 +209,7 @@
 }
 
 .bilder {
-    transform: skewY(-8deg);
+    transform: skewY(-4deg);
     margin-top: 30px;
     display: flex;
     flex-direction: column;
