@@ -8,11 +8,9 @@ border: none;
 }
 
 #myform {
-     min-height:350px;
+     min-height:400px;
     max-height:500px;
 }
-
-
 #calender {
     width:100%;
     min-height:400px;
@@ -43,7 +41,10 @@ border: none;
     font: bold 5em Segoe UI semibold, sans-serif;
     transform: rotate(270deg);
     color:white;
+    width:120px;
+
     line-height: 5.5;
+
     z-index: 1;
 }
 
@@ -117,13 +118,14 @@ border: none;
 	width: 12em;
 	color: #033E52;
 	background-color: none;
+    height:2em;
 }
 
 .calendar_entry {
 	text-align: center;
     border-style:none !IMPORTANT;
     font-weight: bold !IMPORTANT;
-    height:4em;
+    height:3.5em;
 
 /*
     background-color:#ddd;

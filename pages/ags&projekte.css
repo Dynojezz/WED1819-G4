@@ -75,6 +75,7 @@ p {
     margin-right: auto;
     background-image: url(image/AGsProjekte/Headline_AGs.png);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .info_sign {
