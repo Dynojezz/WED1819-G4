@@ -129,7 +129,7 @@ p {
 	background-image: url(image/UnserBlog/smartCafe.jpg);
 	justify-content: flex-start;
     min-height:380px;
-    margin-top:-60px;
+    margin-top:-75px;
     background-attachment:scroll;
     background-position: center center;
     background-repeat: no-repeat;
@@ -143,7 +143,7 @@ p {
     transform: skewY(4deg);
     z-index: 2;
     min-height: 450px;
-    margin-top: -50px;
+    margin-top: -75px;
     z-index: 4;
     display: flex;
 	background-image: url(image/UnserBlog/sitzung.jpg);
@@ -158,7 +158,7 @@ p {
 .dirtbike {
     min-height:380px;
     z-index: 5;
-    margin-top:-50px;
+    margin-top:-75px;
     display: flex;
 	background-image: url(image/UnserBlog/dirtbike.jpg);
 	justify-content: flex-start;
@@ -173,7 +173,7 @@ p {
     transform: skewY(4deg);
     z-index: 6;
     min-height: 450px;
-    margin-top: -60px;
+    margin-top: -75px;
     display: flex;
 	background-image: url(image/UnserBlog/kickertunier.jpg);
 	justify-content: flex-start;
@@ -187,7 +187,7 @@ p {
 .seminar {
     min-height:380px;
     z-index: 7;
-    margin-top:-50px;
+    margin-top:-75px;
     display: flex;
 	background-image: url(image/UnserBlog/seminar.jpg);
 	justify-content: flex-start;
@@ -202,7 +202,7 @@ p {
     transform: skewY(4deg);
     z-index: 8;
     min-height: 450px;
-    margin-top: -60px;
+    margin-top: -75px;
     display: flex;
 	background-image: url(image/UnserBlog/neuwahl.jpg);
 	justify-content: flex-start;
@@ -216,7 +216,7 @@ p {
 .next {
     min-height:140px;
     z-index: 9;
-    margin-top:-50px;
+    margin-top:-75px;
     display: flex;
 	background-image: url(image/UnserBlog/next_BLOG.jpg);
 	justify-content: flex-start;
@@ -282,6 +282,8 @@ p {
     }
     .altweiber {
     margin-top: -290px;
+        min-height: 550px;
+        background-size: 130%;
     }
 }
 
@@ -291,7 +293,7 @@ p {
     .headline {
         width: 300px;
         height: 200px;
-        margin-top: 190px;
+        margin-top: 130px;
         margin-left: auto;
         margin-right: auto;
         background-image: url(image/UnserBlog/Headline_Blog_smartphone.png);
@@ -322,7 +324,7 @@ p {
     }
     .altweiber {
         margin-top: -290px;
-        min-height: 490px;
+        min-height: 600px;
         background-size: 1400px;
         background-position: left center;
     }
@@ -374,6 +376,6 @@ p {
     }
     .neuwahl {
         min-height: 770px;
-        background-size: 280%;
+        background-size: 320%;
     }
 }
