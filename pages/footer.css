@@ -65,6 +65,7 @@
     height:100px;
     margin-top:10px;
     line-height:160%;
+    cursor: default;
 }
 
 .footerlinks {

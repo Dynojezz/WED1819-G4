@@ -23,6 +23,7 @@ p {
     margin-left: 2em;
     margin-right: 5em;
     margin-bottom: 5em;
+    cursor: default;
 }
 
 .mittigerInfoText{
@@ -33,6 +34,7 @@ p {
     margin-right: 20em;
     margin-bottom: 3em;
     opacity: 1;
+    cursor: default;
 }
 
 
