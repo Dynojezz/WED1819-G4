@@ -1,6 +1,8 @@
 <html>
 <head>
 	<!-- Kalender-Dateien einbinden -->
+        <meta charset="utf-8">
+        <title>Jugendrat der Stadt Ratingen</title>
 		<link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" type="text/css" href="kalender/calendar.css" />
@@ -8,7 +10,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script language="javascript" type="text/javascript" src="Java.js"></script>
         <script type="text/javascript" src="kalender/calendar.js"></script>
-
 </head>
 <body>
 
@@ -79,12 +80,13 @@
 
      <!--       KALENDER BEREICH             -->
 
+
     <div class="container-fluid">
 			<div class="row">
                 <div class="row-no-gutters">
                     <div class="col-lg-12">
 <!--                        <div class="bg">-->
-                            <div class="col-lg-7 col-md-7" style="height:100%;">
+                            <div class="col-lg-7 col-md-7">
                                 <div class="kalender" >
                                     <div class="kalenderfarbe" style="background-color: rgba(255, 255, 255, 0.9);  min-height:400px; max-height:450px;" >
                                         <table border=0 id='calendar'>
@@ -185,6 +187,17 @@
                                                 <td class='calendar_entry' id='calendar_entry_42'>-x-</td>
                                             </tr>
                                         </table>
+
+                                        	<script type='text/javascript'>
+		iniCalendar();
+
+		/*0 = wie bisher, Datum wird in die Box geschrieben*/
+		setReturnModus(1);
+		/*1 = neu, Eventtext wird in die Box geschrieben
+		Das event muss in der calendar.js in der Function
+		getEventtext definiert werden.*/
+		//setReturnModus(1);
+	</script>
                                     </div>
                                 </div>
                         </div>
@@ -201,17 +214,9 @@
                     </div>
                 </div>
         </div>
+    </div>
 
-	<script type='text/javascript'>
-		iniCalendar();
 
-		/*0 = wie bisher, Datum wird in die Box geschrieben*/
-		setReturnModus(1);
-		/*1 = neu, Eventtext wird in die Box geschrieben
-		Das event muss in der calendar.js in der Function
-		getEventtext definiert werden.*/
-		//setReturnModus(1);
-	</script>
 
 
     <!--       AKTUELLE BEITRÄGE             -->
@@ -264,6 +269,7 @@
 
                 </div></div>
         </div>
+
 
     <!--        FOOTER -->
 
@@ -320,6 +326,7 @@
                </div>
             </div>
         </div>
+
 
 </body>
 </html>
