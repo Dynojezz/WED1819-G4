@@ -65,11 +65,7 @@
 */
 
 .kalender {
-    background-image: url(image/Startseite/gruppenbildAltweiberH800.png);
-    background-attachment:scroll;
-    background-size: 150%;
-    background-position: center center;
-    background-repeat: no-repeat;
+
 
     min-height:400px;
     max-height:450px;
@@ -78,7 +74,13 @@
 }
 
 
-.kalendertext {
+.kalendertextbg {
+    width:100%;
+    background-image: url(image/Startseite/gruppenbildAltweiberH800.png);
+    background-attachment:scroll;
+    background-size: 150%;
+    background-position: center center;
+    background-repeat: no-repeat;
 
 
 }
