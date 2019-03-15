@@ -68,6 +68,7 @@
     min-height: 60px;
     width: 180px;
     margin-top: 10px;
+    position: inherit;
 
 }
 /* Png des "Suche nach Schulen" Buttons */
@@ -92,6 +93,7 @@
     transform: skewY(-0deg);
     position: relative;
     display: inline-block;
+    position: inherit;
 }
 
 /* Content des Such-Buttons */
@@ -135,6 +137,27 @@
 /*    filter: blur(3px);*/
 /*    -webkit-filter: blur(3px);*/
 /*    margin-top: 20px;*/
+    position: inherit;
+}
+
+.hintergrundbild2 {
+    transform: skewY(0deg);
+    background-image: url(image/UeberUns/portrait.jpg);
+    background-attachment:scroll;
+    background-size: 350%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+/*    filter: blur(3px);*/
+/*    -webkit-filter: blur(3px);*/
+/*    margin-top: 20px;*/
+    position: inherit;
+}
+
+.hintergrundfarbe {
+    background-color: rgba(255, 255, 255, 0.8);
+    min-height: 1200px;
+    z-index: 2;
 }
 
 .infoText{
@@ -143,7 +166,7 @@
     text-align: left;
     color: black;
     top: 70px;
-    margin-left: 1em;
+    margin-left: 2.5em;
     margin-right: 2em;
     cursor: default;
 }
@@ -534,4 +557,46 @@
 .leeresRechteck {
      background-color: gray;
     height:40px;
+}
+/*----------------------------MEDIA-QUERIES----------------------------*/
+
+/*------- Die Pixel-Größen entsprechen col-md, col-sm und col-xs ------*/
+
+
+/*--------------------- SMALL DESKTOP (md) -----------------*/
+@media (max-width: 1199px) {
+    .hintergrundfarbe {
+        background-color: rgba(255, 255, 255, 0.8);
+        min-height: 1100px;
+        z-index: 2;
+    }
+    .hintergrundbild2 {
+        min-height: 1100px;
+        background-size: 400%;
+    }
+}
+
+
+/*--------------------- TABLET (sm) -----------------*/
+@media (max-width: 991px) {
+    .buttons {
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .headline {
+        height: 300px;
+        background-size: 90%;
+    }
+}
+
+
+/*--------------------- SMARTPHONE (xs) -----------------*/
+@media (max-width: 767px) {
+
+}
+
+/*--------------------- SMALL SMARTPHONE -----------------*/
+@media (max-width: 510px) {
+
 }
