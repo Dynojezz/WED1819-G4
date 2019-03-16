@@ -52,7 +52,7 @@ function putDate(n)
 	else{
 		returnValue = getEventtext( d.getFullYear(), d.getMonth(), d.getDate());
 		if (!returnValue)
-			{returnValue = "An diesem Tag steht noch nichts an.\n\nAber schaut doch ein andermal wieder vorbei :-) \nSobald wir wieder was neues geplant haben, halten wir euch hier auf dem Laufenden!";}
+			{returnValue = "An diesem Tag steht noch nichts an.\n\nAber schau doch ein andermal wieder vorbei :-) \nSobald wir wieder was neues geplant haben, halten wir dich hier auf dem Laufenden!";}
 	}
 
 	document.forms['myform'].elements['datum'].value = returnValue;
