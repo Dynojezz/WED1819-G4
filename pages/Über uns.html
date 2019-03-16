@@ -5,20 +5,42 @@
         <title>ÜBER UNS</title>
         <link rel="stylesheet" href="ueberuns.css">
         <link rel="stylesheet" href="footer.css">
-        <script language="javascript" type="text/javascript" src="Java.js"></script>
+        <link rel="stylesheet" href="Css.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script language="javascript" type="text/javascript" src="Java.js"></script>
         <script language="javascript" type="text/javascript" src="javaScript.js"></script>
-
     </head>
     <body>
 <!------------- HEADER BEREICH -------------> 
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" >
                 <div class="row-no-gutters">
                     <div class="col-lg-12">
-                        <div class="header-bild">
-                            <img class="img-fluid" src="image/UeberUns/Header_%C3%9CBERUNS.jpg">
-               
+                        <div class="header">
+                            <div class="col-xs-1">
+                            <div class="logo"></div>
+                        </div>
+                        <div class="col-xs-10">
+                            <div class="headline"></div>
+                        </div>
+                        <div class="col-xs-1">
+                           <div class="btn_wrapper">
+                                <button onclick="myFunction()" class="dropbtn">
+                                    <img class="img-fluid" src="image/menu.png" style="width: 60px">
+                                </button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <menufont>
+                                        <a href="Index.html">HOME</a>
+                                        <a href="Unser Blog.html">UNSER BLOG</a>
+                                        <a href="Über uns.html">ÜBER UNS</a>
+                                        <a href="Ags & Projekte.html">AGs UND PROJEKTE</a>
+                                        <a href="Baustelle.html">GALERIE</a>
+                                        <a href="Baustelle.html">TERMINE</a>
+                                        <a href="Baustelle.html">KONTAKT</a>
+                                    </menufont>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                         
                      </div>
@@ -31,10 +53,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="row-no-gutters">
-                    <div class="col-lg-12">
-                    <div class="informationsBereich">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                            
+                        <div class="col-lg-6 col-md-6" style="margin-top: 120px;">
                             <div class="wrapper_buttons" style="transform: skewY(4deg); margin-top: -120px;">
 <!---------------- VIDEOS ------------------->
                                 <div class="videowrapper">
@@ -50,20 +69,20 @@
                                     </div>
                                 </div>
 <!---------------- BUTTONS ------------------->                        
-                                <div class="row" style="margin-left: 20px; transform: skewY(-8deg)">
-                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="row" style="margin-left: 20px; transform: skewY(-4deg)">
+                                    <div class="col-lg-3 col-md-3">
                                         <a href="Baustelle.html"><div class="weitere"></div></a>
                                     </div>
-                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                    <div class="col-lg-5 col-md-5">
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <div class="col-lg-4 col-md-4">
                                     </div>
                                 </div>
-                                <div class="row" style="margin: 20px; transform: skewY(-8deg)">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                <div class="row" style="margin: 20px; transform: skewY(-4deg)">
+                                    <div class="col-lg-4 col-md-4">
                                         <div class="dropdown_schule">
-                                            <button onclick="myFunction()" class="dropbtn" style="width: 372px; height: 50px; background-image: url(image/Buttons/suchen_button.png); background-size: 100%; background-repeat: no-repeat;"></button>
-                                            <div id="myDropdown" class="dropdown-content">
+                                            <button onclick="myFunction2()" class="dropbtn_school" style="width: 372px; height: 50px; background-image: url(image/Buttons/suchen_button.png); background-size: 100%; background-repeat: no-repeat;"></button>
+                                            <div id="myDropdown_school" class="dropdown-content_school">
                                                 <menufont>
                                                     <a href="">Carl Friedrich von Weizsäcker-Gymnasium</a>
                                                     <a href="">Dietrich-Bonhoeffer-Gymnasium</a>
@@ -73,31 +92,31 @@
                                                     <a href="">Kopernikus-Gymnasium</a>
                                                     <a href="">Liebfrauenschule</a>
                                                     <a href="">Martin-Luther-King-Gesamtschule</a>
+                                                    <a href="">sonstige</a>
                                                 </menufont>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <div class="col-lg-4 col-md-4">
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <div class="col-lg-4 col-md-4">
                                     </div>
                                 </div>    
                             </div>                           
                         </div>
 
  <!---------------- TEXTAREA ------------------->                        
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="hintergrundbild2">
                                 <div class="hintergrundfarbe">
                                     <div class="infoText">
-                                        <h3 id="ueberschrift">HI, DÜRFEN WIR UNS VORSTELLEN?<br>WIR SIND DER JUGENDRAT DER STADT RATINGEN</h3>
+                                        <h3 id="ueberschrift">HI, DÜRFEN WIR UNS VORSTELLEN?<br>WIR SIND DER JUGENDRAT DER STADT RATINGEN!</h3>
+                                        <br>
                                         <p id="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.<br><br>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br><br>At vero eos et accusam et justo duo dolores et ea rebum.</p> 
                                    </div> 
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
                 </div>
             </div>  
         </div>
@@ -123,7 +142,7 @@
                                     <div class="mitglied1">
                                         <div class="namen" style="top: 3em; left: 3em;">
                                             <b>Max Werthebach</b>
-                                            <p>PRESSESPRECHER</p>
+                                            <p style="font-size: 15px">PRESSESPRECHER</p>
                                         </div>
                                         <div class="hover-effekt">
                                             <br>SCHULE<br> MAX-MUSTERMANN GYMNASIUM<br>
@@ -135,7 +154,7 @@
                                         <div class="blau" style="background: rgba(24, 97, 133, 0.5); min-height: 190px">
                                             <div class="namen" style="color: white; top: 3em; left: 3em;">
                                                 <b>Philippe Todt</b>
-                                                <p>PRESSESPRECHER</p>
+                                                <p style="font-size: 15px">PRESSESPRECHER</p>
                                             </div>
                                         </div>
                                     </div>
@@ -144,7 +163,7 @@
                                     <div class="mitglied3">
                                         <div class="namen" style="top: 4em; left: 3.5em;">
                                             <b>Louisa Lücker</b>
-                                            <p>PRESSESPRECHERIN</p>
+                                            <p style="font-size: 15px">PRESSESPRECHERIN</p>
                                         </div>
                                     </div>
                                 </div>
@@ -155,7 +174,7 @@
                                         <div class="magenta" style="background: rgba(178, 22, 106, 0.5); min-height: 190px">
                                             <div class="namen" style="color: white; top: 5em; left: 3.5em;">
                                                 <b>Nele Roß</b>
-                                                <p>PRESSESPRECHERIN</p>
+                                                <p style="font-size: 15px">PRESSESPRECHERIN</p>
                                             </div>
                                         </div>
                                     </div>
