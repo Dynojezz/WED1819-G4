@@ -908,8 +908,8 @@
 @media (max-width: 767px) {
     .headline {
         width: 250px;
-        height: 150px;
-        margin-top: 200px;
+        height: 250px;
+        margin-top: 220px;
         margin-left: auto;
         margin-right: auto;
         background-image: url(image/UeberUns/Headline_ueberuns_smartphone.png);
