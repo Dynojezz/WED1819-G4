@@ -22,24 +22,13 @@
 
 .headline {
     width: 500px;
-    height: 90px;
-    margin-top: 245px;
+    height: 115px;
+    margin-top: 290px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(image/AGsProjekte/Headline_AGs.png);
+    background-image: url(image/UeberUns/Headline_ueberuns.png);
     background-size: 100%;
     background-repeat: no-repeat;
-}
-
-.header-bild img{
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-
-.header-bild {
-    position:relative;
-    z-index: 0;
 }
 
 /*---------------------------- ÜBER UNS ----------------------------*/
@@ -591,6 +580,13 @@
 /*------- Die Pixel-Größen entsprechen col-md, col-sm und col-xs ------*/
 
 
+@media (max-width: 1500px) {
+    .header {
+    background-attachment:scroll;
+    background-size: 1800px;
+    }
+}
+
 /*--------------------- SMALL DESKTOP (md) -----------------*/
 @media (max-width: 1199px) {
     .hintergrundfarbe {
@@ -612,16 +608,24 @@
         margin-right: auto;
         margin-left: auto;
     }
-    .headline {
-        height: 300px;
-        background-size: 90%;
-    }
 }
 
 
 /*--------------------- SMARTPHONE (xs) -----------------*/
 @media (max-width: 767px) {
-
+    .headline {
+        width: 250px;
+        height: 150px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(image/UeberUns/Headline_ueberuns_smartphone.png);
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+}
+    .logo{
+        width: 290px;
 }
 
 /*--------------------- SMALL SMARTPHONE -----------------*/
