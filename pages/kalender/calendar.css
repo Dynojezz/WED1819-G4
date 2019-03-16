@@ -27,23 +27,23 @@ border: none;
 .monat {
     z-index: 1;
     padding:0px;
-    width:100%;
+    width:150px;
     background-color: #103D4B;
     opacity: 0.80;
     min-height:400px;
     max-height:450px;
-    margin-left:-16px;
+    margin-left:0px;
+    padding-top: 70px;
+    padding-right: 100px
 
 }
 
 .monthtypo {
-    font: bold 5em Segoe UI semibold, sans-serif;
+    font: bold 7em Segoe UI bold, sans-serif;
     transform: rotate(270deg);
     color:white;
-    width:120px;
-
+    width:100%;
     line-height: 5.5;
-
     z-index: 1;
 }
 
