@@ -246,18 +246,13 @@ function getEventtext(y,m,d)
 	//Monate fangen bei 0 an zuzählen
 	m++;
 	//definieren der Events
-	var h = new Array(7);
+	var h = new Array(2);
 
 	//exemplarisch nehme ich eine
 	//Liste an Festivals her
-	h[0] = "22.1.2019|Polit Battle, Stadthalle Ratingen";
-	h[1] = "1.2.2019|Smartcafe, JUZ Hoesel \n Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
-	h[2] = "16.2.2019|Lorem ipsum, Ratingen";
-	h[3] = "2.3.2019|Lorem ipsum 2, Ratingen";
-	h[4] = "12.4.2019|Lorem ipsum 3, Ratingen";
-	h[5] = "5.7.2019|Lorem ipsum 4, Ratingen";
-	h[6] = "19.7.2019|Lorem ipsum 5, Ratingen";
-	h[7] = "26.7.2019|Lorem ipsum 5, Ratingen";
+	h[0] = "15.3.2019|Polit Battle, Stadthalle Ratingen";
+	h[1] = "20.3.2019|01.02.2019 - Smartcafe, JUZ Hoesel \n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
+    h[2] = "10.4.2019|SMART CAFE NOVEMBER 2018\n\nDo, 15/11/2018 - 15:00\nJUZ Hoesel, Strassenweg 8, 40878 Ratingen\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.";
 
 	var dH;
 	var eH;
