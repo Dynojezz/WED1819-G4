@@ -52,7 +52,7 @@ function putDate(n)
 	else{
 		returnValue = getEventtext( d.getFullYear(), d.getMonth(), d.getDate());
 		if (!returnValue)
-			{returnValue = 'kein Event!';}
+			{returnValue = "An diesem Tag steht noch nichts an.\n\nAber schaut doch ein andermal wieder vorbei :-) \nSobald wir wieder was neues geplant haben, halten wir euch hier auf dem Laufenden!";}
 	}
 
 	document.forms['myform'].elements['datum'].value = returnValue;
@@ -182,14 +182,14 @@ function loadcalendar()
 			if (!getEventtext(y,m,zahl))
 				{entry.style.color='000000';}
 			else{
-				entry.style.backgroundColor='B2166A';
+				entry.style.backgroundColor='BB4D88';
 				//Eventtext wird als Tooltip angezeigt
 				entry.title = getEventtext(y,m,zahl);
 				bEvent = true;
 			}
 			//Wenn Tag ein Feiertag ist
 			if (isHoliday(m,zahl))
-            {entry.style.backgroundColor='25B8B3';}
+            {entry.style.backgroundColor='white';}
 			else{
 				if (!bEvent)
 					entry.style.backgroundColor='FFFFFF';
@@ -202,7 +202,7 @@ function loadcalendar()
 			{
 				entry.style.fontWeight = 'bold';
                 entry.style.fontSize = '20px';
-				entry.style.backgroundColor = '186185';
+				entry.style.backgroundColor = '5487A0';
                 entry.style.color = 'white';
 			}
 
