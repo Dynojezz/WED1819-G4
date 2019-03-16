@@ -48,7 +48,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    transform: skewY(-4deg);
     z-index: 5;
 }
 
@@ -84,7 +83,7 @@
     background-repeat: no-repeat;
     min-height: 60px;
     width: 180px;
-    margin-top: 10px;
+    margin-top: 20px;
     position: inherit;
 
 }
@@ -101,7 +100,11 @@
 
 /* Dropdown-Button */
 .dropbtn_school {
-    font-size: 16px;
+    width: 372px;
+    height: 50px;
+    background-image: url(image/Buttons/suchen_button.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     border: none;
     cursor: pointer;
 }
@@ -147,27 +150,27 @@
     transform: skewY(0deg);
     background-image: url(image/UeberUns/portrait.jpg);
     background-attachment:scroll;
-/*    background-size: 150% auto;*/
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 900px;
-/*    filter: blur(3px);*/
-/*    -webkit-filter: blur(3px);*/
-/*    margin-top: 20px;*/
     position: inherit;
+}
+.blauebox {
+    background-color: rgba(16, 61, 75, 0.8);
+    min-height: 1330px;
 }
 
 .hintergrundbild2 {
-    transform: skewY(4deg);
+    transform: skewY(0deg);
     background-image: url(image/UeberUns/portrait.jpg);
     background-attachment:scroll;
     background-size: 350%;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 1000px;
- margin-top: -130px;
+    margin-top: -130px;
     position: inherit;
-    z-index: 3;
+    z-index: 2;
 }
 
 .hintergrundfarbe {
@@ -177,7 +180,7 @@
 }
 
 .infoText{
-    transform: skewY(-4deg);
+    transform: skewY(-0deg);
     position: relative;
     text-align: left;
     color: black;
@@ -206,7 +209,6 @@
     cursor: default;
 }
 
-
 .mitgliederwrapper {
     margin-top: -0.7em;
 }
@@ -226,7 +228,6 @@
     line-height: 1em;
 /*    font-size: 0.9vw;*/
 }
-
 
 .hover-effekt {
     opacity: 0;
@@ -572,8 +573,9 @@
 }
 
 .leeresRechteck {
-     background-color: gray;
-    height:40px;
+     background-color: #414347;
+    height:30px;
+    margin-top: -10px
 }
 /*----------------------------MEDIA-QUERIES----------------------------*/
 
@@ -596,7 +598,130 @@
     }
     .hintergrundbild2 {
         min-height: 1100px;
-        background-size: 400%;
+        background-size: 500%;
+    }
+    .mitglied1 {
+    background-size: 210% auto;
+    }
+    .mitglied2 {
+        background-size: 210% auto;
+    }
+    .mitglied3 {
+        background-size: 210% auto;
+    }
+    .mitglied4 {
+        background-size: 210% auto;
+    }
+    .mitglied5 {
+        background-size: 210% auto;
+    }
+    .mitglied6 {
+        background-size: 210% auto;
+    }
+    .mitglied7 {
+        background-size: 210% auto;
+    }
+    .mitglied8 {
+        background-size: 210% auto;
+    }
+    .mitglied9 {
+        background-size: 210% auto;
+    }
+    .mitglied10 {
+        background-size: 210% auto;
+    }
+    .mitglied11 {
+        background-size: 210% auto;
+    }
+    .mitglied12 {
+        background-size: 210% auto;
+    }
+    .mitglied13 {
+        background-size: 210% auto;
+    }
+    .mitglied14 {
+        background-size: 210% auto;
+    }
+    .mitglied15 {
+        background-size: 210% auto;
+    }
+    .mitglied16 {
+        background-size: 210% auto;
+    }
+    .mitglied17 {
+        background-size: 210% auto;
+    }
+    .mitglied18 {
+        background-size: 210% auto;
+    }
+    .mitglied19 {
+        background-size: 210% auto;
+    }
+    .mitglied20 {
+        background-size: 210% auto;
+    }
+    .mitglied21 {
+        background-size: 210% auto;
+    }
+    .mitglied22 {
+        background-size: 210% auto;
+    }
+    .mitglied23 {
+        background-size: 210% auto;
+    }
+    .mitglied24 {
+        background-size: 210% auto;
+    }
+    .mitglied25 {
+        background-size: 210% auto;
+    }
+    .mitglied26 {
+        background-size: 210% auto;
+    }
+    .mitglied27 {
+        background-size: 210% auto;
+    }
+    .mitglied28 {
+        background-size: 210% auto;
+    }
+    .mitglied29 {
+        background-size: 210% auto;
+    }
+    .mitglied30 {
+        background-size: 210% auto;
+    }
+    .mitglied31 {
+        background-size: 210% auto;
+    }
+    .mitglied32 {
+        background-size: 210% auto;
+    }
+    .mitglied33 {
+        background-size: 210% auto;
+    }
+    .mitglied34 {
+        background-size: 210% auto;
+    }
+    .mitglied35 {
+        background-size: 210% auto;
+    }
+    .mitglied36 {
+        background-size: 210% auto;
+    }
+    .mitglied37 {
+        background-size: 210% auto;
+    }
+    .mitglied38 {
+        background-size: 210% auto;
+    }
+    .mitglied39{
+        background-size: 210% auto;
+    }
+    .mitglied40 {
+        background-size: 210% auto;
+    }
+    .mitglied41 {
+        background-size: 210% auto;
     }
 }
 
@@ -607,6 +732,171 @@
         float: none;
         margin-right: auto;
         margin-left: auto;
+    }
+    .weitere {
+    background-image: url(image/Buttons/weitere_videos_button.png);
+    background-attachment:scroll;
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 60px;
+    width: 140px;
+    margin-top: 10px;
+    position: inherit;
+    }
+    .dropbtn_school {
+    width: 300px;
+    height: 40px;
+    background-image: url(image/Buttons/suchen_button.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    }
+    .hintergrundbild2 {
+    background-size: 600%;
+    min-height: 1350px;
+    }
+    .hintergrundfarbe {
+    min-height: 1350px;
+    }
+    .hintergrundbild {
+        min-height: 2660px;
+        background-size: 2800%;
+        transform: skewY(0deg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: inherit;
+    }
+    .blauebox {
+    min-height: 2660px;
+    }
+    .mitglied1 {
+        background-size: 170% auto;
+    }
+    .mitglied2 {
+        background-size: 170% auto;
+    }
+    .mitglied3 {
+        background-size: 170% auto;
+    }
+    .mitglied4 {
+        background-size: 170% auto;
+    }
+    .mitglied5 {
+        background-size: 170% auto;
+    }
+    .mitglied6 {
+        background-size: 170% auto;
+    }
+    .mitglied7 {
+        background-size: 170% auto;
+    }
+    .mitglied8 {
+        background-size: 170% auto;
+    }
+    .mitglied9 {
+        background-size: 170% auto;
+    }
+    .mitglied10 {
+        background-size: 170% auto;
+    }
+    .mitglied11 {
+        background-size: 170% auto;
+    }
+    .mitglied12 {
+        background-size: 170% auto;
+    }
+    .mitglied13 {
+        background-size: 170% auto;
+    }
+    .mitglied14 {
+        background-size: 170% auto;
+    }
+    .mitglied15 {
+        background-size: 170% auto;
+    }
+    .mitglied16 {
+        background-size: 170% auto;
+    }
+    .mitglied17 {
+        background-size: 170% auto;
+    }
+    .mitglied18 {
+        background-size: 170% auto;
+    }
+    .mitglied19 {
+        background-size: 170% auto;
+    }
+    .mitglied20 {
+        background-size: 170% auto;
+    }
+    .mitglied21 {
+        background-size: 170% auto;
+    }
+    .mitglied22 {
+        background-size: 170% auto;
+    }
+    .mitglied23 {
+        background-size: 170% auto;
+    }
+    .mitglied24 {
+        background-size: 170% auto;
+    }
+    .mitglied25 {
+        background-size: 170% auto;
+    }
+    .mitglied26 {
+        background-size: 170% auto;
+    }
+    .mitglied27 {
+        background-size: 170% auto;
+    }
+    .mitglied28 {
+        background-size: 170% auto;
+    }
+    .mitglied29 {
+        background-size: 170% auto;
+    }
+    .mitglied30 {
+        background-size: 170% auto;
+    }
+    .mitglied31 {
+        background-size: 170% auto;
+    }
+    .mitglied32 {
+        background-size: 170% auto;
+    }
+    .mitglied33 {
+        background-size: 170% auto;
+    }
+    .mitglied34 {
+        background-size: 170% auto;
+    }
+    .mitglied35 {
+        background-size: 170% auto;
+    }
+    .mitglied36 {
+        background-size: 170% auto;
+    }
+    .mitglied37 {
+        background-size: 170% auto;
+    }
+    .mitglied38 {
+        background-size: 170% auto;
+    }
+    .mitglied39{
+        background-size: 170% auto;
+    }
+    .mitglied40 {
+        background-size: 170% auto;
+    }
+    .mitglied41 {
+        background-size: 170% auto;
+    }
+    .leeresRechteck {
+    height:30px;
+    margin-top: -10px
     }
 }
 
@@ -623,12 +913,277 @@
         background-size: 100%;
         background-position: center center;
         background-repeat: no-repeat;
-}
+    }
     .logo{
         width: 290px;
-}
+    }
+    .hintergrundbild2 {
+        margin-top: 600px;
+        background-size: 600%;
+        min-height: 1150px;
+    }
+    .hintergrundfarbe {
+    min-height: 1150px;
+    }
+    .hintergrundbild {
+    min-height: 2660px;
+        z-index: 2;
+    }
+    .mitglied1 {
+    background-size: 210% auto;
+    }
+    .mitglied2 {
+        background-size: 210% auto;
+    }
+    .mitglied3 {
+        background-size: 210% auto;
+    }
+    .mitglied4 {
+        background-size: 210% auto;
+    }
+    .mitglied5 {
+        background-size: 210% auto;
+    }
+    .mitglied6 {
+        background-size: 210% auto;
+    }
+    .mitglied7 {
+        background-size: 210% auto;
+    }
+    .mitglied8 {
+        background-size: 210% auto;
+    }
+    .mitglied9 {
+        background-size: 210% auto;
+    }
+    .mitglied10 {
+        background-size: 210% auto;
+    }
+    .mitglied11 {
+        background-size: 210% auto;
+    }
+    .mitglied12 {
+        background-size: 210% auto;
+    }
+    .mitglied13 {
+        background-size: 210% auto;
+    }
+    .mitglied14 {
+        background-size: 210% auto;
+    }
+    .mitglied15 {
+        background-size: 210% auto;
+    }
+    .mitglied16 {
+        background-size: 210% auto;
+    }
+    .mitglied17 {
+        background-size: 210% auto;
+    }
+    .mitglied18 {
+        background-size: 210% auto;
+    }
+    .mitglied19 {
+        background-size: 210% auto;
+    }
+    .mitglied20 {
+        background-size: 210% auto;
+    }
+    .mitglied21 {
+        background-size: 210% auto;
+    }
+    .mitglied22 {
+        background-size: 210% auto;
+    }
+    .mitglied23 {
+        background-size: 210% auto;
+    }
+    .mitglied24 {
+        background-size: 210% auto;
+    }
+    .mitglied25 {
+        background-size: 210% auto;
+    }
+    .mitglied26 {
+        background-size: 210% auto;
+    }
+    .mitglied27 {
+        background-size: 210% auto;
+    }
+    .mitglied28 {
+        background-size: 210% auto;
+    }
+    .mitglied29 {
+        background-size: 210% auto;
+    }
+    .mitglied30 {
+        background-size: 210% auto;
+    }
+    .mitglied31 {
+        background-size: 210% auto;
+    }
+    .mitglied32 {
+        background-size: 210% auto;
+    }
+    .mitglied33 {
+        background-size: 210% auto;
+    }
+    .mitglied34 {
+        background-size: 210% auto;
+    }
+    .mitglied35 {
+        background-size: 210% auto;
+    }
+    .mitglied36 {
+        background-size: 210% auto;
+    }
+    .mitglied37 {
+        background-size: 210% auto;
+    }
+    .mitglied38 {
+        background-size: 210% auto;
+    }
+    .mitglied39{
+        background-size: 210% auto;
+    }
+    .mitglied40 {
+        background-size: 210% auto;
+    }
+    .mitglied41 {
+        background-size: 210% auto;
+    }
+
 
 /*--------------------- SMALL SMARTPHONE -----------------*/
 @media (max-width: 510px) {
-
+    .hintergrundbild2 {
+        margin-top: 460px;
+            min-height: 1450px;
+    }
+    .hintergrundfarbe {
+    min-height: 1450px;
+    }
+    .mitglied1 {
+    background-size: 290% auto;
+    }
+    .mitglied2 {
+        background-size: 290% auto;
+    }
+    .mitglied3 {
+        background-size: 290% auto;
+    }
+    .mitglied4 {
+        background-size: 290% auto;
+    }
+    .mitglied5 {
+        background-size: 290% auto;
+    }
+    .mitglied6 {
+        background-size: 290% auto;
+    }
+    .mitglied7 {
+        background-size: 290% auto;
+    }
+    .mitglied8 {
+        background-size: 290% auto;
+    }
+    .mitglied9 {
+        background-size: 290% auto;
+    }
+    .mitglied10 {
+        background-size: 290% auto;
+    }
+    .mitglied11 {
+        background-size: 290% auto;
+    }
+    .mitglied12 {
+        background-size: 290% auto;
+    }
+    .mitglied13 {
+        background-size: 290% auto;
+    }
+    .mitglied14 {
+        background-size: 290% auto;
+    }
+    .mitglied15 {
+        background-size: 290% auto;
+    }
+    .mitglied16 {
+        background-size: 290% auto;
+    }
+    .mitglied17 {
+        background-size: 290% auto;
+    }
+    .mitglied18 {
+        background-size: 290% auto;
+    }
+    .mitglied19 {
+        background-size: 290% auto;
+    }
+    .mitglied20 {
+        background-size: 290% auto;
+    }
+    .mitglied21 {
+        background-size: 290% auto;
+    }
+    .mitglied22 {
+        background-size: 290% auto;
+    }
+    .mitglied23 {
+        background-size: 290% auto;
+    }
+    .mitglied24 {
+        background-size: 290% auto;
+    }
+    .mitglied25 {
+        background-size: 290% auto;
+    }
+    .mitglied26 {
+        background-size: 290% auto;
+    }
+    .mitglied27 {
+        background-size: 290% auto;
+    }
+    .mitglied28 {
+        background-size: 290% auto;
+    }
+    .mitglied29 {
+        background-size: 290% auto;
+    }
+    .mitglied30 {
+        background-size: 290% auto;
+    }
+    .mitglied31 {
+        background-size: 290% auto;
+    }
+    .mitglied32 {
+        background-size: 290% auto;
+    }
+    .mitglied33 {
+        background-size: 290% auto;
+    }
+    .mitglied34 {
+        background-size: 290% auto;
+    }
+    .mitglied35 {
+        background-size: 290% auto;
+    }
+    .mitglied36 {
+        background-size: 290% auto;
+    }
+    .mitglied37 {
+        background-size: 290% auto;
+    }
+    .mitglied38 {
+        background-size: 290% auto;
+    }
+    .mitglied39{
+        background-size: 290% auto;
+    }
+    .mitglied40 {
+        background-size: 290% auto;
+    }
+    .mitglied41 {
+        background-size: 290% auto;
+    }
 }
