@@ -225,8 +225,11 @@
     text-align: right;
     cursor: default;
     font: normal 14px Segoe UI, sans-serif;
-    line-height: 1em;
+    line-height: 1.5em;
 /*    font-size: 0.9vw;*/
+    z-index: 1;
+    width: 160px;
+
 }
 
 .hover-effekt {
@@ -574,7 +577,7 @@
 
 .leeresRechteck {
      background-color: #414347;
-    height:30px;
+    height:50px;
     margin-top: -10px
 }
 /*----------------------------MEDIA-QUERIES----------------------------*/
