@@ -237,12 +237,17 @@
 }
 
 .hover-effekt:hover {
-    font-size:1.3em;
+    font-size:1em;
     color: #fff;
-    text-align: center;
+    vertical-align: top;
+    text-align: left;
     min-height: 190px;
+    width: 100%;
     opacity: 1;
-    background-color: rgba(133, 133,133, 0.7);
+    background-color: rgba(65, 67, 71, 0.9);
+    position:inherit;
+    z-index: 2;
+    padding: 10px;
 }
 
 /* FOTOS DER MITGLIEDER*/
