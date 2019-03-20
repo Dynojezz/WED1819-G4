@@ -34,7 +34,7 @@
 /*---------------------------- WEIBERFASTNACHT-AG ----------------------------*/
 
 .infoBereich {
-    transform: skewY(4deg);
+    transform: skewY(0deg);
     display: flex;
     justify-content: flex-start;
     background-size: 100% auto;
@@ -64,7 +64,7 @@
     min-height: 1100px;
 /*    filter: blur(3px);*/
 /*    -webkit-filter: blur(3px);*/
-    margin-top: -93px;
+    margin-top: -140px;
 }
 .hintergrundfarbe {
     background-color: rgba(255, 255, 255, 0.8);
@@ -73,7 +73,7 @@
 }
 
 .infoText{
-    transform: skewY(-4deg);
+    transform: skewY(0deg);
     position: relative;
     text-align: left;
     color: black;
@@ -110,7 +110,7 @@
 }
 
 .mitgliederBereich{
-    transform: skewY(-4deg);
+    transform: skewY(0deg);
     z-index: 0;
     height: auto;
 }
@@ -198,7 +198,7 @@
 }
 
 .bilder {
-    transform: skewY(-4deg);
+    transform: skewY(0deg);
     margin-top: 30px;
     display: flex;
     flex-direction: column;
