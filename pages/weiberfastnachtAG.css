@@ -76,10 +76,42 @@
     transform: skewY(0deg);
     position: relative;
     text-align: left;
-    color: black;
+    color: #414347;
     top: 40px;
-    margin-left: 1em;
-    margin-right: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.kontakttext a {
+    text-decoration:none;
+    color: #414347;
+}
+
+.kontakttext a:hover  {
+    color: #414347;
+    text-decoration: none;
+}
+
+.kontakttext {
+    color:#414347;
+    font-size: 20px;
+    width:150px;
+    height:100px;
+    position:inherit;
+    float:right;
+    margin-top:  110px;
+    margin-right: 20px;
+}
+
+.kontaktbutton {
+    float:right;
+    position:inherit;
+    margin-top:  100px;
+    margin-right: 60px;
+}
+
+.kontaktbutton img {
+    width:50px;
 }
 
 #ueberschrift {
@@ -92,13 +124,31 @@
 
 #zwischenueberschirft {
     position: relative;
-    font: bold 68px Segeo UI bold, sans-serif;
-    color: white;
     transform: rotate(-90deg);
-    top: 315px;
-    text-align: center;
-
+    cursor: default;
+    float:right;
+    font: bold 68px Segeo UI bold, sans-serif;
+    line-height: 1.5em;
+    z-index: 1;
+    width: 20px;
+    color: white;
+    top: 5.5em;
+    left: -0.5em
 }
+
+.namen {
+    position: relative;
+    transform: rotate(-90deg);
+    float: right;
+    text-align: right;
+    cursor: default;
+    font: normal 14px Segoe UI, sans-serif;
+    line-height: 1.5em;
+/*    font-size: 0.9vw;*/
+    z-index: 1;
+    width: 160px;
+}
+
 
 .wrapper {
     height: auto;
@@ -289,6 +339,9 @@
     .headline {
         width: 800px;
     }
+    .hintergrundbild2 {
+        min-height: 1200px;
+    }
     .hintergrundfarbe {
         min-height: 1200px;
     }
@@ -311,7 +364,6 @@
     .bild6 {
         background-size: 200% auto;
     }
-
     .mitglied1 {
         background-size: 200%;
     }
@@ -353,12 +405,14 @@
         background-image: none;
     }
     .hintergrundbild {
-        background-size: 800%;
+        background-size: 850%;
+    }
+    .hintergrundbild2 {
+        min-height: 1300px;
     }
     .hintergrundfarbe {
     min-height: 1300px;
     }
-
     .bild1 {
         background-size: 280% auto;
     }
@@ -377,7 +431,6 @@
     .bild6 {
         background-size: 250% auto;
     }
-
     .mitglied1 {
     background-size: 300%;
     }
@@ -416,6 +469,7 @@
         width: 290px;
     }
     .hintergrundbild2 {
+         min-height: 1300px;
          margin-top: 620px;
     }
     .hintergrundfarbe {
@@ -472,10 +526,11 @@
 /*--------------------- SMALL SMARTPHONE -----------------*/
 @media (max-width: 510px) {
     .hintergrundbild2 {
-         margin-top: 700px;
+        min-height: 1800px;
+        margin-top: 700px;
+        background-size: 800%;
     }
     .hintergrundfarbe {
-    min-height: 1500px;
+        min-height: 1800px;
     }
-
 }

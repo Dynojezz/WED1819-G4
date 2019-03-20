@@ -76,7 +76,7 @@
 
 /* Button für weitere Bilder. (Verlinkung zur Galerie)*/
 .weitere {
-    background-image: url(image/Buttons/weitere_videos_button.png);
+    background-image: url(image/weitere_videos_button.png);
     background-attachment:scroll;
     background-size: 100% auto;
     background-position: center center;
@@ -102,7 +102,7 @@
 .dropbtn_school {
     width: 372px;
     height: 50px;
-    background-image: url(image/Buttons/suchen_button.png);
+    background-image: url(image/suchen_button.png);
     background-size: 100%;
     background-repeat: no-repeat;
     border: none;
