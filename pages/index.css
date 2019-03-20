@@ -66,6 +66,8 @@
     min-height: 430px;
 }
 
+
+
 @media only screen and (max-width: 1160px) {
     .kalender {
         background-size:1000px;}

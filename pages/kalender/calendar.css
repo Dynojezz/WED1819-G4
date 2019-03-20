@@ -94,6 +94,16 @@ border: none;
 	text-decoration: none;
 }
 
+.calender_link a: hover {
+    color:#000;
+    text-decoration: none;
+}
+
+.calender_link a {
+    color:#000;
+    text-decoration: none;
+}
+
 .calendar_head {
     font: normal 15px Segoe UI, sans-serif;
 	font-size: 15px;
