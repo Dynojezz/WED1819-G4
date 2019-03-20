@@ -126,7 +126,6 @@
     z-index: 1;
 }
 
-/* D */
 .dropdown-content_school a {
     color: black;
     padding: 12px 16px;
@@ -134,14 +133,14 @@
     display: block;
 }
 
-/* Change color of dropdown links on hover */
+/* Ändert die Farbe der Links im Dropbdown */
 .dropdown-content_school a:hover {
     background-color: #ddd;
     text-decoration: none;
     color: #CE1478;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/* Zeigt den Dropdown-Menü */
 .show_school {
     display:block;
 }

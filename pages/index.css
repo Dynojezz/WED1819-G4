@@ -52,7 +52,7 @@
     background-color: white;
     min-height:400px;
     max-height:450px;
-    margin-top: 90px;
+    margin-top: 0px;
 }
 
 
@@ -65,6 +65,8 @@
     background-repeat: no-repeat;
     min-height: 430px;
 }
+
+
 
 @media only screen and (max-width: 1160px) {
     .kalender {
@@ -178,6 +180,16 @@ padding-left:0px;
     background-repeat: no-repeat;
     margin-top:-3em;
    }
+
+.partner a {
+    text-decoration:none;
+    color: white;
+}
+
+.partner a:hover {
+    color: white;
+    text-decoration: none;
+}
 
 
 .kontakt {
