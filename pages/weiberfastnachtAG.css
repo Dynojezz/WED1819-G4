@@ -61,14 +61,14 @@
     background-size: 600% auto;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 1100px;
+    min-height: 1300px;
 /*    filter: blur(3px);*/
 /*    -webkit-filter: blur(3px);*/
     margin-top: -140px;
 }
 .hintergrundfarbe {
     background-color: rgba(255, 255, 255, 0.8);
-    min-height: 1100px;
+    min-height: 1300px;
     z-index: 2;
 }
 
@@ -78,8 +78,8 @@
     text-align: left;
     color: #414347;
     top: 40px;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 .kontakttext a {
@@ -197,7 +197,7 @@
     background-image: url(image/UeberUns/Portrait_Fotos_SW/25_wendeler_vivienneSW2.jpg);
     background-attachment:scroll;
     background-size: 160% auto;
-    background-position: right top;
+    background-position: right center;
     background-repeat: no-repeat;
     min-height: 150px;
 }
@@ -340,10 +340,10 @@
         width: 800px;
     }
     .hintergrundbild2 {
-        min-height: 1200px;
+        min-height: 1500px;
     }
     .hintergrundfarbe {
-        min-height: 1200px;
+        min-height: 1500px;
     }
 
     .bild1 {
@@ -397,21 +397,21 @@
 
 /*--------------------- TABLET (sm) -----------------*/
 @media (max-width: 991px) {
-
     .headline {
-        width: 700px;
-    }
-    .headline {
-        background-image: none;
+        background-image:url(image/AGsProjekte/Headline_weiberfastnacht_smartphone.png);
+        background-size: 100%;
+        width: 600px;
+        height: 200px;
+        margin-top: 250px;
     }
     .hintergrundbild {
         background-size: 850%;
     }
     .hintergrundbild2 {
-        min-height: 1300px;
+        min-height: 1600px;
     }
     .hintergrundfarbe {
-    min-height: 1300px;
+    min-height: 1600px;
     }
     .bild1 {
         background-size: 280% auto;
@@ -468,12 +468,15 @@
     .logo{
         width: 290px;
     }
+    .headline {
+        width: 435px;
+    }
     .hintergrundbild2 {
-         min-height: 1300px;
-         margin-top: 620px;
+         min-height: 1500px;
+         margin-top: 650px;
     }
     .hintergrundfarbe {
-    min-height: 1100px;
+    min-height: 1500px;
     }
     .bild1 {
         background-size: 240% auto;
@@ -525,12 +528,15 @@
 
 /*--------------------- SMALL SMARTPHONE -----------------*/
 @media (max-width: 510px) {
+    .headline {
+        width: 320px;
+    }
     .hintergrundbild2 {
-        min-height: 1800px;
-        margin-top: 700px;
+        min-height: 1950px;
+        margin-top: 720px;
         background-size: 800%;
     }
     .hintergrundfarbe {
-        min-height: 1800px;
+        min-height: 1950px;
     }
 }
