@@ -186,11 +186,15 @@ padding-left:0px;
     color: white;
 }
 
-.partner a:hover {
+.partner a:hover  {
     color: white;
     text-decoration: none;
 }
 
+.partner a:active  {
+    color: white;
+    text-decoration: none;
+}
 
 .kontakt {
     background-image: url(image/Startseite/JR-Seminar-2017-web-145.jpg);
@@ -202,6 +206,15 @@ padding-left:0px;
     margin-top:-3em;
    }
 
+.kontakt a {
+    text-decoration:none;
+    color: white;
+}
+
+.kontakt a:hover  {
+    color: white;
+    text-decoration: none;
+}
 
 .kontakttext {
     color:#fff;
