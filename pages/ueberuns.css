@@ -107,13 +107,16 @@
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
+    position: relative;
+    z-index: 5;
 }
 
 .dropdown_schule {
     transform: skewY(-0deg);
     position: relative;
     display: inline-block;
-    position: inherit;
+    position: relative;
+    z-index: 4;
 }
 
 /* Content des Such-Buttons */
@@ -182,7 +185,7 @@
     transform: skewY(-0deg);
     position: relative;
     text-align: left;
-    color: black;
+    color: #414347;
     top: 70px;
     margin-left: 2.5em;
     margin-right: 2em;
@@ -226,13 +229,14 @@
     font: normal 14px Segoe UI, sans-serif;
     line-height: 1.5em;
 /*    font-size: 0.9vw;*/
-    z-index: 1;
+    z-index: 3;
     width: 160px;
 
 }
 
 .hover-effekt {
     opacity: 0;
+    position: relative;
 }
 
 .hover-effekt:hover {
@@ -244,8 +248,8 @@
     width: 100%;
     opacity: 1;
     background-color: rgba(65, 67, 71, 0.9);
-    position:inherit;
-    z-index: 2;
+    position:relative;
+    z-index: 4;
     padding: 10px;
 }
 
