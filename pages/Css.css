@@ -102,6 +102,7 @@ p {
 
 .dropdown-content a:hover {
     color: #CE1478;
+    text-decoration: none;
 }
 
 .show {
