@@ -127,7 +127,7 @@
     transform: rotate(-90deg);
     cursor: default;
     float:right;
-    font: bold 68px Segeo UI bold, sans-serif;
+    font: normal 68px Segeo UI, sans-serif;
     line-height: 1.5em;
     z-index: 1;
     width: 20px;

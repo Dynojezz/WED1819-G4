@@ -151,7 +151,7 @@
 .beitragtext {
     float:left;
     width:69%;
-    font: normal 14px Segoe UI light, sans-serif;
+    font: 14px Segoe UI light;
     position: relative;
 }
 
